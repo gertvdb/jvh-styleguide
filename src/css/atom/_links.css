@@ -58,6 +58,7 @@ Our basic date.
                 padding: var(--size-xs) 0;
                 color: var(--color-ui-white);
                 text-decoration: none;
+                word-break: break-all;
 
                 &:hover {
                 //color: var(--color-primary);
