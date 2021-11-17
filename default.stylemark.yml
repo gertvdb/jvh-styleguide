@@ -26,6 +26,9 @@ examples:
   - src/js/vendor/slick.min.js
   - dist/all.js
 
+  headHtml: |
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 order:
   - +Getting Started
   - +Globals
