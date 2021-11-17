@@ -30,7 +30,7 @@ Our basic headline.
     }
 
     .a-headline--big {
-        --font-size: 80px;
+        --font-size: 60px;
         font-size: var(--font-size);
         font-family: var(--font-primary);
         letter-spacing: calc(var(--font-size) / 5);
@@ -51,5 +51,13 @@ Our basic headline.
         max-width: 70%;
         margin: auto;
         font-weight: 300;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .a-headline {
+        .a-headline--big {
+            --font-size: 80px;
+        }
     }
 }
