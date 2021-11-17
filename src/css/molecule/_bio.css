@@ -24,7 +24,8 @@ Our basic Highlight.
     position: relative;
     display: flex;
     flex-direction: column;
-    min-width: calc(min(100vw, 400px));
+    min-width: calc(min(90vw, 400px));
+    margin-bottom: var(--size-m);
 
     .m-bio__title {
         --font-size: 50px;

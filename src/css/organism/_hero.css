@@ -24,23 +24,26 @@ Our basic Hero.
     z-index: 1;
     position: relative;
     width: 100%;
-    min-height: calc(100vh + 110px);
-    margin-top: -110px;
+    min-height: calc(100vh);
+    height: auto;
+    transform-style: preserve-3d;
+    padding-top: 110px;
 
     .o-hero__inner {
-        position: absolute;
-        top: calc(50% + (110px / 2));
-        left: 50%;
-        transform: translate(-50%, -50%);
+        position: relative;
         z-index: 4;
         width: 100%;
+        top: calc(50% - 110px - (110px / 2));
+        transform: translateY(calc(-50% + 110px));
     }
 
     .o-hero__bg {
+        position: absolute;
         background-size: cover;
         width: 100%;
         height: 100%;
         z-index: 2;
+        top: 0;
     }
 
     .o-hero__overlay {
