@@ -49,6 +49,7 @@ Our basic date.
 
             > svg {
                 width: 16px;
+                min-width: 16px;
                 margin-right: var(--size-s);
             }
 
