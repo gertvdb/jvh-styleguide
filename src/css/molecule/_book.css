@@ -33,6 +33,7 @@ Our basic Book.
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: var(--size-m) 0;
 
     .m-book__decoration {
         background-image: url('images/coins.png');
