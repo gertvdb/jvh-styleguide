@@ -13,7 +13,7 @@ require('./gulp/postcss');
 // This is used when editing template styles.
 // It has to completely rebuild the style guide, note that this takes about 5s.
 gulp.task('force-styleguide',
-  shell.task('"./node_modules/.bin/stylemark" -i "./src/css" -o "./styleguide" -c "./default.stylemark.yml"')
+  shell.task(['"./node_modules/.bin/stylemark" -i "./src/css" -o "./styleguide" -c "./default.stylemark.yml"'])
 );
 
 // Task that reloads the browser after force-styleguide
