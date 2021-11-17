@@ -1,0 +1,35 @@
+name: ''
+
+favicon: src/images/favicon-ko.png
+theme:
+  css:
+    - src/css/shared/colors.css
+    - src/css/shared/fonts.css
+    - theme/styleguide.css
+    - theme/components/color.css
+    - theme/components/font.css
+    - theme/components/icon.css
+  sidebar:
+    background: "#F9F9F9"
+    textColor: "#9aa5b1"
+
+assets:
+  - ./dist
+
+examples:
+  css:
+  - https://unpkg.com/aos@next/dist/aos.css
+  - dist/styles.css
+  js:
+  - https://unpkg.com/aos@next/dist/aos.js
+  - src/js/vendor/jquery.min.js
+  - src/js/vendor/slick.min.js
+  - dist/all.js
+
+order:
+  - +Getting Started
+  - +Globals
+  - +Typography
+  - -Layout
+  - -Pages
+

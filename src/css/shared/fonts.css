@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap');
+
+@font-face {
+    font-family: 'MrsEavesRoman';
+    src: url('fonts/MrsEavesRoman/MrsEavesRoman.woff2') format('woff2'),
+    url('fonts/MrsEavesRoman/MrsEavesRoman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+    --font-primary: 'MrsEavesRoman', sans-serif;
+    --font-logo: 'MrsEavesRoman', sans-serif;
+    --font-secondary: 'Source Sans Pro', sans-serif;
+    --font-size--xxlarge: 34px;
+    --font-size--xlarge: 28px;
+    --font-size--large: 25px;
+    --font-size--default: 16px;
+    --font-size--small: 13px;
+}

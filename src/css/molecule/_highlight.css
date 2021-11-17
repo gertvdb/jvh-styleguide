@@ -1,0 +1,90 @@
+/*
+---
+name: Highlight
+category: Organism
+---
+
+Our basic Highlight.
+
+```atom-book.html
+<div class="m-highlight">
+    <div class="m-highlight__visual">
+        <img src="https://english.n-va.be/sites/international.n-va.be/files/styles/style_cv_detail/public/generated/images/cv-picture/jvo.png?itok=_TJZvFHc&timestamp=1562055630"/>
+    </div>
+    <div class="m-highlight__info">
+        <div class="m-highlight__upper">Latest blog post</div>
+        <h2 class="m-highlight__title">
+           Troiae qui primus ab oris Italiam, fato profugus
+        </h2>
+        <div class="a-html m-highlight__html">
+           <p>
+            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+           </p>
+        </div>
+        <a href="#" class="m-highlight__more">
+            Read more
+        </a>
+    </div>
+</div>
+ */
+
+.m-highlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+    .m-highlight__title {
+        --font-size: 50px;
+        color: var(--color-ui-white);
+        text-align: left;
+        font-size: var(--font-size);
+        font-weight: 700;
+        margin: 0 0 var(--size-m);
+        padding: 0;
+        line-height: 1;
+        font-family: var(--font-primary);
+        letter-spacing: calc(var(--font-size) / 10);
+        text-transform: uppercase;
+    }
+
+    .m-highlight__upper {
+        text-transform: uppercase;
+        margin-bottom: var(--size-m);
+        font-size: 18px;
+    }
+
+    .m-highlight__info {
+        display: flex;
+        flex-direction: column;
+        min-width: calc(min(100vw, 400px));
+    }
+
+    .m-highlight__visual {
+        margin-right: 0;
+        margin-bottom: var(--size-xxxl);
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            min-width: calc(min(100vw, 400px));
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .m-highlight {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .m-highlight__visual {
+            margin-right: var(--size-xxxl);
+            margin-bottom: var(--size-xxxl);
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,224 @@
+/*
+---
+name: Layout
+category: Layout
+---
+Layout for website.
+```layout.html
+<div class="l-page">
+    <div class="l-header">
+        <div class="l-logo">
+            <div class="a-logo">
+                <span class="a-logo--big">Johan</span>
+                <span class="a-logo--small"> van overveldt</span>
+            </div>
+        </div>
+        <div class="l-navigation">
+            <nav class="a-navigation">
+                <div class="a-navigation__links">
+                    <a href="#" class="active">Blog</a>
+                    <a href="#">Bio / Press</a>
+                    <a href="#">Useful Links</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="l-hero">
+        <div class="o-hero">
+            <div class="o-hero__inner">
+                <div class="a-headline">
+                    <h1 class="a-headline--big">The <br/>mystic hand</h1>
+                    <span class="a-headline--small">How Central Banks Shaped the 21st Centrury Global Economy</span>
+                </div>
+            </div>
+            <div class="o-hero__bg"></div>
+        </div>
+    </div>
+    <div class="l-main">
+        <div class="l-block-big">BIG</div>
+        <div class="l-block">NORMAL</div>
+        <div class="l-block-big">BIG</div>
+        <div class="l-block">NORMAL</div>
+        <div class="l-block">NORMAL</div>
+    </div>
+</div>
+```
+```layout.css hidden
+.l-page {
+   min-height: 800px;
+}
+```
+*/
+
+.l-page.is--scrolled {
+
+    .l-header {
+        border-bottom: 1px solid var(--color-ui-white);
+        background-color: var(--color-ui-black);
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+    }
+}
+
+
+.l-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+
+    .l-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 110px;
+        z-index: 10;
+
+        position: fixed;
+        width: calc(100vw - (2 * var(--page-padding-l)));
+
+        padding-right: var(--page-padding-l);
+        padding-left: var(--page-padding-l);
+
+        .l-logo {
+            display: flex;
+            align-self: center;
+        }
+
+        .l-navigation {
+            display: flex;
+            align-self: center;
+        }
+    }
+
+    .l-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 10;
+
+        width: calc(100vw - (2 * var(--page-padding-l)));
+
+        padding-right: var(--page-padding-l);
+        padding-left: var(--page-padding-l);
+    }
+}
+
+.l-page.without--hero {
+
+    .l-main {
+
+        .l-block:first-of-type {
+            margin-top: calc(((var(--size-l) * 2) + 110px));
+        }
+
+        .l-block-medium:first-of-type {
+            margin-top: calc(((var(--size-l) * 2) + 110px));
+        }
+
+        .l-block-big:first-of-type {
+            margin-top: calc(((var(--size-l) * 2) + 110px));
+        }
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .l-page.without--hero {
+
+        .l-main {
+
+            .l-block:first-of-type {
+                margin-top: calc(((var(--size-xxxl) * 2) + 110px));
+            }
+
+            .l-block-medium:first-of-type {
+                margin-top: calc(((var(--size-xxxl) * 2) + 110px));
+            }
+
+            .l-block-big:first-of-type {
+                margin-top: calc(((var(--size-xxxl) * 2) + 110px));
+            }
+        }
+
+        .l-header {
+            padding-right: var(--page-padding-l);
+            padding-left: var(--page-padding-l);
+        }
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .l-page {
+
+        .l-header {
+            padding-right: var(--page-padding-l);
+            padding-left: var(--page-padding-l);
+        }
+    }
+}
+
+.l-hero {
+    display: flex;
+}
+
+.l-block,
+.l-block-medium,
+.l-block-big {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .l-block__inner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .l-block__add {
+            position: absolute;
+            height: auto;
+            width: 60px;
+            left: calc(-1 * (60px + var(--size-xxl)));
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+.l-block {
+    padding-right: var(--page-padding-l);
+    padding-left: var(--page-padding-l);
+}
+
+.l-block-big {
+    padding-right: var(--page-padding-l);
+    padding-left: var(--page-padding-l);
+}
+
+.l-block-medium {
+    padding-right: var(--page-padding-l);
+    padding-left: var(--page-padding-l);
+}
+
+@media only screen and (min-width: 800px) {
+
+    .l-block {
+        padding-right: var(--page-padding);
+        padding-left: var(--page-padding);
+    }
+
+    .l-block-medium {
+        padding-right: var(--page-padding-m);
+        padding-left: var(--page-padding-m);
+    }
+
+    .l-block-big {
+        padding-right: var(--page-padding-l);
+        padding-left: var(--page-padding-l);
+    }
+}

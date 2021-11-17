@@ -1,0 +1,107 @@
+/*
+---
+name: Blog Teaser
+category: Organism
+---
+
+Our basic Blog Teaser.
+
+```atom-book.html
+<div class="m-blog--teaser">
+    <div class="m-blog__bg"></div>
+    <div class="m-blog__visual">
+        <div class="m-blog__image" style="background-image:url('https://english.n-va.be/sites/international.n-va.be/files/styles/style_cv_detail/public/generated/images/cv-picture/jvo.png?itok=_TJZvFHc&timestamp=1562055630');">
+        </div>
+    </div>
+    <div class="m-blog__info">
+        <h4 class="m-blog__title">
+            Lorem ipsum
+        </h4>
+        <div class="m-blog__description">
+            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
+        </div>
+        <a href="#" class="m-blog__more">
+            Read more
+        </a>
+    </div>
+</div>
+ */
+
+.m-blog--teaser {
+    display: flex;
+    flex-direction: column;
+    padding: var(--size-m);
+    position: relative;
+    background: var(--color-ui-almost-black);
+    width: 90%;
+    border-radius: 8px;
+    margin: auto auto var(--size-l);
+
+    .m-blog__bg {
+        display: none;
+    }
+
+    .m-blog__visual {
+        z-index: 2;
+        width: 185px;
+        height: 185px;
+    }
+
+    .m-blog__image {
+        height: 0;
+        overflow: hidden;
+        width: 185px;
+        position: relative;
+        padding-top: calc((1 / 1) * 100%);
+        background-size: cover;
+        border-radius: 8px;
+    }
+
+    .m-blog__info {
+        display: flex;
+        flex-direction: column;
+        padding: 0 var(--size-l);
+        z-index: 2;
+        text-align: center;
+    }
+
+    .m-blog__title {
+        font-family: var(--font-primary);
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: var(--size-xxs) 0 var(--size-s) 0;
+    }
+
+    .m-blog__description {
+        font-size: 16px;
+        max-width: 400px;
+    }
+
+    a.m-blog__more {
+        margin-top: var(--size-m);
+    }
+}
+
+@media only screen and (min-width: 400px) {
+
+    .m-blog--teaser {
+        flex-direction: row;
+
+        .m-blog__info {
+            text-align: left;
+        }
+
+        .m-blog__visual {
+            width: 120px;
+            height: 120px;
+        }
+
+        .m-blog__image {
+            width: 120px;
+        }
+
+    }
+
+
+}

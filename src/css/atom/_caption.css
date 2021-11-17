@@ -1,0 +1,24 @@
+/*
+---
+name: Caption
+category: Atom
+---
+
+Our basic date.
+
+```atom-date.html
+<div class="a-caption">
+    ©lorem ipsum - doler etc eupus
+</div>
+```
+*/
+
+.a-caption {
+    --font-size: 14px;
+    color: var(--color-ui-white);
+    font-size: var(--font-size);
+    font-weight: 500;
+    text-align: left;
+    padding-top: var(--size-s);
+    opacity: .6;
+}

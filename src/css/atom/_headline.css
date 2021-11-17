@@ -1,0 +1,55 @@
+/*
+---
+name: Headline
+category: Atom
+---
+
+Our basic headline.
+
+```atom-navigation.html
+<div class="a-headline">
+    <div class="a-headline__inner">
+        <h1 class="a-headline--big">The mystic hand</h1>
+        <span class="a-headline--small">How Central Banks Shaped the 21st Centrury Global Economy</span>
+    </div>
+</div>
+```
+*/
+
+.a-headline {
+    font-family: var(--font-primary);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+
+    .a-headline__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    > * {
+        display: block;
+    }
+
+    .a-headline--big {
+        --font-size: 80px;
+        font-size: var(--font-size);
+        font-family: var(--font-primary);
+        letter-spacing: calc(var(--font-size) / 5);
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: var(--size-l);
+        line-height: 1.2;
+    }
+
+    .a-headline--small {
+        --font-size: 22px;
+        font-size: var(--font-size);
+        letter-spacing: calc(var(--font-size) / 10);
+        color: var(--color-secondary);
+        font-family: var(--font-secondary);
+        padding: 0 var(--size-xxl);
+        text-align: center;
+        max-width: 70%;
+        margin: auto;
+        font-weight: 300;
+    }
+}

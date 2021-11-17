@@ -1,0 +1,21 @@
+/*
+---
+name: Date
+category: Atom
+---
+
+Our basic date.
+
+```atom-date.html
+<div class="a-date">
+    20-09-2021
+</div>
+```
+*/
+
+.a-date {
+    --font-size: 18px;
+    color: var(--color-secondary);
+    font-size: var(--font-size);
+    font-weight: 700;
+}

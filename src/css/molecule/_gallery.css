@@ -1,0 +1,59 @@
+/*
+---
+name: Gallery
+category: Organism
+---
+
+Our basic Gallery.
+
+```atom-gallery.html
+<div class="m-gallery">
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+    <div class="m-gallery__thumb">
+        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+    </div>
+</div>
+```
+*/
+
+.m-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: var(--size-m);
+
+    .m-gallery__thumb {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.m-gallery__actions {
+    margin-top: var(--size-l);
+}

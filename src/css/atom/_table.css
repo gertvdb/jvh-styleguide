@@ -1,0 +1,141 @@
+/*
+---
+name: Table
+category: Atom
+---
+
+Our basic table.
+
+```atom-date.html
+<div class="a-table">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Account</th>
+          <th scope="col">Due Date</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Period</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Account">Visa - 3412</td>
+          <td data-label="Due Date">04/01/2016</td>
+          <td data-label="Amount">$1,190</td>
+          <td data-label="Period">03/01/2016 - 03/31/2016</td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="Account">Visa - 6076</td>
+          <td data-label="Due Date">03/01/2016</td>
+          <td data-label="Amount">$2,443</td>
+          <td data-label="Period">02/01/2016 - 02/29/2016</td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="Account">Corporate AMEX</td>
+          <td data-label="Due Date">03/01/2016</td>
+          <td data-label="Amount">$1,181</td>
+          <td data-label="Period">02/01/2016 - 02/29/2016</td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="Acount">Visa - 3412</td>
+          <td data-label="Due Date">02/01/2016</td>
+          <td data-label="Amount">$842</td>
+          <td data-label="Period">01/01/2016 - 01/31/2016</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+```
+*/
+
+.a-table {
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #ffffff0f;
+
+    table {
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    table tr {
+        padding: var(--size-m);
+    }
+
+    table th,
+    table td {
+        padding: var(--size-m);
+        text-align: center;
+        border: 1px solid #ffffff0f;
+    }
+
+    table th {
+        color: var(--color-ui-white);
+        background: var(--color-ui-almost-black);;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .a-table {
+
+        border-radius: 0;
+        border: none;
+
+        table {
+            border: 0;
+        }
+
+        table thead {
+            border: none;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+
+        table th,
+        table td {
+            border: 0;
+            background: transparent;
+        }
+
+        table tr {
+            display: block;
+            margin-bottom: var(--size-l);
+            border-bottom: 1px solid #ffffff0f;
+            padding: 0 0 var(--size-l);
+        }
+
+        table tr:first-child {
+            border-top: 1px solid #ffffff0f;
+            padding-top: var(--size-l);
+        }
+
+        table tr:last-child {
+            margin-bottom: 0;
+        }
+
+        table td {
+            display: block;
+            text-align: right;
+            padding: 0;
+            margin-bottom: var(--size-m);
+        }
+
+        table td::before {
+            content: attr(data-label);
+            float: left;
+        }
+
+        table td:last-child {
+            border-bottom: 0;
+        }
+    }
+}

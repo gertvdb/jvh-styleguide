@@ -1,0 +1,79 @@
+/*
+---
+name: Pager
+category: Organism
+---
+
+A basic pager.
+
+```o-pager.html
+<div class="o-pager">
+    <span class="o-pager__results">1 - 15 van 398 resultaten</span>
+    <div class="o-pager__pages">
+        <a href="#" class="o-pager__page o-pager__page--active">1</a>
+        <a href="#" class="o-pager__page">2</a>
+        <a href="#" class="o-pager__page">3</a>
+        <a href="#" class="o-pager__page">4</a>
+        <a href="#" class="o-pager__page">5</a>
+        <a href="#" class="o-pager__page">Volgende</a>
+        <a href="#" class="o-pager__page">Laatste</a>
+    </div>
+</div>
+```
+```o-pager.css hidden
+body {
+    padding: 16px;
+}
+```
+*/
+.o-pager {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__results {
+        color: var(--color-ui-grey);
+        font-style: italic;
+        margin-bottom: var(--size-l);
+    }
+
+    &__pages {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__page {
+        color: var(--color-ui-white);
+        text-decoration: none;
+        padding: var(--size-xs) var(--size-s);
+        border: 2px solid transparent;
+        border-radius: var(--size-xs);
+        cursor: pointer;
+
+        &:hover {
+            color: var(--color-ui-white);
+            border: 2px solid transparent;
+            text-decoration: underline;
+        }
+
+        & + .o-pager__page {
+            margin-left: var(--size-m);
+        }
+
+        &--active {
+            background-color: var(--color-primary);
+            border: 2px solid var(--color-primary-light);
+            color: var(--color-ui-white);
+
+            &:hover {
+                background-color: var(--color-primary);
+                border: 2px solid var(--color-primary-light);
+                color: var(--color-ui-white);
+                text-decoration: underline;
+            }
+        }
+    }
+}

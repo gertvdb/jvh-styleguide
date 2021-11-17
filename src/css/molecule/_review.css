@@ -1,0 +1,99 @@
+/*
+---
+name: Review
+category: Organism
+---
+
+Our basic Review.
+
+```atom-book.html
+<div class="m-review">
+    <div class="m-review__top">
+         <span class="a-avatar m-review__avatar"><img src="https://randomuser.me/api/portraits/women/74.jpg"/></span>
+         <div class="m-review__author">
+            <div class="m-review__author_name">Paschal Donohoe</div>
+            <div class="m-review__author_function">Chairman of the national bank</div>
+         </div>
+    </div>
+    <div class="m-review__content">
+        <div class="m-review__quote">
+            "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
+        </div>
+    </div>
+</div>
+```
+*/
+.m-review {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: var(--color-ui-almost-black);
+    margin: auto;
+    border-radius: 8px;
+    padding: var(--size-l);
+    text-align: center;
+
+    .m-review__top {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    &.has--avatar {
+
+        .m-review__author {
+            text-align: center;
+        }
+    }
+
+    .m-review__author {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: var(--size-l);
+    }
+
+    .m-review__author_name {
+        color: var(--color-ui-white);
+        font-weight: 700;
+    }
+
+    .m-review__author_function {
+        color: var(--color-secondary);
+    }
+
+    .m-review__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .m-review__quote {
+        padding: var(--size-xl);
+        font-size: 18px;
+        width: 60%;
+        margin: auto;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+
+    .m-review__avatar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .m-review {
+
+        .m-review__avatar {
+            display: block;
+        }
+
+        &.has--avatar {
+            .m-review__author {
+                text-align: left;
+            }
+        }
+    }
+}

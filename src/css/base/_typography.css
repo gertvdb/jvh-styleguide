@@ -1,0 +1,147 @@
+html {
+    --font-size: 16px;
+    font-family: var(--font-secondary);
+    font-size: var(--font-size); /* By default 1rem = 16px, by changing the base font-size we set 1rem = 14px. */
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: var(--color-ui-white);
+    background-color: var(--color-ui-black);
+}
+
+small {
+    display: block; /* By default a small is an inline element, we change this to block so we can set it's line-height (same behaviour as <p>). */
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: underline;
+
+    &:hover {
+        color: var(--color-primary-xlight);
+    }
+}
+
+
+/*
+---
+name: Typography
+category: Typography
+---
+
+Our default styles for titles.
+
+```markup.html
+<div class="l-container">
+    <div class="u-html-markup l-flow">
+    <h1>Lorem ipsum dolor</h1>
+    <h3>Lorem ipsum dolor</h3>
+    <p>
+    sit amet, consectetur <a href="#">adipiscing elit</a>. Etiam faucibus <strong>massa id dolor pulvinar</strong> posuere. Nullam pharetra semper suscipit.
+    Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram.
+    Etiam at leo venenatis turpis mollis semper. Praesent sed nisi elit. Duis sit amet lobortis orci iram.  Nullam pharetra semper suscipit.
+    Multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob troiae qui primus ab oris Italiam.
+    </p>
+
+    <h2>Lorem ipsum dolor</h2>
+    <div class="u-image-wrapper">
+    <img src="https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80"/>
+    </div>
+    <p>
+    sit amet, consectetur <a href="#">adipiscing elit</a>. Etiam faucibus <strong>massa id dolor pulvinar</strong> posuere. Nullam pharetra semper suscipit.
+    Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram.
+    Etiam at leo venenatis turpis mollis semper. Praesent sed nisi elit. Duis sit amet lobortis orci iram.  Nullam pharetra semper suscipit.
+    Multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob troiae qui primus ab oris Italiam.
+    </p>
+    <p>
+    sit amet, consectetur <a href="#">adipiscing elit</a>. Etiam faucibus <strong>massa id dolor pulvinar</strong> posuere. Nullam pharetra semper suscipit.
+    Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram.
+    Etiam at leo venenatis turpis mollis semper. Praesent sed nisi elit. Duis sit amet lobortis orci iram.  Nullam pharetra semper suscipit.
+    Multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob troiae qui primus ab oris Italiam.
+    </p>
+
+    <h3>Lorem ipsum dolor</h3>
+    <div class="u-video-wrapper">
+        <iframe src="https://www.youtube.com/embed/_yPvRyfdJlw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p>
+    sit amet, consectetur <a href="#">adipiscing elit</a>. Etiam faucibus <strong>massa id dolor pulvinar</strong> posuere. Nullam pharetra semper suscipit.
+    Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram.
+    Etiam at leo venenatis turpis mollis semper. Praesent sed nisi elit. Duis sit amet lobortis orci iram.  Nullam pharetra semper suscipit.
+    Multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob troiae qui primus ab oris Italiam.
+    </p>
+
+    <h4>Lorem ipsum dolor</h4>
+    <p>
+    sit amet, consectetur <a href="#">adipiscing elit</a>. Etiam faucibus <strong>massa id dolor pulvinar</strong> posuere. Nullam pharetra semper suscipit.
+    Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram.
+    Etiam at leo venenatis turpis mollis semper. Praesent sed nisi elit. Duis sit amet lobortis orci iram.  Nullam pharetra semper suscipit.
+    Multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob troiae qui primus ab oris Italiam.
+    </p>
+    </div>
+</div>
+```
+*/
+.u-html-markup {
+    max-width: 680px;
+    margin: auto;
+
+    *,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong {
+        color: var(--color-ui-white);
+        font-size: var(--font-size--default);
+    }
+
+    a {
+        color: var(--color-primary-xdark);
+        &:hover {
+             color: var(--color-primary);
+        }
+    }
+
+    h1 {
+        font-size: var(--font-size--xxlarge);
+    }
+
+    h3 {
+        font-size: var(--font-size--large);
+    }
+
+    .u-image-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: var(--size-s);
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .u-video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: var(--size-s);
+        }
+    }
+}

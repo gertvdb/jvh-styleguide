@@ -1,0 +1,32 @@
+/*
+Icon
+*/
+
+.theme__icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.theme__icons-title {
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.theme__icons-subtitle {
+    color: #888;
+    font-size: 15px;
+}
+
+.theme__icon {
+    display: flex;
+    border: 1px solid #ececec;
+    text-align: center;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.theme__icon svg {
+    width: 20px;
+}

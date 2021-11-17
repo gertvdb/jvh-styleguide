@@ -1,0 +1,35 @@
+/*
+---
+name: Logo
+category: Atom
+---
+
+Our basic logo.
+
+```atom-navigation.html
+<div class="a-logo">
+    <span class="a-logo--big">Johan</span>
+    <span class="a-logo--small"> van overveldt</span>
+</div>
+```
+*/
+
+.a-logo {
+    font-family: var(--font-primary);
+    padding: var(--size-xl) 0;
+    text-transform: uppercase;
+    color: var(--color-ui-white);
+    text-align: center;
+    line-height: 1;
+    > * {
+        display: block;
+    }
+    .a-logo--big {
+        font-size: 26px;
+        letter-spacing: 3px;
+    }
+    .a-logo--small {
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+}

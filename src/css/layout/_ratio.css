@@ -1,0 +1,15 @@
+
+.l-ratio {
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+
+    &--1x1 {
+        padding-top: calc((1 / 1) * 100%);
+    }
+
+    &__9x16 {
+        padding-top: calc((9 / 16) * 100%);
+    }
+}

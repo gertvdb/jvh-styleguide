@@ -1,0 +1,57 @@
+/*
+---
+name: Useful Links
+category: Pages
+---
+Layout for website.
+```layout.html
+<div class="l-page without--hero">
+    <div class="l-header">
+        <div class="l-logo">
+            <div class="a-logo">
+                <span class="a-logo--big">Johan</span>
+                <span class="a-logo--small"> van overveldt</span>
+            </div>
+        </div>
+        <div class="l-navigation">
+            <nav class="a-navigation">
+                <div class="a-navigation__links">
+                    <a href="#">Blog</a>
+                    <a href="#">Bio / Press</a>
+                    <a href="#" class="active">Useful Links</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="a-navigation__toggle js--navigation-toggle">
+                    <div class="a-hamburger">
+                        <div class="a-hamburger-box">
+                          <div class="a-hamburger-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="l-main l-flow">
+        <div class="l-block">
+            <div class="l-block__inner">
+                
+            </div>
+        </div>
+        <div class="l-footer">
+            <footer class="o-footer">
+                <span class="o-footer__copyright">All rights reserved 2021 @johanvanoveldt</span>
+                <ul class="o-footer__menu">
+                    <li><a href="#">Cookie</a></li>
+                    <li><a href="#">Disclamer</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+ </div>
+```
+```layout.css hidden
+.l-page {
+   min-height: 800px;
+}
+```
+*/

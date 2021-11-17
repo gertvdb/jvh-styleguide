@@ -1,0 +1,226 @@
+/*
+---
+name: Slider
+category: Organism
+---
+
+Our basic Slider.
+
+```atom-slider.html
+<div class="m-slider js--slider">
+  <div>Slide 1</div>
+  <div>Slide 2</div>
+  <div>Slide 3</div>
+</div>
+```
+*/
+
+.m-slider {
+
+    .slick-track > div {
+        margin-right: var(--size-xl);
+        margin-left: var(--size-xl);
+    }
+}
+
+.m-slider {
+    .slick-dots {
+        margin-right: var(--size-xl);
+        margin-left: var(--size-xl);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .m-slider {
+
+        .slick-track > div {
+            margin-right: var(--size-xxxl);
+            margin-left: var(--size-xxxl);
+        }
+    }
+
+    .slick-dots {
+        margin-right: var(--size-xxxl);
+        margin-left: var(--size-xxxl);
+    }
+}
+
+.m-slider {
+    .slick-dots {
+        padding-top: var(--size-xl);
+        display: flex;
+        justify-content: center;
+        list-style: none;
+
+        li {
+            margin-left: var(--size-s);
+        }
+
+        li:first-child {
+            margin-left: 0;
+        }
+
+        button {
+            border-radius: 50%;
+            background-color: transparent;
+            border: 1px solid var(--color-primary-dark);
+            text-indent: -9999px;
+            width: 12px;
+            height: 12px;
+        }
+
+        .slick-active {
+            button {
+                background-color: var(--color-primary);
+            }
+        }
+    }
+}
+
+.m-slider {
+    .m-slider__nav {
+        cursor: pointer;
+        opacity: .7;
+        display: block;
+        width: 30px;
+        position: absolute;
+        top: calc((50% - 15px) - var(--size-xl));
+
+        &.m-slider__prev {
+            left: 0;
+        }
+
+        &.m-slider__next {
+            right: 0;
+        }
+
+        svg {
+            width: 20px;
+            margin: auto;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+/* Slider */
+
+/* Slider */
+.m-slider.slick-slider {
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+
+
+    .slick-list {
+        position: relative;
+
+        display: block;
+        overflow: hidden;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .slick-list:focus {
+        outline: none;
+    }
+
+    .slick-list.dragging {
+        cursor: pointer;
+        cursor: hand;
+    }
+}
+
+.m-slider.slick-slider .slick-track,
+.m-slider.slick-slider .slick-list {
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+}
+
+.m-slider.slick-initialized .slick-slide {
+    display: block;
+}
+
+.m-slider {
+    .slick-track {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slick-track:before,
+    .slick-track:after {
+        display: table;
+
+        content: '';
+    }
+
+    .slick-track:after {
+        clear: both;
+    }
+
+    .slick-loading .slick-track {
+        visibility: hidden;
+    }
+
+    .slick-slide {
+        display: none;
+        float: left;
+
+        height: 100%;
+    }
+
+    [dir='rtl'] .slick-slide {
+        float: right;
+    }
+
+    .slick-slide img {
+        display: block;
+    }
+
+    .slick-slide.slick-loading img {
+        display: none;
+    }
+
+    .slick-slide.dragging img {
+        pointer-events: none;
+    }
+
+    .slick-loading .slick-slide {
+        visibility: hidden;
+    }
+
+    .slick-vertical .slick-slide {
+        display: block;
+
+        height: auto;
+
+        border: 1px solid transparent;
+    }
+
+    .slick-arrow.slick-hidden {
+        display: none;
+    }
+}

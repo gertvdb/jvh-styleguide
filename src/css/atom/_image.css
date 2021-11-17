@@ -1,0 +1,23 @@
+/*
+---
+name: Visual
+category: Atom
+---
+
+Our basic visual.
+
+```atom-visual.html
+<div class="a-image">
+  <img src="https://english.n-va.be/sites/international.n-va.be/files/styles/style_cv_detail/public/generated/images/cv-picture/jvo.png?itok=_TJZvFHc&timestamp=1562055630">
+</div>
+```
+*/
+
+.a-image {
+    position: relative;
+
+    img {
+        max-width: 100%;
+        max-height: 400px;
+    }
+}

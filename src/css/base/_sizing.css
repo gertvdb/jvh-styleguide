@@ -1,0 +1,46 @@
+/*
+You shouldn’t be nitpicking between 120px and 125px when trying to decide on the perfect size for an element in your UI.
+To solve this we use a sizing system to define the size and spacing of our components.
+16px is our *base* value and we build a scale using factors and multiples of that value.
+The values at the small end of the scale should start pretty packed together, and get progressively more spaced apart as you get further up the scale.
+*/
+
+:root {
+    --size-base: 16px;
+    --size-xxxs: calc(var(--size-base) * .125); /* 16x0.125 */
+    --size-xxs: calc(var(--size-base) * .25); /* 16x0.25 */
+    --size-xs: calc(var(--size-base) * .5); /* 16x0.5 */
+    --size-s: calc(var(--size-base) * .75); /* 16x0.75 */
+    --size-m: calc(var(--size-base) * 1); /* 16x1,  This is our 'start' point of our size scale */
+    --size-l: calc(var(--size-base) * 1.5); /* 16x1.5 */
+    --size-xl: calc(var(--size-base) * 2);
+    --size-xxl: calc(var(--size-base) * 3);
+    --size-xxxl: calc(var(--size-base) * 4);
+    --size-xxxxl: calc(var(--size-base) * 6);
+
+    /* 128px 16x8 */
+
+    /* 192px 16x12 */
+
+    /* 256px 16x16 */
+
+    /* 384px 16x24 */
+
+    /* 512px 16x32 */
+
+    /* 640px 16x40 */
+
+    /* 768px 16x48 */
+
+    --page-padding-l: calc((100vw - min(90vw, 1920px)) / 2);
+    --page-padding-m: calc((100vw - min(80vw, 1200px)) / 2);
+    --page-padding: calc((100vw - min(70vw, 800px)) / 2);
+}
+
+/*
+Example: Flow within a component (proof of concept).
+*/
+
+.new-component.c-flow > * + * {
+    margin-top: var(--size-m);
+}

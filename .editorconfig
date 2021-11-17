@@ -1,0 +1,23 @@
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Javascript, nunjuck and html files
+[*.html]
+indent_style = tab
+indent_size = 4
+
+# Sass files
+[*.scss]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+# Matches package.json
+[package.json]
+indent_style = space
+indent_size = 2

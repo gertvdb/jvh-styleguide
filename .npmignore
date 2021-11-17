@@ -1,0 +1,4 @@
+# Ignore everything in the root
+/*
+# Allow files in the dist folder
+!/dist/

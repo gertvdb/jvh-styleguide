@@ -1,0 +1,142 @@
+/*
+---
+name: Book
+category: Organism
+---
+
+Our basic Book.
+
+```atom-book.html
+<div class="m-book">
+    <div class="m-book__preview">
+        <div class="m-book__cover">
+            <img src="../dist/images/TMH_Cover.jpg"/>
+        </div>
+    </div>
+    <div class="m-book__info">
+        <div class="m-book__title">The mystic hand</div>
+        <div class="m-book__author">Johan van Overveldt</div>
+        <div class="m-book__description">
+            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
+            fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
+        </div>
+        <div class="m-book__cta">
+            <a class="a-button a-button--primary">Buy book</a>
+            <a class="a-button a-button--tertairy">Read more</a>
+        </div>
+    </div>
+</div>
+```
+*/
+.m-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .m-book__decoration {
+        background-image: url('images/coins.png');
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        z-index: -1;
+        opacity: 0.5;
+        display: none;
+    }
+
+    .m-book__decoration__1 {
+        left: -9px;
+        top: 123px;
+    }
+
+    .m-book__decoration__2 {
+        left: 200px;
+        top: 0;
+    }
+
+
+    .m-book__preview {
+        padding: var(--size-xl) var(--size-xl) var(--size-xl) 0;
+        width: 100%;
+        position: relative;
+    }
+
+    .m-book__info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .m-book__cover {
+        margin: auto;
+        text-align: center;
+
+        img {
+            width: 275px;
+            box-shadow: 0 6px 26px 0 rgba(255, 255, 255, .37), -8px 0 17px 0 rgba(183, 183, 83, .03);
+            border-radius: 8px;
+        }
+    }
+
+    .m-book__title {
+        --font-size: 30px;
+        color: var(--color-ui-white);
+        font-size: var(--font-size);
+        font-weight: 700;
+        margin: 0 0 var(--size-m);
+        line-height: 1;
+        font-family: var(--font-primary);
+        letter-spacing: calc(var(--font-size) / 10);
+        text-transform: uppercase;
+    }
+
+    .m-book__author {
+        --font-size: 18px;
+        color: var(--color-secondary);
+        font-size: var(--font-size);
+        margin: 0 0 var(--size-m);
+        padding: 0;
+        line-height: 1;
+        font-family: var(--font-secondary);
+        font-weight: 300;
+        letter-spacing: calc(var(--font-size)/10);
+    }
+
+    .m-book__description {
+        --font-size: 18px;
+        font-size: var(--font-size);
+        font-family: var(--font-secondary);
+        font-weight: 300;
+        color: var(--color-ui-lightgrey);
+        line-height: 1.6;
+    }
+
+    .m-book__cta {
+        margin-top: var(--size-l);
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .m-book {
+        flex-direction: row;
+        justify-content: space-between;
+
+        .m-book__decoration {
+            display: block;
+        }
+
+        .m-book__info {
+            text-align: left;
+        }
+
+        .m-book__cover {
+            margin: 0;
+        }
+
+        .m-book__preview {
+            padding: 0 var(--size-xl) var(--size-xl) 0;
+        }
+    }
+}

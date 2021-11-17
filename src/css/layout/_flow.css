@@ -1,0 +1,6 @@
+.l-flow > * + * {
+    margin-top: var(--size-xxl);
+    &:last-child {
+        margin-bottom: var(--size-xxl)
+    }
+}

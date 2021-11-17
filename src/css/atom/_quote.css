@@ -1,0 +1,35 @@
+/*
+---
+name: Quote
+category: Atom
+---
+
+Our basic quote.
+
+```atom-quote.html
+<div class="a-quote">
+    <div class="a-quote__quote">
+        Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam
+    </div>
+    <div class="a-quote__author">By : Oris Italia</div>
+</div>
+```
+*/
+
+.a-quote {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+
+    .a-quote__quote {
+        font-size: 40px;
+        margin-bottom: var(--size-m);
+    }
+
+    .a-quote__author {
+        font-size: 16px;
+        color: var(--color-secondary)
+    }
+
+}

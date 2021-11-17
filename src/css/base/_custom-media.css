@@ -1,0 +1,19 @@
+/*
+Example: naming pattern and units should be finetuned .
+*/
+@custom-media --media-print-only print;
+@custom-media --media-phone-only screen and (max-width: 599px);
+@custom-media --media-tablet-portrait-up screen and (min-width: 600px);
+@custom-media --media-tablet-landscape-up screen and (min-width: 900px);
+@custom-media --media-desktop-up screen and (min-width: 1200px);
+@custom-media --media-desktop-big-up screen and (min-width: 1800px);
+
+/*
+Example:
+
+.a-button {
+    @media (--media-phone-only) {
+        background: #2cbe4e !important;
+    }
+}
+ */

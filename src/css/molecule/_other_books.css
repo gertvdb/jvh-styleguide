@@ -1,0 +1,128 @@
+/*
+---
+name: Book
+category: Organism
+---
+
+Our basic Book.
+
+```atom-book.html
+<div class="m-other-books">
+    <div class="m-other-books__heading">
+        <h3 class="m-other-books__title">
+            Other books </br>
+            by author
+        </h3>
+        <a href="#" class="m-blog__more">
+                Read more
+        </a>
+    </div>
+
+    <div class="m-other-books__previews">
+      <div class="js--carousel m-carousel">
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463104517_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463100403_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789460421822_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789033496011_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463103824_front.jpg"/>
+          </a>
+        </div>
+      </div>
+   </div>
+</div>
+```
+*/
+
+.m-other-books {
+  padding: var(--size-xxxl) 0;
+
+  .m-other-books__heading {
+    width: auto;
+    float: none;
+    margin-bottom: var(--size-xxl);
+    text-align: center;
+  }
+
+  .m-other-books__previews {
+    float: none;
+    width: 90%;
+  }
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .m-other-books__previews {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .m-other-books__slide {
+    padding: var(--size-m);
+  }
+
+  .m-other-books__title {
+    --font-size: 30px;
+    color: var(--color-ui-white);
+    font-size: var(--font-size);
+    font-weight: 700;
+    margin: var(--size-m) 0 var(--size-m);
+    line-height: 1;
+    font-family: var(--font-primary);
+    letter-spacing: calc(var(--font-size) / 10);
+    text-transform: uppercase;
+    border-left: 4px solid var(--color-primary);
+    padding: 5px 0 0 var(--size-m);
+  }
+
+}
+
+.m-other-books__cover {
+  opacity: 0.6;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  img {
+    width: 95px;
+    box-shadow: 0 2px 14px 0 rgba(255, 255, 255, .37), -8px 0 7px 0 rgba(183, 183, 83, .03);
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .m-other-books {
+    .m-other-books__heading {
+      min-width: 300px;
+      width: 300px;
+      float: left;
+      text-align: left;
+    }
+
+    .m-other-books__previews {
+      float: left;
+      width: calc(100% - 300px);
+    }
+  }
+}

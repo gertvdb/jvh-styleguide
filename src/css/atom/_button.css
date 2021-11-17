@@ -1,0 +1,134 @@
+/*
+---
+name: Buttons
+category: Atoms
+---
+
+Button can be used with the following elements: `<a>`,`<button>` and `<input>`.
+You can use the following color options.
+- By default our button fallbacks to the secondary action style.
+- `a-button--primary` default primary action style
+- `a-button--tertiary` used for tertiary actions
+
+```button.html
+<a class="a-button a-button--primary">Primary</a>
+<button class="a-button a-button--primary">Button</button>
+<input type="submit" class="a-button a-button--primary" value="Submit">
+<button disabled="disabled" class="a-button a-button--primary">Disabled</button>
+<br>
+<a class="a-button a-button--primary">Primary</a>
+<a class="a-button a-button--secondary">Secondary</a>
+<a class="a-button a-button--tertiary">Tertiary</a>
+
+```
+```button.css hidden
+body {
+    padding: 20px;
+}
+
+button,
+input,
+.a-button {
+    margin-bottom: 4px !important;
+}
+```
+*/
+
+.a-button {
+  position: relative;
+
+  display: inline-block;
+  overflow: visible;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: var(--size-s) var(--size-xl);
+
+  cursor: pointer;
+  user-select: none;
+  transition: all 200ms ease-in-out;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1rem;
+
+  appearance: none;
+  text-rendering: auto;
+  border-radius: var(--size-xxs);
+
+  &:active {
+    cursor: pointer;
+  }
+
+  &:hover {
+
+    &:not([disabled]) {
+      cursor: pointer;
+    }
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+
+    opacity: var(--opacity-medium);
+  }
+
+  &--primary {
+     color: var(--color-ui-white);
+     border: 1px solid var(--color-primary-light);
+     background-color: var(--color-primary-dark);
+
+    &:hover {
+      &:not([disabled]) {
+         color: var(--color-ui-white);
+         border: 1px solid var(--color-primary-light);
+         background-color: var(--color-primary);
+      }
+    }
+  }
+
+  &--secondary {
+     background-color: transparent;
+     color: var(--color-ui-white);
+     border: 1px solid var(--color-primary);
+
+    &:hover {
+
+      &:not([disabled]) {
+         background-color: transparent;
+         color: var(--color-primary);
+         border: 1px solid var(--color-primary);
+       }
+    }
+  }
+
+  &--tertiary {
+    background-color: initial;
+    color: var(--color-primary);
+
+    &:hover {
+
+      &:not([disabled]) {
+        background-color: initial;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  svg {
+    width: 20px;
+    margin-right: var(--size-s);
+  }
+
+}
+
+.a-button-actions {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--size-m);
+}

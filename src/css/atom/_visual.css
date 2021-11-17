@@ -1,0 +1,36 @@
+/*
+---
+name: Visual
+category: Atom
+---
+
+Our basic visual.
+
+```atom-visual.html
+<div class="a-visual">
+  <div class="a-visual__inner" style="background-image:url('https://english.n-va.be/sites/international.n-va.be/files/styles/style_cv_detail/public/generated/images/cv-picture/jvo.png?itok=_TJZvFHc&timestamp=1562055630')"></div>
+</div>
+```
+*/
+
+.a-visual {
+    position: relative;
+
+    &:before {
+        display: block;
+        content: '';
+        width: 100%;
+        padding-top: calc((9 / 16) * 100%);
+    }
+
+    .a-visual__inner {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+    }
+}

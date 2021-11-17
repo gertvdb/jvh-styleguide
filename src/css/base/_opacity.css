@@ -1,0 +1,12 @@
+/*
+Different levels of opacity to be used on application level
+
+Depending on how dark your background is you can use a lower level of opacity.
+To give an element a "disabled" feel you should aim for an opacity level of .4 or lower
+ */
+
+:root {
+    --opacity-low: .2;
+    --opacity-medium: .4;
+    --opacity-high: .6;
+}

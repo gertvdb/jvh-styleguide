@@ -1,0 +1,182 @@
+/*
+---
+name: Navigation
+category: Atom
+---
+
+Our basic navigation.
+
+```atom-navigation.html
+<nav class="a-navigation js--navigation">
+    <div class="a-navigation__links">
+        <a href="#">The Book</a>
+        <a href="#" class="active">Blog</a>
+        <a href="#">Bio / Press</a>
+        <a href="#">Useful Links</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="a-navigation__toggle js--navigation-toggle">
+        <div class="a-hamburger a-hamburger--spring js-hamburger">
+            <div class="a-hamburger-box">
+              <div class="a-hamburger-inner"></div>
+            </div>
+        </div>
+    </div>
+</nav>
+```
+*/
+
+.a-navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+
+    .a-navigation__links {
+        flex-direction: column;
+        background-color: var(--color-ui-black);
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        padding-top: 110px;
+        display: none;
+
+        a {
+            opacity: .8;
+            text-decoration: none;
+            font-family: var(--font-primary);
+
+            padding: var(--size-xl);
+            font-size: 22px;
+            text-align: center;
+        }
+
+        a.active {
+            opacity: 1;
+            font-weight: 700;
+        }
+
+        a::after {
+            bottom: -5px;
+            content: '';
+            height: 2px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            display: none;
+        }
+
+        a:hover {
+            opacity: 1;
+            text-decoration: none;
+        }
+
+        a {
+            position: relative;
+            letter-spacing: 1px;
+            color: var(--color-ui-white);
+
+            &:hover {
+                color: var(--color-primary);
+            }
+        }
+
+        a + a {
+            margin-left: 0;
+        }
+    }
+
+    .a-navigation__toggle {
+        display: flex;
+        z-index: 9;
+        cursor: pointer;
+
+        .a-navigation__close {
+            margin-top: -12px;
+            display: none;
+        }
+
+        .a-navigation__open {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.is--open--nav {
+
+    .a-navigation {
+
+        .a-navigation__links {
+            display: flex;
+        }
+
+        .a-navigation__toggle {
+
+            .a-navigation__close {
+                display: flex;
+            }
+
+            .a-navigation__open {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .a-navigation {
+
+        .a-navigation__links {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            flex-direction: row;
+
+            width: auto;
+            height: auto;
+            position: relative;
+            padding-top: 0;
+
+            a {
+                opacity: .8;
+                text-decoration: none;
+                font-family: var(--font-primary);
+
+                padding: 0;
+                font-size: 16px;
+            }
+
+            a {
+                color: var(--color-ui-white);
+
+                &:hover {
+                    color: var(--color-ui-white);
+                    opacity: 1;
+                }
+            }
+
+            a.active::after {
+                background-color: var(--color-primary);
+                display: block;
+                opacity: 1;
+            }
+
+            a + a {
+                margin-left: var(--size-l);
+            }
+        }
+
+        .a-navigation__toggle {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,233 @@
+/*
+---
+name: Home
+category: Pages
+---
+Layout for website.
+```layout.html
+<div class="l-page overscroll">
+    <div class="l-header">
+        <div class="l-logo">
+            <div class="a-logo">
+                <span class="a-logo--big">Johan</span>
+                <span class="a-logo--small"> van overveldt</span>
+            </div>
+        </div>
+        <div class="l-navigation">
+           <nav class="a-navigation">
+                <div class="a-navigation__links">
+                    <a href="#" class="active">Blog</a>
+                    <a href="#">Bio / Press</a>
+                    <a href="#">Useful Links</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="a-navigation__toggle js--navigation-toggle">
+                    <div class="a-hamburger">
+                        <div class="a-hamburger-box">
+                          <div class="a-hamburger-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="l-hero">
+        <div class="o-hero">
+            <div class="o-hero__inner">
+                <div class="l-block">
+                    <div class="l-block__inner">
+                        <div class="a-headline">
+                            <div class="a-headline__inner" data-aos="zoom-in" data-aos-duration="500">
+                                <h1 class="a-headline--big">The <br/>mystic hand</h1>
+                                <span class="a-headline--small">How Central Banks Shaped the 21st Centrury Global Economy</span>
+                                <span class="a-scroll">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-double-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-angle-double-down fa-w-8 fa-3x"><path fill="currentColor" d="M119.5 262.9L3.5 145.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 223.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 263c-4.7 4.6-12.3 4.6-17-.1zm17 128l116-117.8c4.7-4.7 4.7-12.3 0-17l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L128 351.3 27.6 249.1c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l116 117.8c4.7 4.6 12.3 4.6 17-.1z" class=""></path></svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="o-hero__bg" style="background-image:url('https://images.unsplash.com/photo-1542887800-faca0261c9e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2856&q=80');  background-position: 50%;"></div>
+            <div class="o-hero__overlay"></div>
+        </div>
+    </div>
+    <div class="l-main l-flow">
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-book" data-aos="zoom-in-up">
+                    <div class="m-book__preview">
+                        <div class="m-book__decoration m-book__decoration__1"></div>
+                        <div class="m-book__decoration m-book__decoration__2"></div>
+                        <div class="m-book__cover">
+                            <img src="../dist/images/TMH_Cover.jpg"/>
+                        </div>
+                    </div>
+                    <div class="m-book__info">
+                        <div class="m-book__title">The mystic hand</div>
+                        <div class="m-book__author">Johan van Overveldt</div>
+                        <div class="m-book__description">
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
+                            fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
+                        </div>
+                        <div class="m-book__cta">
+                            <a class="a-button a-button--primary">Buy book</a>
+                            <a class="a-button a-button--tertairy">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block-medium">
+            <div class="l-block__inner">
+                <div class="m-other-books" data-aos="fade-up">
+                    <div class="m-other-books__heading">
+                        <h3 class="m-other-books__title">
+                            Other books </br>
+                            by author
+                        </h3>
+                        <a href="#" class="m-blog__more">
+                                View all
+                        </a>
+                    </div>
+                    <div class="m-other-books__previews">
+                      <div class="js--carousel m-carousel">
+                       <div class="m-other-books__slide">
+                          <a href="#" class="m-other-books__cover">
+                              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463104517_front.jpg"/>
+                          </a>
+                        </div>
+                        <div class="m-other-books__slide">
+                          <a href="#" class="m-other-books__cover">
+                              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463100403_front.jpg"/>
+                          </a>
+                        </div>
+                        <div class="m-other-books__slide">
+                          <a href="#" class="m-other-books__cover">
+                              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789460421822_front.jpg"/>
+                          </a>
+                        </div>
+                        <div class="m-other-books__slide">
+                          <a href="#" class="m-other-books__cover">
+                              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789033496011_front.jpg"/>
+                          </a>
+                        </div>
+                        <div class="m-other-books__slide">
+                          <a href="#" class="m-other-books__cover">
+                              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463103824_front.jpg"/>
+                          </a>
+                        </div>
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <h2 class="a-section-title">
+                    What people are saying about the book.
+                </h2>
+            </div>
+        </div>
+        <div class="l-block-medium">
+            <div class="l-block__inner">
+                <div class="m-slider js--slider">
+                    <div class="m-review has--avatar">
+                        <div class="m-review__top">
+                             <span class="a-avatar m-review__avatar"><img src="https://randomuser.me/api/portraits/women/74.jpg"/></span>
+                             <div class="m-review__author">
+                                <div class="m-review__author_name">Paschal Donohoe</div>
+                                <div class="m-review__author_function">Chairman of the national bank</div>
+                             </div>
+                        </div>
+                        <div class="m-review__content">
+                            <div class="m-review__quote">
+                                "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui!"
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-review">
+                        <div class="m-review__top">
+                             <div class="m-review__author">
+                                <div class="m-review__author_name">Paschal Donohoe</div>
+                                <div class="m-review__author_function">Chairman of the national bank</div>
+                             </div>
+                        </div>
+                        <div class="m-review__content">
+                            <div class="m-review__quote">
+                                "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <h2 class="a-section-title">
+                    Latest blog posts
+                </h2>
+            </div>
+        </div>
+        <div class="l-block-big">
+            <div class="l-block__inner">
+                <div class="l-split padded">
+                    <div class="l-split__item">
+                        <div class="m-post">
+                            <div class="m-post__info">
+                                <h3 class="m-post__title">
+                                   Troiae qui primus ab oris Italiam, fato profugus
+                                </h3>
+                                <div class="a-html m-post__html">
+                                   <p>
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                                   </p>
+                                </div>
+                                <a href="#" class="m-post__more">
+                                    Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l-split__item">
+                        <div class="m-post">
+                            <div class="m-post__info">
+                                <h3 class="m-post__title">
+                                   Troiae qui primus ab oris Italiam, fato profugus
+                                </h3>
+                                <div class="a-html m-post__html">
+                                   <p>
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                                   </p>
+                                </div>
+                                <a href="#" class="m-post__more">
+                                    Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="a-button-actions">
+                <a class="a-button a-button--primary">View all</a>
+            </div>
+        </div>
+        <div class="l-footer">
+            <footer class="o-footer">
+                <span class="o-footer__copyright">All rights reserved 2021 @johanvanoveldt</span>
+                <ul class="o-footer__menu">
+                    <li><a href="#">Cookie</a></li>
+                    <li><a href="#">Disclamer</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</div>
+```
+```layout.css hidden
+.l-page {
+   min-height: 800px;
+}
+```
+*/

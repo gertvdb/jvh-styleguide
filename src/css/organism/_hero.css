@@ -1,0 +1,54 @@
+/*
+---
+name: Hero
+category: Organism
+---
+
+Our basic Hero.
+
+```atom-hero.html
+<div class="o-hero">
+    <div class="o-hero__inner">
+        <div class="a-headline">
+            <h1 class="a-headline--big">The <br/>mystic hand</h1>
+            <span class="a-headline--small">How Central Banks Shaped the 21st Centrury Global Economy</span>
+        </div>
+    </div>
+    <div class="o-hero__bg"></div>
+    <div class="o-hero__overlay"></div>
+</div>
+```
+*/
+
+.o-hero {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh + 110px);
+    margin-top: -110px;
+
+    .o-hero__inner {
+        position: absolute;
+        top: calc(50% + (110px / 2));
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 4;
+        width: 100%;
+    }
+
+    .o-hero__bg {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .o-hero__overlay {
+        background: linear-gradient(180deg, rgba(26, 25, 25, .92) 32%, rgba(41, 38, 38, .74) 46%, rgba(26, 25, 25, .98) 75%, rgba(26, 25, 25, 1) 100%);
+        z-index: 3;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+}

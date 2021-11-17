@@ -1,0 +1,42 @@
+/*
+---
+name: Page Title
+category: Atom
+---
+
+Our basic pge title.
+
+```atom-section-title.html
+<h2 class="a-section-title">
+   Troiae qui primus ab oris Italiam, fato profugus
+</h2>
+```
+*/
+
+.a-section-title {
+    --font-size: 30px;
+    color: var(--color-ui-white);
+    font-family: var(--font-primary);
+    font-size: var(--font-size);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin: var(--size-xxl) 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    padding-bottom: var(--size-m);
+    justify-content: center;
+}
+
+.a-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - (60px / 2));
+    width: 60px;
+    height: 3px;
+    background: var(--color-primary);
+}
