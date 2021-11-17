@@ -51,9 +51,14 @@ Our basic Slider.
         display: flex;
         justify-content: center;
         list-style: none;
+        padding-left: 0;
 
         li {
             margin-left: var(--size-s);
+            width: 12px;
+            height: 12px;
+            max-width: 12px;
+            max-height: 12px;
         }
 
         li:first-child {
@@ -67,6 +72,8 @@ Our basic Slider.
             text-indent: -9999px;
             width: 12px;
             height: 12px;
+            max-width: 12px;
+            max-height: 12px;
         }
 
         .slick-active {
