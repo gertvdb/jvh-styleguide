@@ -1,14 +1,9 @@
 {
-  "name": "@tactics/kinderopvang-styleguide",
+  "name": "@gertvdb/jvh-styleguide",
   "version": "1.0.0",
-  "description": "Styleguide for kinderopvang applications.",
-  "author": "Benjamin Boutmans",
+  "description": "Styleguide for jvh.",
+  "author": "Gert van den Buijs",
   "maintainers": [
-    {
-      "name": "Benjamin Boutmans",
-      "email": "benjamin.boutmans@tactics.be",
-      "web": "https://github.com/boutmansb"
-    },
     {
       "name": "Gert van den Buijs",
       "email": "gert.vandenbuijs@tactics.be",
@@ -17,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tactics/Kinderopvang-Styleguide.git"
+    "url": "git+https://github.com/gertvdb/jvh-styleguide.git"
   },
   "bugs": {
-    "url": "https://github.com/Tactics/Kinderopvang-Styleguide/issues"
+    "url": "https://github.com/gertvdb/jvh-styleguide/issues"
   },
   "scripts": {
     "serve": "./node_modules/.bin/gulp server",
