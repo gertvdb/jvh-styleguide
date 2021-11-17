@@ -1,5 +1,5 @@
 # JVH styleguide
-A guide for designing and coding projects for 💥JVH💥
+A guide for designing and coding projects for 💥JVH💥 
 
 ## Setup
 ### Installation
@@ -23,6 +23,4 @@ After you `npm install` and run `gulp dev` for the first time, you'll have a fol
 		- **fonts** - Contains all of our local fonts we use. These get copied to the dist folder when compiling the css.
 		- **css** - where your style files go.
 	- **styleguide** - where your styleguide is generated.
-
-
-For more information about our styleguide you can get out [our wiki](https://github.com/Tactics/Kinderopvang-Styleguide/wiki)
+	
