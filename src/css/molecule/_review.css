@@ -30,7 +30,7 @@ Our basic Review.
     background: var(--color-ui-almost-black);
     margin: auto;
     border-radius: 8px;
-    padding: var(--size-l);
+    padding: var(--size-xs);
     text-align: center;
 
     .m-review__top {
@@ -50,7 +50,7 @@ Our basic Review.
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: var(--size-l);
+        padding: var(--size-xs);
     }
 
     .m-review__author_name {
@@ -71,7 +71,7 @@ Our basic Review.
     .m-review__quote {
         padding: var(--size-xl);
         font-size: 18px;
-        width: 60%;
+        width: auto;
         margin: auto;
         font-weight: 300;
         line-height: 1.6;
@@ -85,15 +85,21 @@ Our basic Review.
 @media only screen and (min-width: 600px) {
 
     .m-review {
+        padding: var(--size-l);
 
         .m-review__avatar {
             display: block;
+            padding: var(--size-l);
         }
 
         &.has--avatar {
             .m-review__author {
                 text-align: left;
             }
+        }
+
+        .m-review__quote {
+            width: 60%;
         }
     }
 }
