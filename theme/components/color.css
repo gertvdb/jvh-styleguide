@@ -1,0 +1,175 @@
+/*
+Color
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+.theme__colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.theme__colors-title {
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.theme__colors-subtitle {
+    color: #888888;
+    font-size: 15px;
+}
+
+.theme__color {
+    display: flex;
+    width: 400px;
+    padding: 20px 0;
+}
+
+.theme__color-preview {
+    box-shadow: rgba(39, 51, 68, .1) 0 4px 7px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    margin-right: 35px;
+}
+
+.theme__color-name {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.theme__color-variable {
+    font-family: 'Fira Code', sans-serif;
+    font-size: 14px;
+}
+
+.theme__color-value {
+    color: #888888;
+    font-size: 13px;
+    font-family: 'Fira Code', sans-serif;
+}
+
+.theme__color-primary-xlight {
+    background: var(--color-primary-xlight);
+}
+
+.theme__color-primary-light {
+    background: var(--color-primary-light);
+}
+
+.theme__color-primary {
+    background: var(--color-primary);
+}
+
+.theme__color-primary-dark {
+    background: var(--color-primary-dark);
+}
+
+.theme__color-primary-xdark {
+    background: var(--color-primary-xdark);
+}
+
+.theme__color-secondary-xlight {
+    background: var(--color-secondary-xlight);
+}
+
+.theme__color-secondary-light {
+    background: var(--color-secondary-light);
+}
+
+.theme__color-secondary {
+    background: var(--color-secondary);
+}
+
+.theme__color-secondary-dark {
+    background: var(--color-secondary-dark);
+}
+
+.theme__color-secondary-xdark {
+    background: var(--color-secondary-xdark);
+}
+
+.theme__color-tertairy-xlight {
+    background: var(--color-tertairy-xlight);
+}
+
+.theme__color-tertairy-light {
+    background: var(--color-tertairy-light);
+}
+
+.theme__color-tertairy {
+    background: var(--color-tertairy);
+}
+
+.theme__color-tertairy-dark {
+    background: var(--color-tertairy-dark);
+}
+
+.theme__color-tertairy-xdark {
+    background: var(--color-tertairy-xdark);
+}
+
+.theme__color-ui-white {
+    background: var(--color-ui-white);
+}
+
+.theme__color-ui-xlightgrey {
+    background: var(--color-ui-xlightgrey);
+}
+
+.theme__color-ui-lightgrey {
+    background: var(--color-ui-lightgrey);
+}
+
+.theme__color-ui-grey {
+    background: var(--color-ui-grey);
+}
+
+.theme__color-ui-darkgrey {
+    background: var(--color-ui-darkgrey);
+}
+
+.theme__color-ui-black {
+    background: var(--color-ui-black);
+}
+
+.theme__color-ui-success-light {
+    background: var(--color-ui-success-light);
+}
+
+.theme__color-ui-success {
+    background: var(--color-ui-success);
+}
+
+.theme__color-ui-success-dark {
+    background: var(--color-ui-success-dark);
+}
+
+.theme__color-ui-error-light {
+    background: var(--color-ui-error-light);
+}
+
+.theme__color-ui-error {
+    background: var(--color-ui-error);
+}
+
+.theme__color-ui-error-dark {
+    background: var(--color-ui-error-dark);
+}
+
+.theme__color-ui-warning-light {
+    background: var(--color-ui-warning-light);
+}
+
+.theme__color-ui-warning {
+    background: var(--color-ui-warning);
+}
+
+.theme__color-ui-warning-dark {
+    background: var(--color-ui-warning-dark);
+}

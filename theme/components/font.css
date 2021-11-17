@@ -1,0 +1,67 @@
+/*
+Font
+*/
+
+.theme__fonts-title {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.theme__fonts-subtitle {
+    color: #888;
+    font-size: 15px;
+}
+
+.theme__fonts {
+    margin-top: 25px;
+}
+
+.theme__font-preview {
+    display: flex;
+    padding: 20px 0;
+}
+
+.theme__font-title {
+    border-top: 1px solid #ececec;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.theme__font-glyph {
+    width: 300px;
+    min-width: 300px;
+    margin-right: 35px;
+}
+
+.theme__font-glyph-preview {
+    font-size: 100px;
+}
+
+.theme__font-characters-list {
+    word-break: break-all;
+    letter-spacing: 10px;
+}
+
+.theme__font-style {
+    width: 100%;
+    margin-left: calc(300px + 35px);
+}
+
+.theme__font-style-item {
+    padding: 5px 0;
+    font-size: 24px;
+}
+
+.theme__font {
+    padding-top: 20px;
+}
+
+.theme__font--primary {
+    font-family: var(--font-primary);
+}
+
+.theme__font--secondary {
+    font-family: var(--font-secondary);
+}

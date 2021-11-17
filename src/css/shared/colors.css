@@ -1,0 +1,52 @@
+/*
+Example of how colors can be overwritten on application level.
+
+html {
+    --color-primary: hsla(139, 49%, 51%, 1);
+    --color-secondary: hsla(169, 49%, 51%, 1);
+}
+*/
+
+:root {
+
+    /* Primary */
+    --color-primary-xlight: #FB7B81;
+    --color-primary-light: #E14C53;
+    --color-primary: #D2222A;
+    --color-primary-dark: #A61118;
+    --color-primary-xdark: #7F0006;
+
+    /* Secondary */
+    --color-secondary-xlight: hsl(39, 66%, 78%);
+    --color-secondary-light: hsl(39, 66%, 78%);
+    --color-secondary: hsl(39, 66%, 78%);
+    --color-secondary-dark: hsl(39, 66%, 78%);
+    --color-secondary-xdark: hsl(39, 66%, 78%);
+
+    /* Tertairy */
+    --color-tertairy-xlight: hsl(176, 67%, 28%);
+    --color-tertairy-light: hsl(176, 67%, 28%);
+    --color-tertairy: hsl(176, 67%, 28%);
+    --color-tertairy-dark: hsl(176, 67%, 28%);
+    --color-tertairy-xdark: hsl(176, 67%, 28%);
+
+    /* UI Colors */
+    --color-ui-white: hsla(60, 100%, 100%, 1);
+    --color-ui-xlightgrey: hsla(216, 33%, 97%, 1);
+    --color-ui-lightgrey: hsla(214, 15%, 91%, 1);
+    --color-ui-grey: hsla(211, 13%, 65%, 1);
+    --color-ui-darkgrey: hsla(209, 14%, 37%, 1);
+    --color-ui-almost-black: #262424;
+    --color-ui-black: hsla(0, 2%, 10%, 1);
+
+    /* UI Colors (Error, Success, Warning */
+    --color-ui-success-light: hsl(124, 63%, 74%);
+    --color-ui-success: hsl(122, 73%, 35%);
+    --color-ui-success-dark: hsl(125, 97%, 14%);
+    --color-ui-error-light: hsla(360, 100%, 80%, 1);
+    --color-ui-error: hsl(356, 75%, 53%);
+    --color-ui-error-dark: hsla(348, 94%, 20%, 1);
+    --color-ui-warning-light: hsl(48, 95%, 76%);
+    --color-ui-warning: hsl(42, 87%, 55%);
+    --color-ui-warning-dark: hsl(15, 86%, 30%);
+}
