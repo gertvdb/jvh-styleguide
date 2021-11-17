@@ -48,10 +48,10 @@ Our basic Slider.
 .m-slider {
     .slick-dots {
         padding-top: var(--size-xl);
-        display: flex;
-        justify-content: center;
+        display: block;
         list-style: none;
         padding-left: 0;
+        text-align: center;
 
         li {
             margin-left: var(--size-s);
@@ -59,6 +59,7 @@ Our basic Slider.
             height: 12px;
             max-width: 12px;
             max-height: 12px;
+            display: inline-block;
         }
 
         li:first-child {

@@ -89,7 +89,6 @@ Our basic Review.
 
         .m-review__avatar {
             display: block;
-            padding: var(--size-l);
         }
 
         &.has--avatar {
@@ -100,6 +99,10 @@ Our basic Review.
 
         .m-review__quote {
             width: 60%;
+        }
+
+        .m-review__author {
+            padding: var(--size-l);
         }
     }
 }
