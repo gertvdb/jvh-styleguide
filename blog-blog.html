@@ -1,0 +1,470 @@
+<!doctype html>
+<html>
+
+	<head>
+		<style>
+		</style>
+
+		<style>
+			html, body {
+				min-height: 0 !important;
+				height: auto !important;
+			}
+		</style>
+
+		<script>
+			function findAndHandleStylemarkBlocks(languages, handler) {
+				var blocks = getStylemarkBlocks(languages);
+				handleStylemarkBlocks(blocks, handler);
+			}
+
+			function getStylemarkBlocks(languages) {
+				languages = typeof languages === 'string' ? [languages] : languages;
+
+				var selectors = [];
+
+				for (var i = 0; i < languages.length; i++) {
+					selectors.push('script[data-language="' + languages[i] + '"]');
+				}
+
+				var selector = selectors.join(',');
+				var scripts = document.querySelectorAll(selector);
+				var blocks = [];
+
+				for (var i = 0, length = scripts.length; i < length; i++) {
+					if (scripts[i].innerText) {
+						blocks.push(scripts[i].innerText);
+					}
+				}
+
+				return blocks;
+			}
+
+			function handleStylemarkBlocks(blocks, handler) {
+				for (var i = 0, length = blocks.length; i < length; i++) {
+					handler(blocks[i], i);
+				}
+			}
+		</script>
+
+			<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+			<link rel="stylesheet" href="dist/styles.css">
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script src="src/js/vendor/jquery.min.js"></script>
+			<script src="src/js/vendor/slick.min.js"></script>
+			<script src="dist/all.js"></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	</head>
+
+	<body>					<div class="l-page without--hero">
+    <div class="l-header">
+        <div class="l-logo">
+            <div class="a-logo">
+                <span class="a-logo--big">Johan</span>
+                <span class="a-logo--small"> van overtveldt</span>
+            </div>
+        </div>
+        <div class="l-navigation">
+            <nav class="a-navigation">
+                <div class="a-navigation__links">
+                    <a href="#" class="active">Blog</a>
+                    <a href="#">The Book</a>
+                    <a href="#">Bio / Press</a>
+                    <a href="#">Useful Links</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="a-navigation__toggle js--navigation-toggle">
+                    <div class="a-hamburger">
+                        <div class="a-hamburger-box">
+                          <div class="a-hamburger-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="l-main l-flow">
+        <div class="l-block-big">
+            <div class="l-block__inner">
+               <div class="m-highlight">
+                    <div class="m-highlight__visual">
+                        <img src="https://english.n-va.be/sites/international.n-va.be/files/styles/style_cv_detail/public/generated/images/cv-picture/jvo.png?itok=_TJZvFHc&timestamp=1562055630"/>
+                    </div>
+                    <div class="m-highlight__info">
+                        <div class="m-highlight__upper">Latest blog post</div>
+                        <h2 class="m-highlight__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h2>
+                        <div class="a-html m-highlight__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-highlight__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-post">
+                    <div class="m-post__info">
+                        <h3 class="m-post__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h3>
+                        <div class="a-html m-post__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-post__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-post">
+                    <div class="m-post__info">
+                        <h3 class="m-post__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h3>
+                        <div class="a-html m-post__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-post__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-post">
+                    <div class="m-post__info">
+                        <h3 class="m-post__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h3>
+                        <div class="a-html m-post__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-post__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="o-pager">
+                    <span class="o-pager__results">1 - 15 van 398 resultaten</span>
+                    <div class="o-pager__pages">
+                        <a href="#" class="o-pager__page o-pager__page--active">1</a>
+                        <a href="#" class="o-pager__page">2</a>
+                        <a href="#" class="o-pager__page">3</a>
+                        <a href="#" class="o-pager__page">4</a>
+                        <a href="#" class="o-pager__page">5</a>
+                        <a href="#" class="o-pager__page">Volgende</a>
+                        <a href="#" class="o-pager__page">Laatste</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-footer">
+            <footer class="o-footer">
+                <span class="o-footer__copyright">All rights reserved 2021 @johanvanoveldt</span>
+                <ul class="o-footer__menu">
+                    <li><a href="#">Cookie</a></li>
+                    <li><a href="#">Disclamer</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</div>
+			<script type="text/x-stylemark" data-language="html"><div class="l-page without--hero">
+    <div class="l-header">
+        <div class="l-logo">
+            <div class="a-logo">
+                <span class="a-logo--big">Johan</span>
+                <span class="a-logo--small"> van overtveldt</span>
+            </div>
+        </div>
+        <div class="l-navigation">
+            <nav class="a-navigation">
+                <div class="a-navigation__links">
+                    <a href="#" class="active">Blog</a>
+                    <a href="#">The Book</a>
+                    <a href="#">Bio / Press</a>
+                    <a href="#">Useful Links</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="a-navigation__toggle js--navigation-toggle">
+                    <div class="a-hamburger">
+                        <div class="a-hamburger-box">
+                          <div class="a-hamburger-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="l-main l-flow">
+        <div class="l-block-big">
+            <div class="l-block__inner">
+               <div class="m-highlight">
+                    <div class="m-highlight__visual">
+                        <img src="https://english.n-va.be/sites/international.n-va.be/files/styles/style_cv_detail/public/generated/images/cv-picture/jvo.png?itok=_TJZvFHc&timestamp=1562055630"/>
+                    </div>
+                    <div class="m-highlight__info">
+                        <div class="m-highlight__upper">Latest blog post</div>
+                        <h2 class="m-highlight__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h2>
+                        <div class="a-html m-highlight__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-highlight__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-post">
+                    <div class="m-post__info">
+                        <h3 class="m-post__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h3>
+                        <div class="a-html m-post__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-post__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-post">
+                    <div class="m-post__info">
+                        <h3 class="m-post__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h3>
+                        <div class="a-html m-post__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-post__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-post">
+                    <div class="m-post__info">
+                        <h3 class="m-post__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h3>
+                        <div class="a-html m-post__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-post__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="o-pager">
+                    <span class="o-pager__results">1 - 15 van 398 resultaten</span>
+                    <div class="o-pager__pages">
+                        <a href="#" class="o-pager__page o-pager__page--active">1</a>
+                        <a href="#" class="o-pager__page">2</a>
+                        <a href="#" class="o-pager__page">3</a>
+                        <a href="#" class="o-pager__page">4</a>
+                        <a href="#" class="o-pager__page">5</a>
+                        <a href="#" class="o-pager__page">Volgende</a>
+                        <a href="#" class="o-pager__page">Laatste</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-footer">
+            <footer class="o-footer">
+                <span class="o-footer__copyright">All rights reserved 2021 @johanvanoveldt</span>
+                <ul class="o-footer__menu">
+                    <li><a href="#">Cookie</a></li>
+                    <li><a href="#">Disclamer</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</div></script>
+
+		<!--
+			Vanilla JS
+		-->
+
+		<script>
+			findAndHandleStylemarkBlocks('js', function(block) {
+				eval(block);
+			});
+		</script>
+
+		<!--
+			AngularJS
+		-->
+
+		<script>
+			(function(angular) {
+
+				if (!angular) {
+					return;
+				}
+
+				findAndHandleStylemarkBlocks('angularjs', function(block, index) {
+					var moduleElem = document.querySelector('[ng-app]');
+					var module;
+
+					if (moduleElem) {
+						// Uses an existing module
+						module = angular.module(moduleElem.getAttribute('ng-app'));
+					}
+					else {
+						// Creates a new module
+						module = angular.module('stylemark-blog-blog', []);
+					}
+
+					module.controller('stylemark-blog-blog-' + index, function($scope) {
+						$scope.$eval(block);
+					});
+				});
+			})(window.angular);
+		</script>
+
+		<!--
+			React / JSX
+		-->
+
+		<script>
+			(function(ReactDOM) {
+
+				if (!ReactDOM) {
+					return;
+				}
+
+				findAndHandleStylemarkBlocks('jsx', function(block, index) {
+					var rootNode = document.querySelectorAll('.stylemark-react-root')[index];
+					var Component = eval(block);
+					ReactDOM.render(Component, rootNode);
+				});
+			})(window.ReactDOM);
+		</script>
+
+		<!--
+			Ember
+		-->
+
+		<script>
+			(function(Ember) {
+
+				if (!Ember) {
+					return;
+				}
+
+				findAndHandleStylemarkBlocks(['handlebars', 'hbs'], function(block, index) {
+					var render = function() {
+						var app = window.noop
+						var container = app.__container__;
+						var renderer = container.lookup('renderer:-dom');
+						var template = Ember.HTMLBars.compile(block);
+
+						var jsBlocks = getStylemarkBlocks('js');
+						var jsBlock = jsBlocks && jsBlocks[0] ? jsBlocks[0] : '{}';
+						var context;
+						eval('context = ' + jsBlock);
+
+						// Credit:
+						// http://stackoverflow.com/questions/27950413/render-ember-js-hbs-template-to-a-string#answer-35625858
+						var compile = function(container, template, context) {
+							return new Ember.RSVP.Promise(function(resolve) {
+								Ember.Component.extend(Ember.merge({
+									style: 'display:none;',
+									layout: template,
+									container: container,
+									renderer: renderer,
+
+									init: function() {
+										this._super.apply(this, arguments);
+										Ember.setOwner(this, container);
+									},
+
+									didRender: function() {
+										var elem = this.$();
+										resolve(elem);
+										this.destroy();
+									}
+								}, context))
+									.create()
+									.append();
+
+							});
+						};
+
+						compile(container, template, context).then(function(elem) {
+							var node = document.querySelectorAll('.stylemark-ember-root')[index];
+							jQuery(node).append(elem);
+						});
+					};
+
+					var isReady = function() {
+						return window.noop
+							&& window.noop.__container__;
+					};
+
+					var checkReady = function() {
+						if (isReady()) {
+							render();
+						}
+						else {
+							setTimeout(checkReady, 20);
+						}
+					};
+
+					checkReady();
+				});
+
+			})(window.Ember);
+		</script>
+
+		<script src="_stylemark/js/vendor/iframeResizer.contentWindow.min.js"></script>
+	</body>
+</html>

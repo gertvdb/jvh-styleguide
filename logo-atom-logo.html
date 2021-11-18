@@ -58,11 +58,13 @@
 
 	</head>
 
-	<body>					<div class="a-caption">
-    ©lorem ipsum - doler etc eupus
+	<body>					<div class="a-logo">
+    <span class="a-logo--big">Johan</span>
+    <span class="a-logo--small"> van overtveldt</span>
 </div>
-			<script type="text/x-stylemark" data-language="html"><div class="a-caption">
-    ©lorem ipsum - doler etc eupus
+			<script type="text/x-stylemark" data-language="html"><div class="a-logo">
+    <span class="a-logo--big">Johan</span>
+    <span class="a-logo--small"> van overtveldt</span>
 </div></script>
 
 		<!--
@@ -96,10 +98,10 @@
 					}
 					else {
 						// Creates a new module
-						module = angular.module('stylemark-caption-atom-date', []);
+						module = angular.module('stylemark-logo-atom-logo', []);
 					}
 
-					module.controller('stylemark-caption-atom-date-' + index, function($scope) {
+					module.controller('stylemark-logo-atom-logo-' + index, function($scope) {
 						$scope.$eval(block);
 					});
 				});

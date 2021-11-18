@@ -3,9 +3,6 @@
 
 	<head>
 		<style>
-					.l-page {
-   min-height: 800px;
-}
 		</style>
 
 		<style>
@@ -61,9 +58,88 @@
 
 	</head>
 
-	<body>			<script type="text/x-stylemark" data-language="css">.l-page {
-   min-height: 800px;
-}</script>
+	<body>					<div class="m-other-books">
+    <div class="m-other-books__heading">
+        <h3 class="m-other-books__title">
+            Other books </br>
+            by author
+        </h3>
+        <a href="#" class="m-blog__more">
+                Read more
+        </a>
+    </div>
+
+    <div class="m-other-books__previews">
+      <div class="js--carousel m-carousel">
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463104517_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463100403_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789460421822_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789033496011_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463103824_front.jpg"/>
+          </a>
+        </div>
+      </div>
+   </div>
+</div>
+			<script type="text/x-stylemark" data-language="html"><div class="m-other-books">
+    <div class="m-other-books__heading">
+        <h3 class="m-other-books__title">
+            Other books </br>
+            by author
+        </h3>
+        <a href="#" class="m-blog__more">
+                Read more
+        </a>
+    </div>
+
+    <div class="m-other-books__previews">
+      <div class="js--carousel m-carousel">
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463104517_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463100403_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789460421822_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789033496011_front.jpg"/>
+          </a>
+        </div>
+        <div class="m-other-books__slide">
+          <a href="#" class="m-other-books__cover">
+              <img src="https://www.bookspot.be/images/active/carrousel/fullsize/9789463103824_front.jpg"/>
+          </a>
+        </div>
+      </div>
+   </div>
+</div></script>
 
 		<!--
 			Vanilla JS
@@ -96,10 +172,10 @@
 					}
 					else {
 						// Creates a new module
-						module = angular.module('stylemark-bio-press-layout', []);
+						module = angular.module('stylemark-other-books-atom-other-book', []);
 					}
 
-					module.controller('stylemark-bio-press-layout-' + index, function($scope) {
+					module.controller('stylemark-other-books-atom-other-book-' + index, function($scope) {
 						$scope.$eval(block);
 					});
 				});

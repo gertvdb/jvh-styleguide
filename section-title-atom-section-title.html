@@ -3,9 +3,6 @@
 
 	<head>
 		<style>
-					.l-page {
-   min-height: 800px;
-}
 		</style>
 
 		<style>
@@ -61,9 +58,12 @@
 
 	</head>
 
-	<body>			<script type="text/x-stylemark" data-language="css">.l-page {
-   min-height: 800px;
-}</script>
+	<body>					<h2 class="a-section-title">
+   Troiae qui primus ab oris Italiam, fato profugus
+</h2>
+			<script type="text/x-stylemark" data-language="html"><h2 class="a-section-title">
+   Troiae qui primus ab oris Italiam, fato profugus
+</h2></script>
 
 		<!--
 			Vanilla JS
@@ -96,10 +96,10 @@
 					}
 					else {
 						// Creates a new module
-						module = angular.module('stylemark-bio-press-layout', []);
+						module = angular.module('stylemark-section-title-atom-section-title', []);
 					}
 
-					module.controller('stylemark-bio-press-layout-' + index, function($scope) {
+					module.controller('stylemark-section-title-atom-section-title-' + index, function($scope) {
 						$scope.$eval(block);
 					});
 				});

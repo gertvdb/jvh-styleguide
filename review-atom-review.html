@@ -58,13 +58,33 @@
 
 	</head>
 
-	<body>					<div class="a-logo">
-    <span class="a-logo--big">Johan</span>
-    <span class="a-logo--small"> van overveldt</span>
+	<body>					<div class="m-review">
+    <div class="m-review__top">
+         <span class="a-avatar m-review__avatar"><img src="https://randomuser.me/api/portraits/women/74.jpg"/></span>
+         <div class="m-review__author">
+            <div class="m-review__author_name">Paschal Donohoe</div>
+            <div class="m-review__author_function">Chairman of the national bank</div>
+         </div>
+    </div>
+    <div class="m-review__content">
+        <div class="m-review__quote">
+            "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
+        </div>
+    </div>
 </div>
-			<script type="text/x-stylemark" data-language="html"><div class="a-logo">
-    <span class="a-logo--big">Johan</span>
-    <span class="a-logo--small"> van overveldt</span>
+			<script type="text/x-stylemark" data-language="html"><div class="m-review">
+    <div class="m-review__top">
+         <span class="a-avatar m-review__avatar"><img src="https://randomuser.me/api/portraits/women/74.jpg"/></span>
+         <div class="m-review__author">
+            <div class="m-review__author_name">Paschal Donohoe</div>
+            <div class="m-review__author_function">Chairman of the national bank</div>
+         </div>
+    </div>
+    <div class="m-review__content">
+        <div class="m-review__quote">
+            "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
+        </div>
+    </div>
 </div></script>
 
 		<!--
@@ -98,10 +118,10 @@
 					}
 					else {
 						// Creates a new module
-						module = angular.module('stylemark-logo-atom-navigation', []);
+						module = angular.module('stylemark-review-atom-review', []);
 					}
 
-					module.controller('stylemark-logo-atom-navigation-' + index, function($scope) {
+					module.controller('stylemark-review-atom-review-' + index, function($scope) {
 						$scope.$eval(block);
 					});
 				});

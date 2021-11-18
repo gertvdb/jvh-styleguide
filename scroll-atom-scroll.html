@@ -58,34 +58,12 @@
 
 	</head>
 
-	<body>					<div class="m-review">
-    <div class="m-review__top">
-         <span class="a-avatar m-review__avatar"><img src="https://randomuser.me/api/portraits/women/74.jpg"/></span>
-         <div class="m-review__author">
-            <div class="m-review__author_name">Paschal Donohoe</div>
-            <div class="m-review__author_function">Chairman of the national bank</div>
-         </div>
-    </div>
-    <div class="m-review__content">
-        <div class="m-review__quote">
-            "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
-        </div>
-    </div>
-</div>
-			<script type="text/x-stylemark" data-language="html"><div class="m-review">
-    <div class="m-review__top">
-         <span class="a-avatar m-review__avatar"><img src="https://randomuser.me/api/portraits/women/74.jpg"/></span>
-         <div class="m-review__author">
-            <div class="m-review__author_name">Paschal Donohoe</div>
-            <div class="m-review__author_function">Chairman of the national bank</div>
-         </div>
-    </div>
-    <div class="m-review__content">
-        <div class="m-review__quote">
-            "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
-        </div>
-    </div>
-</div></script>
+	<body>					<span class="a-scroll">
+    <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-double-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-angle-double-down fa-w-8 fa-3x"><path fill="currentColor" d="M119.5 262.9L3.5 145.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 223.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 263c-4.7 4.6-12.3 4.6-17-.1zm17 128l116-117.8c4.7-4.7 4.7-12.3 0-17l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L128 351.3 27.6 249.1c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l116 117.8c4.7 4.6 12.3 4.6 17-.1z" class=""></path></svg>
+</span>
+			<script type="text/x-stylemark" data-language="html"><span class="a-scroll">
+    <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-double-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-angle-double-down fa-w-8 fa-3x"><path fill="currentColor" d="M119.5 262.9L3.5 145.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 223.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 263c-4.7 4.6-12.3 4.6-17-.1zm17 128l116-117.8c4.7-4.7 4.7-12.3 0-17l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L128 351.3 27.6 249.1c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l116 117.8c4.7 4.6 12.3 4.6 17-.1z" class=""></path></svg>
+</span></script>
 
 		<!--
 			Vanilla JS
@@ -118,10 +96,10 @@
 					}
 					else {
 						// Creates a new module
-						module = angular.module('stylemark-review-atom-book', []);
+						module = angular.module('stylemark-scroll-atom-scroll', []);
 					}
 
-					module.controller('stylemark-review-atom-book-' + index, function($scope) {
+					module.controller('stylemark-scroll-atom-scroll-' + index, function($scope) {
 						$scope.$eval(block);
 					});
 				});
