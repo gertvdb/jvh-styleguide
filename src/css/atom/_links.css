@@ -1,12 +1,12 @@
 /*
 ---
-name: Date
+name: Links
 category: Atom
 ---
 
-Our basic date.
+Our basic links.
 
-```atom-date.html
+```atom-links.html
 <div class="a-links">
     <h4 class="a-links__heading">Usefull links</h4>
     <div class="a-links__list">

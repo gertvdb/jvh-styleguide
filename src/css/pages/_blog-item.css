@@ -4,20 +4,21 @@ name: Blog Item
 category: Pages
 ---
 Layout for website.
-```layout.html
+```blog-item.html
 <div>
 <div class="l-page without--hero">
     <div class="l-header">
         <div class="l-logo">
             <div class="a-logo">
                 <span class="a-logo--big">Johan</span>
-                <span class="a-logo--small"> van overveldt</span>
+                <span class="a-logo--small"> van overtveldt</span>
             </div>
         </div>
         <div class="l-navigation">
             <nav class="a-navigation">
                 <div class="a-navigation__links">
                     <a href="#" class="active">Blog</a>
+                     <a href="#">The Book</a>
                     <a href="#">Bio / Press</a>
                     <a href="#">Useful Links</a>
                     <a href="#">Contact</a>

@@ -49,6 +49,9 @@
 @import 'molecule/_review.css';
 @import 'molecule/_bio.css';
 @import 'molecule/_gallery.css';
+@import 'molecule/_work_history.css';
+@import 'molecule/_studies.css';
+@import 'molecule/_publications.css';
 
 /* Organism */
 @import 'organism/_hero.css';
@@ -58,5 +61,6 @@
 /* Page */
 @import 'pages/_home.css';
 @import 'pages/_blog.css';
+@import 'pages/_the_book.css';
 @import 'pages/_blog-item.css';
 @import 'pages/_contact.css';

@@ -6,7 +6,7 @@ category: Organism
 
 Our basic Blog Teaser.
 
-```atom-book.html
+```atom-blog--teaser.html
 <div class="m-blog--teaser">
     <div class="m-blog__bg"></div>
     <div class="m-blog__visual">

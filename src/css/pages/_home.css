@@ -4,19 +4,20 @@ name: Home
 category: Pages
 ---
 Layout for website.
-```layout.html
+```home.html
 <div class="l-page overscroll">
     <div class="l-header">
         <div class="l-logo">
             <div class="a-logo">
                 <span class="a-logo--big">Johan</span>
-                <span class="a-logo--small"> van overveldt</span>
+                <span class="a-logo--small"> van overtveldt</span>
             </div>
         </div>
         <div class="l-navigation">
            <nav class="a-navigation">
                 <div class="a-navigation__links">
                     <a href="#" class="active">Blog</a>
+                    <a href="#">The Book</a>
                     <a href="#">Bio / Press</a>
                     <a href="#">Useful Links</a>
                     <a href="#">Contact</a>
@@ -48,7 +49,7 @@ Layout for website.
                     </div>
                 </div>
             </div>
-            <div class="o-hero__bg" style="background-image:url('https://images.unsplash.com/photo-1542887800-faca0261c9e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2856&q=80');  background-position: 50%;"></div>
+            <div class="o-hero__bg o-hero__mystichand"></div>
             <div class="o-hero__overlay"></div>
         </div>
     </div>
@@ -65,7 +66,7 @@ Layout for website.
                     </div>
                     <div class="m-book__info">
                         <div class="m-book__title">The mystic hand</div>
-                        <div class="m-book__author">Johan van Overveldt</div>
+                        <div class="m-book__author">Johan van Overtveldt</div>
                         <div class="m-book__description">
                             Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
                             fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.

@@ -4,19 +4,20 @@ name: Bio / Press
 category: Pages
 ---
 Layout for website.
-```layout.html
+```bio.html
 <div class="l-page">
     <div class="l-header">
         <div class="l-logo">
             <div class="a-logo">
                 <span class="a-logo--big">Johan</span>
-                <span class="a-logo--small"> van overveldt</span>
+                <span class="a-logo--small"> van overtveldt</span>
             </div>
         </div>
         <div class="l-navigation">
             <nav class="a-navigation">
                 <div class="a-navigation__links">
                     <a href="#">Blog</a>
+                    <a href="#">The Book</a>
                     <a href="#" class="active">Bio / Press</a>
                     <a href="#">Useful Links</a>
                     <a href="#">Contact</a>
@@ -36,10 +37,10 @@ Layout for website.
             <div class="o-hero__inner">
                 <div class="l-block">
                 <div class="l-block__inner">
-                    <div class="m-bio">
+                    <div class="m-bio" data-aos="zoom-in" data-aos-duration="500">
                         <div class="m-bio__upper">Bio</div>
                         <h2 class="m-bio__title">
-                           Johan van Overveldt
+                           Johan van Overtveldt
                         </h2>
                         <div class="a-html m-bio__html">
                            <p>
@@ -47,9 +48,6 @@ Layout for website.
                            </p>
                            <p>
                             Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus, fato profugus qui primus ab oris Italiam, fato.
-                           </p>
-                           <p>
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris qui primus ab oris Italiam.
                            </p>
                         </div>
                         <div class="m-bio__actions">
@@ -69,8 +67,8 @@ Layout for website.
     <div class="l-main l-flow">
         <div class="l-block">
             <div class="l-block__inner">
-                <div class="a-html">
-                   <h2>Troiae qui primus ab oris Italiam</h2>
+                <div class="a-html" data-aos="fade-up">
+                   <h2>CV</h2>
                    <p>
                     Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
                    </p>
@@ -82,39 +80,126 @@ Layout for website.
         </div>
         <div class="l-block">
             <div class="l-block__inner">
-                <div class="a-quote">
-                    <div class="a-quote__quote">
-                        "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
+               <div class="m-work-history a-html" data-aos="fade-up">
+                    <h3>Work history</h3>
+                    <div class="m-work-history__listing">
+                       <div class="m-work-history_item">
+                            <div class="m-work-history_item__heading">
+                                <div class="m-work-history__date">
+                                    <span>Currently</span>
+                                </div>
+                                <div class="m-work-history__function">Member of the European Parliament (N-VA)</div>
+                            </div>
+                            <ul class="m-work-history_item__responsibilities">
+                                <li>Chair of the Budget Committee</li>
+                                <li>Member of the ECON Committee</li>
+                                <li>Member of the TRAN Committee</li>
+                            </ul>
+                        </div>
+                        <div class="m-work-history_item">
+                            <div class="m-work-history_item__heading">
+                                <div class="m-work-history__date">
+                                    <span>Currently</span>
+                                 </div>
+                                <div class="m-work-history__function">Professor in Economics, University of Hasselt</div>
+                            </div>
+                            <ul class="m-work-history_item__responsibilities">
+                                <li>Course: The History of Economic Thoughts</li>
+                                <li>Course: Macroeconomic Policy</li>
+                            </ul>
+                        </div>
+                        <div class="m-work-history_item">
+                            <div class="m-work-history_item__heading">
+                                <div class="m-work-history__date">
+                                    <span>2018 – 2014</span>
+                                </div>
+                                <div class="m-work-history__function">Minister of Finance, Federal Government of Belgium</div>
+                            </div>
+                        </div>
+                        <div class="m-work-history_item">
+                            <div class="m-work-history_item__heading">
+                                <div class="m-work-history__date">
+                                    <span>Oct 2014 – July 2014</span>
+                                </div>
+                                <div class="m-work-history__function">Member of the European Parliament (N-VA) and Vice-chairman of the ECON Commission, European Parliament</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="a-quote__author">By : Oris Italia</div>
                 </div>
             </div>
         </div>
         <div class="l-block">
             <div class="l-block__inner">
-                <div class="a-html">
-                   <p>
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   </p>
-                   <p>
-                    Troiae qui primus ab oris Italiam, fato <strong>profugus troiae </strong> qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab <a href="#">oris Italiam</a>, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   </p>
+               <div class="m-studies a-html" data-aos="fade-up">
+                    <h3>Education</h3>
+                    <div class="m-studies__listing">
+                        <div class="m-studies_item">
+                            <div class="m-studies__study">
+                              <div class="m-studies__study_info">
+                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M612.16 153.99l-265-85.68c-17.81-5.75-36.5-5.75-54.31 0l-265 85.68C10.94 159.46 0 174.38 0 192s10.94 32.54 27.84 38.01l29.71 9.6c-3.3 6.18-5.74 12.83-7.33 19.8C39.53 264.59 32 275.32 32 288c0 12.73 7.57 23.52 18.33 28.67L32.28 428.53C30.67 438.52 36.19 448 43.62 448h40.75c7.43 0 12.96-9.48 11.34-19.47L77.67 316.67C88.43 311.52 96 300.73 96 288c0-10.6-5.49-19.54-13.43-25.37 1.49-4.66 3.8-8.86 6.57-12.81l53.47 17.29L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.61-116.89L612.16 230c16.9-5.46 27.84-20.38 27.84-38s-10.94-32.54-27.84-38.01zM479.48 381.86C468.72 393.19 414.04 416 320 416c-94.04 0-148.72-22.81-159.48-34.14l13.09-104.73 119.24 38.55c2.6.84 25.72 9.23 54.31 0l119.24-38.55 13.08 104.73zm122.8-182.28l-265 85.68c-11.31 3.66-23.25 3.66-34.56 0l-175.67-56.8 195.89-36.74c8.69-1.62 14.41-9.98 12.78-18.67-1.62-8.7-10.16-14.39-18.66-12.77l-203.78 38.2c-12.4 2.32-23.51 7.65-33.08 14.83l-42.49-13.74c-7.85-2.55-7.46-12.74 0-15.15l265-85.68c15.1-4.88 27.84-2.17 34.56 0l265 85.68c7.39 2.39 7.91 12.6.01 15.16z" class=""></path></svg>
+                                <span class="m-studies__title">Ph D in Applied Economics</span>
+                              </div>
+                              <div class="m-studies__school">University of Antwerp (UA)</div>
+                            </div>
+                        </div>
+                        <div class="m-studies_item">
+                            <div class="m-studies__study">
+                              <div class="m-studies__study_info">
+                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M612.16 153.99l-265-85.68c-17.81-5.75-36.5-5.75-54.31 0l-265 85.68C10.94 159.46 0 174.38 0 192s10.94 32.54 27.84 38.01l29.71 9.6c-3.3 6.18-5.74 12.83-7.33 19.8C39.53 264.59 32 275.32 32 288c0 12.73 7.57 23.52 18.33 28.67L32.28 428.53C30.67 438.52 36.19 448 43.62 448h40.75c7.43 0 12.96-9.48 11.34-19.47L77.67 316.67C88.43 311.52 96 300.73 96 288c0-10.6-5.49-19.54-13.43-25.37 1.49-4.66 3.8-8.86 6.57-12.81l53.47 17.29L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.61-116.89L612.16 230c16.9-5.46 27.84-20.38 27.84-38s-10.94-32.54-27.84-38.01zM479.48 381.86C468.72 393.19 414.04 416 320 416c-94.04 0-148.72-22.81-159.48-34.14l13.09-104.73 119.24 38.55c2.6.84 25.72 9.23 54.31 0l119.24-38.55 13.08 104.73zm122.8-182.28l-265 85.68c-11.31 3.66-23.25 3.66-34.56 0l-175.67-56.8 195.89-36.74c8.69-1.62 14.41-9.98 12.78-18.67-1.62-8.7-10.16-14.39-18.66-12.77l-203.78 38.2c-12.4 2.32-23.51 7.65-33.08 14.83l-42.49-13.74c-7.85-2.55-7.46-12.74 0-15.15l265-85.68c15.1-4.88 27.84-2.17 34.56 0l265 85.68c7.39 2.39 7.91 12.6.01 15.16z" class=""></path></svg>
+                                <span class="m-studies__title">Master of Business Administration</span>
+                              </div>
+                              <div class="m-studies__school">Catholic University of Leuven (KUL)</div>
+                            </div>
+                        </div>
+                        <div class="m-studies_item">
+                            <div class="m-studies__study">
+                              <div class="m-studies__study_info">
+                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M612.16 153.99l-265-85.68c-17.81-5.75-36.5-5.75-54.31 0l-265 85.68C10.94 159.46 0 174.38 0 192s10.94 32.54 27.84 38.01l29.71 9.6c-3.3 6.18-5.74 12.83-7.33 19.8C39.53 264.59 32 275.32 32 288c0 12.73 7.57 23.52 18.33 28.67L32.28 428.53C30.67 438.52 36.19 448 43.62 448h40.75c7.43 0 12.96-9.48 11.34-19.47L77.67 316.67C88.43 311.52 96 300.73 96 288c0-10.6-5.49-19.54-13.43-25.37 1.49-4.66 3.8-8.86 6.57-12.81l53.47 17.29L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.61-116.89L612.16 230c16.9-5.46 27.84-20.38 27.84-38s-10.94-32.54-27.84-38.01zM479.48 381.86C468.72 393.19 414.04 416 320 416c-94.04 0-148.72-22.81-159.48-34.14l13.09-104.73 119.24 38.55c2.6.84 25.72 9.23 54.31 0l119.24-38.55 13.08 104.73zm122.8-182.28l-265 85.68c-11.31 3.66-23.25 3.66-34.56 0l-175.67-56.8 195.89-36.74c8.69-1.62 14.41-9.98 12.78-18.67-1.62-8.7-10.16-14.39-18.66-12.77l-203.78 38.2c-12.4 2.32-23.51 7.65-33.08 14.83l-42.49-13.74c-7.85-2.55-7.46-12.74 0-15.15l265-85.68c15.1-4.88 27.84-2.17 34.56 0l265 85.68c7.39 2.39 7.91 12.6.01 15.16z" class=""></path></svg>
+                                <span class="m-studies__title">Master Applied Economics</span>
+                              </div>
+                              <div class="m-studies__school">University of Antwerp (UA)</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="l-block">
             <div class="l-block__inner">
-                <div class="a-html">
-                   <h2>Press photos</h2>
+                <div class="m-publications a-html" data-aos="fade-up">
+                    <h3>Publications</h3>
+                    <div class="m-publications__listing">
+                        <div class="m-publications_in_language">
+                            <h4>In English</h4>
+                            <ul class="m-publications_in_language__listing">
+                                <li>A Giant Reborn. Why the US will dominate the 21st Century (2015) , Agate Publishing</li>
+                                <li>The End of the Euro. The uneasy Future of the European Union (2011), Agate Publishing</li>
+                                <li>Bernanke’s test. Bert Bernanke, Alan Greenspan and the Drama of the Central Banker (2009), Agate Publishing</li>
+                                <li>The Chicago School. How the University of Chicago Assembled the Thinkers who Revolutionized Economics and Business (2007), Agate Publishing</li>
+                            </ul>
+                        </div>
+
+                        <div class="m-publications_in_language">
+                            <h4>In Dutch</h4>
+                            <ul class="m-publications_in_language__listing">
+                                <li>Zijn we het kwijt? Een toekomst voor Vlaanderen en Europa (2019), Uitgeverij Polis </li>
+                                <li>Sisyphus achterna. Hoe het failliet van Lehman onze wereld blijft veranderen (2018), Uitgeverij Polis </li>
+                                <li>De Ontwakende Reus. Waarom Amerika de 21ste eeuw zal domineren, (2016), Uitgeverij Polis</li>
+                                <li>Red de Vrije Markt. De terugkeer van Milton Friedman (2012), Uitgeverij De Bezige Bij</li>
+                                <li>Het Einde van de Euro. De onzekere toekomst van de Europese Unie (2011), Uitgeverij Acco</li>
+                                <li>Maandag geen economie meer? (2009), Uitgeverij Economedia</li>
+                                <li>De Euroscheppers. Macht en Manipulatie achter de Euro (2003), Uitgeverij Pelckmans</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="l-block">
             <div class="l-block__inner">
-                <div class="m-gallery">
-                    <div class="m-gallery__thumb">
-                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
-                    </div>
+            <div class="m-gallery a-html" data-aos="fade-up">
+                <h2>Press photos</h2>
+                <div class="m-gallery__listing">
                     <div class="m-gallery__thumb">
                         <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
                     </div>
@@ -146,12 +231,13 @@ Layout for website.
                         <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
                     </div>
                 </div>
-                 <div class="m-gallery__actions">
+                <div class="m-gallery__actions">
                     <a class="a-button a-button--primary">
                         <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="file-image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-file-image fa-w-12 fa-3x"><path fill="currentColor" d="M159 336l-39.5-39.5c-4.7-4.7-12.3-4.7-17 0l-39 39L63 448h256V304l-55.5-55.5c-4.7-4.7-12.3-4.7-17 0L159 336zm96-50.7l32 32V416H95.1l.3-67.2 15.6-15.6 48 48c20.3-20.3 77.7-77.6 96-95.9zM127 256c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm0-96c17.6 0 32 14.4 32 32s-14.4 32-32 32-32-14.4-32-32 14.4-32 32-32zm242.9-62.1L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM256 32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5zM352 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304z" class=""></path></svg>
                         <span>Download Press Photos</span>
                     </a>
-                 </div>
+                </div>
+            </div>
             </div>
         </div>
         <div class="l-footer">

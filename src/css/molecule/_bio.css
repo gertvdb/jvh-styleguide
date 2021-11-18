@@ -1,12 +1,12 @@
 /*
 ---
-name: Highlight
+name: Bio
 category: Organism
 ---
 
 Our basic Highlight.
 
-```atom-book.html
+```atom-bio.html
 <div class="m-bio">
     <div class="m-bio__upper">Latest blog post</div>
     <h2 class="m-bio__title">

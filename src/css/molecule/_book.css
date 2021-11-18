@@ -7,15 +7,15 @@ category: Organism
 Our basic Book.
 
 ```atom-book.html
-<div class="m-book">
+<div class="m-x">
     <div class="m-book__preview">
         <div class="m-book__cover">
-            <img src="dist/images/TMH_Cover.jpg"/>
+            <img src="dist/images/dummy/TMH_Cover.jpg"/>
         </div>
     </div>
     <div class="m-book__info">
         <div class="m-book__title">The mystic hand</div>
-        <div class="m-book__author">Johan van Overveldt</div>
+        <div class="m-book__author">Johan van Overtveldt</div>
         <div class="m-book__description">
             Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
             fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.

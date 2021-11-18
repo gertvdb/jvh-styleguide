@@ -1,12 +1,12 @@
 /*
 ---
-name: Book
+name: Other Books
 category: Organism
 ---
 
 Our basic Book.
 
-```atom-book.html
+```atom-other-book.html
 <div class="m-other-books">
     <div class="m-other-books__heading">
         <h3 class="m-other-books__title">

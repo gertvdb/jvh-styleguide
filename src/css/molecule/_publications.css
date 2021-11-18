@@ -1,0 +1,44 @@
+/*
+---
+name: Publications
+category: Organism
+---
+
+Our basic publications.
+
+```atom-publications.html
+<div class="m-publications a-html">
+    <h3>Publications</h3>
+    <div class="m-publications__listing">
+        <div class="m-publications_in_language">
+            <h4>In English</h4>
+            <ul class="m-publications_in_language__listing">
+                <li>A Giant Reborn. Why the US will dominate the 21st Century (2015) , Agate Publishing</li>
+                <li>The End of the Euro. The uneasy Future of the European Union (2011), Agate Publishing</li>
+                <li>Bernanke’s test. Bert Bernanke, Alan Greenspan and the Drama of the Central Banker (2009), Agate Publishing</li>
+                <li>The Chicago School. How the University of Chicago Assembled the Thinkers who Revolutionized Economics and Business (2007), Agate Publishing</li>
+            </ul>
+        </div>
+
+        <div class="m-publications_in_language">
+            <h4>In Dutch</h4>
+            <ul class="m-publications_in_language__listing">
+                <li>Zijn we het kwijt? Een toekomst voor Vlaanderen en Europa (2019), Uitgeverij Polis </li>
+                <li>Sisyphus achterna. Hoe het failliet van Lehman onze wereld blijft veranderen (2018), Uitgeverij Polis </li>
+                <li>De Ontwakende Reus. Waarom Amerika de 21ste eeuw zal domineren, (2016), Uitgeverij Polis</li>
+                <li>Red de Vrije Markt. De terugkeer van Milton Friedman (2012), Uitgeverij De Bezige Bij</li>
+                <li>Het Einde van de Euro. De onzekere toekomst van de Europese Unie (2011), Uitgeverij Acco</li>
+                <li>Maandag geen economie meer? (2009), Uitgeverij Economedia</li>
+                <li>De Euroscheppers. Macht en Manipulatie achter de Euro (2003), Uitgeverij Pelckmans</li>
+            </ul>
+        </div>
+    </div>
+</div>
+ */
+
+.m-publications {
+
+    .m-publications__listing {
+        margin-top: var(--size-xxl);
+    }
+}

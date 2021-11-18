@@ -6,10 +6,10 @@ category: Atom
 
 Our basic logo.
 
-```atom-navigation.html
+```atom-logo.html
 <div class="a-logo">
     <span class="a-logo--big">Johan</span>
-    <span class="a-logo--small"> van overveldt</span>
+    <span class="a-logo--small"> van overtveldt</span>
 </div>
 ```
 */

@@ -1,0 +1,90 @@
+/*
+---
+name: The Book
+category: Pages
+---
+Layout for website.
+```the-book.html
+<div class="l-page without--hero">
+    <div class="l-header">
+        <div class="l-logo">
+            <div class="a-logo">
+                <span class="a-logo--big">Johan</span>
+                <span class="a-logo--small"> van overtveldt</span>
+            </div>
+        </div>
+        <div class="l-navigation">
+            <nav class="a-navigation">
+                <div class="a-navigation__links">
+                    <a href="#">The Blog</a>
+                     <a href="#" class="active">The Book</a>
+                    <a href="#">Bio / Press</a>
+                    <a href="#">Useful Links</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="a-navigation__toggle js--navigation-toggle">
+                    <div class="a-hamburger">
+                        <div class="a-hamburger-box">
+                          <div class="a-hamburger-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="l-hero">
+        <div class="o-hero">
+            <div class="o-hero__inner">
+                <div class="l-block l-block-medium">
+                    <div class="l-block__inner">
+                        <div class="m-book" data-aos="zoom-in-up">
+                            <div class="m-book__preview">
+                                <div class="m-book__cover">
+                                    <img src="dist/images/dummy/TMH_Cover.jpg"/>
+                                </div>
+                            </div>
+                            <div class="m-book__info">
+                                <div class="m-book__title">The mystic hand</div>
+                                <div class="m-book__author">Johan van Overtveldt</div>
+                                <div class="m-book__description">
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
+                                    fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
+                                    <br/><br/>
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
+                                    fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="o-hero__bg o-hero__mystichand"></div>
+            <div class="o-hero__overlay"></div>
+        </div>
+    </div>
+    <div class="l-main l-flow">
+        <div class="l-block">
+            <div class="l-block__inner">
+                
+            </div>
+        </div>
+        <div class="l-footer">
+            <footer class="o-footer">
+                <span class="o-footer__copyright">All rights reserved 2021 @johanvanoveldt</span>
+                <ul class="o-footer__menu">
+                    <li><a href="#">Cookie</a></li>
+                    <li><a href="#">Disclamer</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+ </div>
+```
+```layout.css hidden
+.l-page {
+   min-height: 800px;
+}
+```
+*/
