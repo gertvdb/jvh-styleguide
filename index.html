@@ -70,6 +70,7 @@
 									<option value="gallery">Gallery</option>
 									<option value="hero">Hero</option>
 									<option value="highlight">Highlight</option>
+									<option value="modal">Modal</option>
 									<option value="other-books">Other Books</option>
 									<option value="pager">Pager</option>
 									<option value="post">Post</option>
@@ -2288,6 +2289,102 @@ You can use the following color options.</p>
     </div>
 </div>
 </div>
+</div>
+
+						<div id="modal" class="i-library theme-content-element">
+	<h1 class="display-4 theme-content-element-title">Modal</h1>
+	<span class="theme-content-element-source">
+		<span class="theme-content-element-source-label">Source:</span>
+		<span class="theme-content-element-source-path">organism/_model.css</span>
+	</span>
+	<div class="theme-content-element-description"><p>A default centered modal.</p>
+<div class="i-example">
+                    <h5 class="i-example__heading">
+                        <a
+                            href="modal-o-modal.html"
+                            target="_blank"
+                            class="plain-link"
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="Open in a new window"
+                        >
+                            <i class="fa fa-external-link-square fa-fw"></i>
+                            Example
+                        </a>
+                    </h5>
+                    <div class="i-example__body">
+                        <div
+                            class="i-example__iframe"
+                            lazyframe
+                            data-src="modal-o-modal.html"
+                            data-initinview="true"
+                            data-title="Loading..." 
+                        ></div>
+                    </div>
+                </div>
+
+
+<div class="i-code-block">
+	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
+	<div class="i-code-block__content hidden">
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;o-modal visible&quot;&gt;
+    &lt;div class=&quot;o-modal__container&quot;&gt;
+        &lt;div class=&quot;o-modal__header&quot;&gt;
+            &lt;h3&gt;Cookies&lt;/h3&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;o-modal__content&quot;&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ligula euismod, blandit nulla a, feugiat ante. Nulla eget enim sit amet dui luctus ultricies. Phasellus sapien justo, egestas eu blandit nec, commodo et lectus.&lt;/p&gt;
+            &lt;div class=&quot;a-form-checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; checked id=&quot;func&quot; name=&quot;func&quot; value=&quot;func&quot; disabled&gt;
+                &lt;label class=&quot;a-form-label&quot; for=&quot;func&quot;&gt;Functionele cookies&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;a-form-checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; id=&quot;analitic&quot; name=&quot;analitic&quot; value=&quot;analitic&quot;&gt;
+                &lt;label class=&quot;a-form-label&quot; for=&quot;analitic&quot;&gt;Analitische cookies&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;a-form-checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; id=&quot;choco&quot; name=&quot;choco&quot; value=&quot;choco&quot;&gt;
+                &lt;label class=&quot;a-form-label&quot; for=&quot;choco&quot;&gt;Chocolate cookies&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;o-modal__footer&quot;&gt;
+            &lt;div class=&quot;o-modal__actions&quot;&gt;
+                &lt;a class=&quot;a-button a-button--primary&quot;&gt;Apply&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;o-modal__background&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;">Copy</button>
+		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;o-modal visible&quot;&gt;
+    &lt;div class=&quot;o-modal__container&quot;&gt;
+        &lt;div class=&quot;o-modal__header&quot;&gt;
+            &lt;h3&gt;Cookies&lt;/h3&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;o-modal__content&quot;&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ligula euismod, blandit nulla a, feugiat ante. Nulla eget enim sit amet dui luctus ultricies. Phasellus sapien justo, egestas eu blandit nec, commodo et lectus.&lt;/p&gt;
+            &lt;div class=&quot;a-form-checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; checked id=&quot;func&quot; name=&quot;func&quot; value=&quot;func&quot; disabled&gt;
+                &lt;label class=&quot;a-form-label&quot; for=&quot;func&quot;&gt;Functionele cookies&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;a-form-checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; id=&quot;analitic&quot; name=&quot;analitic&quot; value=&quot;analitic&quot;&gt;
+                &lt;label class=&quot;a-form-label&quot; for=&quot;analitic&quot;&gt;Analitische cookies&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;a-form-checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; id=&quot;choco&quot; name=&quot;choco&quot; value=&quot;choco&quot;&gt;
+                &lt;label class=&quot;a-form-label&quot; for=&quot;choco&quot;&gt;Chocolate cookies&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;o-modal__footer&quot;&gt;
+            &lt;div class=&quot;o-modal__actions&quot;&gt;
+                &lt;a class=&quot;a-button a-button--primary&quot;&gt;Apply&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;o-modal__background&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+	</div>
+</div></div>
 </div>
 
 						<div id="other-books" class="i-library theme-content-element">
@@ -5642,7 +5739,7 @@ You can use the following color options.</p>
 			
 						<h5
 							class="pt-4 mb-1 theme-sidebar-category-title"
-							data-filter-value=" Bio  Blog Teaser  Book  Carousel  Footer  Gallery  Hero  Highlight  Other Books  Pager  Post  Publications  Review  Slider  Studies  Work History "
+							data-filter-value=" Bio  Blog Teaser  Book  Carousel  Footer  Gallery  Hero  Highlight  Modal  Other Books  Pager  Post  Publications  Review  Slider  Studies  Work History "
 						>
 							<a href="#category-organism" class="i-sidebar-list-item">
 								<b>Organism</b>
@@ -5705,6 +5802,13 @@ You can use the following color options.</p>
 									data-filter-value="Highlight"
 								>
 									<span>Highlight</span>
+								</a>
+								<a
+									href="#modal"
+									class="i-sidebar-list-item theme-sidebar-element"
+									data-filter-value="Modal"
+								>
+									<span>Modal</span>
 								</a>
 								<a
 									href="#other-books"
