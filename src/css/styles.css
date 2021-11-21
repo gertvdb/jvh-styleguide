@@ -57,6 +57,7 @@
 @import 'organism/_hero.css';
 @import 'organism/_footer.css';
 @import 'organism/_pager.css';
+@import 'organism/_model.css';
 
 /* Page */
 @import 'pages/_home.css';

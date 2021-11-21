@@ -1,0 +1,147 @@
+/*
+---
+name: Modal
+category: Organism
+---
+
+A default centered modal.
+
+```o-modal.html
+<div class="o-modal visible">
+    <div class="o-modal__container">
+        <div class="o-modal__header">
+            <h3>Cookies</h3>
+        </div>
+        <div class="o-modal__content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ligula euismod, blandit nulla a, feugiat ante. Nulla eget enim sit amet dui luctus ultricies. Phasellus sapien justo, egestas eu blandit nec, commodo et lectus.</p>
+            <div class="a-form-checkbox">
+                <input type="checkbox" checked id="func" name="func" value="func" disabled>
+                <label class="a-form-label" for="func">Functionele cookies</label>
+            </div>
+            <div class="a-form-checkbox">
+                <input type="checkbox" id="analitic" name="analitic" value="analitic">
+                <label class="a-form-label" for="analitic">Analitische cookies</label>
+            </div>
+            <div class="a-form-checkbox">
+                <input type="checkbox" id="choco" name="choco" value="choco">
+                <label class="a-form-label" for="choco">Chocolate cookies</label>
+            </div>
+        </div>
+        <div class="o-modal__footer">
+            <div class="o-modal__actions">
+                <a class="a-button a-button--primary">Apply</a>
+            </div>
+        </div>
+    </div>
+    <div class="o-modal__background"></div>
+</div>
+```
+```o-modal.css hidden
+body {
+    padding-top:500px;
+}
+```
+*/
+.o-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 999;
+    display: none;
+    animation: fade .2s ease-in-out;
+
+    &.visible {
+        display: block;
+        .o-modal__container {
+            display: flex;
+        }
+        .o-modal__background {
+            display: block;
+        }
+    }
+
+    &__container {
+        position: relative;
+        z-index: 9999;
+        display: none;
+        flex-direction: column;
+        overflow: hidden;
+
+
+        width: calc(var(--size-m) * 32);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: calc(var(--size-m) * 12);
+        margin-bottom: calc(var(--size-m) * 12);
+
+    }
+
+    &__header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--color-ui-almost-black);
+        padding: var(--size-l);
+
+        h3 {
+            flex: 1;
+            --font-size: 30px;
+            color: var(--color-ui-white);
+            text-align: left;
+            font-size: var(--font-size);
+            font-weight: 700;
+            margin: 0;
+            line-height: 1;
+            font-family: var(--font-primary);
+            letter-spacing: calc(var(--font-size) / 10);
+            text-transform: uppercase;
+        }
+    }
+
+    &__content {
+        flex: 1;
+        padding: 0 var(--size-l) var(--size-l) var(--size-l);
+        background-color: var(--color-ui-almost-black);
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: auto;
+    }
+
+    &__footer {
+        padding: var(--size-l);
+        display: flex;
+        background-color: var(--color-ui-almost-black);
+
+
+        > div:first-child {
+            flex: 1;
+        }
+    }
+
+    &__background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index:999;
+        display: none;
+        background-color: #000;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .o-modal {
+        &__container {
+            width: calc(100% - (var(--size-base) * 1.5));
+            margin-top: calc(var(--size-base) * 4);
+            margin-left: var(--size-s);
+            margin-right: var(--size-s);
+        }
+    }
+}
