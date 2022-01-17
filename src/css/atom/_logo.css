@@ -21,6 +21,12 @@ Our basic logo.
     color: var(--color-ui-white);
     text-align: center;
     line-height: 1;
+    text-decoration: none;
+    &:hover {
+         text-decoration: none;
+         color: var(--color-ui-white);
+    }
+
     > * {
         display: block;
     }

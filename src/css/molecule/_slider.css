@@ -93,6 +93,7 @@ Our basic Slider.
         width: 30px;
         position: absolute;
         top: calc((50% - 15px) - var(--size-xl));
+        z-index: 99999999;
 
         &.m-slider__prev {
             left: 0;

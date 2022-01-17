@@ -53,6 +53,18 @@ Our basic Hero.
         background-position-y: 25%;
     }
 
+    .o-hero__contact {
+        background-image: url('images/dummy/contact.jpg');
+        background-size: cover;
+        background-position-y: 25%;
+    }
+
+    .o-hero__bio {
+        background-image: url('images/dummy/bio.jpg');
+        background-size: cover;
+        background-position-y: 25%;
+    }
+
     .o-hero__overlay {
         background: linear-gradient(180deg, rgba(26, 25, 25, .92) 32%, rgba(41, 38, 38, .74) 46%, rgba(26, 25, 25, .98) 75%, rgba(26, 25, 25, 1) 100%);
         z-index: 3;

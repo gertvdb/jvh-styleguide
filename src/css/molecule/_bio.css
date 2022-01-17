@@ -45,6 +45,7 @@ Our basic Highlight.
         text-transform: uppercase;
         margin-bottom: var(--size-m);
         font-size: 18px;
+        color: var(--color-primary);
     }
 
     .m-bio__actions {
