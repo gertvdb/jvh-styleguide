@@ -107,15 +107,16 @@ input,
     }
   }
 
-  &--tertiary {
+  &--tertairy {
     background-color: initial;
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
 
     &:hover {
 
       &:not([disabled]) {
         background-color: initial;
         text-decoration: underline;
+        color: var(--color-primary);
       }
     }
   }

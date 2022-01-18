@@ -14,10 +14,10 @@ Avatar for user.
     display: inline-block;
     overflow: hidden;
 
-    width: 92px;
-    height: 92px;
-    line-height: 92px;
-    min-width: 92px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    min-width: 60px;
 
     cursor: pointer;
     user-select: none;

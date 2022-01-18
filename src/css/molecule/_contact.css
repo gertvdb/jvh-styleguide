@@ -79,6 +79,7 @@ Our basic Highlight.
 
         svg {
             width: 20px;
+            max-height: 25px;
             margin-right: var(--size-s);
         }
     }

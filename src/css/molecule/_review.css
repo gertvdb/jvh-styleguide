@@ -8,13 +8,6 @@ Our basic Review.
 
 ```atom-review.html
 <div class="m-review">
-    <div class="m-review__top">
-         <span class="a-avatar m-review__avatar"><img src="https://randomuser.me/api/portraits/women/74.jpg"/></span>
-         <div class="m-review__author">
-            <div class="m-review__author_name">Paschal Donohoe</div>
-            <div class="m-review__author_function">Chairman of the national bank</div>
-         </div>
-    </div>
     <div class="m-review__content">
         <div class="m-review__quote">
             "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
@@ -23,34 +16,31 @@ Our basic Review.
 </div>
 ```
 */
+
 .m-review {
     display: flex;
     flex-direction: column;
     position: relative;
-    background: var(--color-ui-almost-black);
     margin: auto;
     border-radius: 8px;
-    padding: var(--size-xs);
-    text-align: center;
+    padding: var(--size-l) var(--size-xs);
+    background-color: var(--color-ui-black);
 
-    .m-review__top {
+    .m-review__by {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-
-    &.has--avatar {
-
-        .m-review__author {
-            text-align: center;
-        }
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+        padding-bottom: var(--size-xl);
     }
 
     .m-review__author {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: var(--size-xs);
+        padding: 0 var(--size-xs);
     }
 
     .m-review__author_name {
@@ -70,11 +60,12 @@ Our basic Review.
 
     .m-review__quote {
         padding: var(--size-xl);
-        font-size: 18px;
+        font-size: 20px;
         width: auto;
         margin: auto;
         font-weight: 300;
         line-height: 1.6;
+        text-align: center;
     }
 
     .m-review__avatar {
@@ -85,16 +76,14 @@ Our basic Review.
 @media only screen and (min-width: 600px) {
 
     .m-review {
-        padding: var(--size-l);
+        padding: var(--size-xxl) var(--size-l);
 
         .m-review__avatar {
             display: block;
         }
 
-        &.has--avatar {
-            .m-review__author {
-                text-align: left;
-            }
+        .m-review__by {
+            max-width: 40%;
         }
 
         .m-review__quote {
@@ -102,7 +91,8 @@ Our basic Review.
         }
 
         .m-review__author {
-            padding: var(--size-l);
+            text-align: left;
+            padding: 0 var(--size-l);
         }
     }
 }

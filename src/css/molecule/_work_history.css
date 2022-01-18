@@ -60,6 +60,12 @@ Our basic History.
  */
 
 .m-work-history {
+    --font-size: 18px;
+    color: var(--color-ui-lightgrey);
+    font-family: var(--font-secondary);
+    font-size: var(--font-size);
+    font-weight: 300;
+    line-height: 1.6;
 
     .m-work-history__listing {
         margin-top: var(--size-xxl);
@@ -88,7 +94,7 @@ Our basic History.
     }
 
     .m-work-history__function {
-        font-weight: 700;
+        margin-bottom: var(--size-l);
     }
 
     .m-work-history_item__responsibilities {

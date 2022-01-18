@@ -49,15 +49,14 @@ Our basic Book.
     }
 
     .m-book__decoration__1 {
-        left: -9px;
-        top: 123px;
+        left: 87px;
+        top: 142px;
     }
 
     .m-book__decoration__2 {
-        left: 200px;
+        left: 250px;
         top: 0;
     }
-
 
     .m-book__preview {
         padding: var(--size-xl) var(--size-xl) var(--size-xl) 0;
@@ -76,7 +75,7 @@ Our basic Book.
 
         img {
             width: 275px;
-            box-shadow: 0 6px 26px 0 rgba(255, 255, 255, .37), -8px 0 17px 0 rgba(183, 183, 83, .03);
+            box-shadow: 0 0 13px 0 rgba(255, 255, 255, .37), -8px 0 17px 0 rgba(183, 183, 83, .03);
             border-radius: 8px;
         }
     }

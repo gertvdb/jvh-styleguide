@@ -38,7 +38,21 @@ Our basic publications.
 
 .m-publications {
 
+    --font-size: 18px;
+    color: var(--color-ui-lightgrey);
+    font-family: var(--font-secondary);
+    font-size: var(--font-size);
+    font-weight: 300;
+    line-height: 1.6;
+
     .m-publications__listing {
         margin-top: var(--size-xxl);
+    }
+
+    h4 {
+        color: var(--color-ui-white);
+        font-family: var(--font-secondary);
+        font-size: 14px;
+        font-weight: 500;
     }
 }

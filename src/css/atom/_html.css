@@ -93,8 +93,9 @@ Our basic Html.
     }
 
     h3 {
-        --font-size: 18px;
+        --font-size: 24px;
         color: var(--color-secondary);
+        text-transform: uppercase;
         text-align: left;
         font-size: var(--font-size);
         margin: 0 0 var(--size-m);

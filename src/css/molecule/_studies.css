@@ -43,6 +43,13 @@ Our basic studies.
 
 .m-studies {
 
+  --font-size: 18px;
+  color: var(--color-ui-lightgrey);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size);
+  font-weight: 300;
+  line-height: 1.6;
+
   .m-studies__listing {
     margin-top: var(--size-xxl);
   }
@@ -54,17 +61,22 @@ Our basic studies.
   }
 
   .m-studies__title {
-    font-weight: 700;
+    color: var(--color-ui-white);
   }
 
   .m-studies__study {
     display: flex;
     flex-direction: column;
-    margin-bottom: var(--size-m);
+    margin-bottom: var(--size-l);
 
     svg {
       width: 20px;
       margin-right: var(--size-s);
+      color: var(--color-ui-white);
     }
+  }
+
+  .m-studies__school {
+    font-size: 14px;
   }
 }

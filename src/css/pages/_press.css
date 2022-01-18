@@ -1,0 +1,82 @@
+/*
+---
+name: Press
+category: Pages
+---
+Layout for website.
+```press.html
+<div class="l-page">
+    <div class="l-header">
+        <div class="l-logo">
+            <a href="#" class="a-logo">
+                <span class="a-logo--big">Johan</span>
+                <span class="a-logo--small"> van overtveldt</span>
+            </a>
+        </div>
+        <div class="l-navigation">
+            <nav class="a-navigation">
+                <div class="a-navigation__links">
+                     <a href="#" class="active">Blog</a>
+                    <a href="#">The Book</a>
+                    <a href="#">Biography</a>
+                    <a href="#">Press</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="a-navigation__toggle js--navigation-toggle">
+                    <div class="a-hamburger">
+                        <div class="a-hamburger-box">
+                          <div class="a-hamburger-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="l-main l-flow">
+        <div class="l-block">
+            <div class="l-block__inner">
+            <div class="m-gallery a-html" data-aos="fade-up">
+                <h4>Press photos</h4>
+                <div class="m-gallery__listing">
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="l-footer">
+            <footer class="o-footer">
+                <span class="o-footer__copyright">All rights reserved 2021 @johanvanoveldt</span>
+                <ul class="o-footer__menu">
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+ </div>
+```
+```layout.css hidden
+.l-page {
+   min-height: 800px;
+}
+```
+*/
