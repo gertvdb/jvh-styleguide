@@ -85,13 +85,14 @@
 									<option value="layout">Layout</option>
 							</optgroup>
 							<optgroup label="Pages">
-									<option value="bio-press">Bio / Press</option>
+									<option value="biography">Biography</option>
 									<option value="blog">Blog</option>
 									<option value="blog-item">Blog Item</option>
 									<option value="contact">Contact</option>
 									<option value="home">Home</option>
+									<option value="home-cookies">Home (Cookies)</option>
+									<option value="press">Press</option>
 									<option value="the-book">The Book</option>
-									<option value="useful-links">Useful Links</option>
 							</optgroup>
 					</select>
 				</form>
@@ -2693,13 +2694,6 @@ You can use the following color options.</p>
 	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
 	<div class="i-code-block__content hidden">
 		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;m-review&quot;&gt;
-    &lt;div class=&quot;m-review__top&quot;&gt;
-         &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
-         &lt;div class=&quot;m-review__author&quot;&gt;
-            &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
-            &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
-         &lt;/div&gt;
-    &lt;/div&gt;
     &lt;div class=&quot;m-review__content&quot;&gt;
         &lt;div class=&quot;m-review__quote&quot;&gt;
             &quot;Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam&quot;
@@ -2707,13 +2701,6 @@ You can use the following color options.</p>
     &lt;/div&gt;
 &lt;/div&gt;">Copy</button>
 		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;m-review&quot;&gt;
-    &lt;div class=&quot;m-review__top&quot;&gt;
-         &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
-         &lt;div class=&quot;m-review__author&quot;&gt;
-            &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
-            &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
-         &lt;/div&gt;
-    &lt;/div&gt;
     &lt;div class=&quot;m-review__content&quot;&gt;
         &lt;div class=&quot;m-review__quote&quot;&gt;
             &quot;Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam&quot;
@@ -3031,8 +3018,8 @@ You can use the following color options.</p>
 
 				</div>
 				<div id="category-pages" class="theme-content-category">
-						<div id="bio-press" class="i-library theme-content-element">
-	<h1 class="display-4 theme-content-element-title">Bio / Press</h1>
+						<div id="biography" class="i-library theme-content-element">
+	<h1 class="display-4 theme-content-element-title">Biography</h1>
 	<span class="theme-content-element-source">
 		<span class="theme-content-element-source-label">Source:</span>
 		<span class="theme-content-element-source-path">pages/_bio.css</span>
@@ -3041,7 +3028,7 @@ You can use the following color options.</p>
 <div class="i-example">
                     <h5 class="i-example__heading">
                         <a
-                            href="bio-press-bio.html"
+                            href="biography-bio.html"
                             target="_blank"
                             class="plain-link"
                             data-toggle="tooltip"
@@ -3056,7 +3043,7 @@ You can use the following color options.</p>
                         <div
                             class="i-example__iframe"
                             lazyframe
-                            data-src="bio-press-bio.html"
+                            data-src="biography-bio.html"
                             data-initinview="true"
                             data-title="Loading..." 
                         ></div>
@@ -3078,10 +3065,10 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-navigation&quot;&gt;
             &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
-                    &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
+                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Bio / Press&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Useful Links&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
@@ -3100,7 +3087,7 @@ You can use the following color options.</p>
                 &lt;div class=&quot;l-block&quot;&gt;
                 &lt;div class=&quot;l-block__inner&quot;&gt;
                     &lt;div class=&quot;m-bio&quot; data-aos=&quot;zoom-in&quot; data-aos-duration=&quot;500&quot;&gt;
-                        &lt;div class=&quot;m-bio__upper&quot;&gt;Bio&lt;/div&gt;
+                        &lt;div class=&quot;m-bio__upper&quot;&gt;Biography&lt;/div&gt;
                         &lt;h2 class=&quot;m-bio__title&quot;&gt;
                            Johan van Overtveldt
                         &lt;/h2&gt;
@@ -3108,15 +3095,18 @@ You can use the following color options.</p>
                            &lt;p&gt;
                             Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
                            &lt;/p&gt;
-                           &lt;p&gt;
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus, fato profugus qui primus ab oris Italiam, fato.
-                           &lt;/p&gt;
                         &lt;/div&gt;
-                        &lt;div class=&quot;m-bio__actions&quot;&gt;
-                            &lt;a class=&quot;a-button a-button--primary m-bio__action&quot;&gt;
-                                &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fal&quot; data-icon=&quot;file-pdf&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot; class=&quot;svg-inline--fa fa-file-pdf fa-w-12 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                                &lt;span&gt;Download CV&lt;/span&gt;
-                            &lt;/a&gt;
+                        &lt;div class=&quot;a-links&quot;&gt;
+                            &lt;div class=&quot;a-links__list&quot;&gt;
+                                 &lt;div class=&quot;a-links__link&quot;&gt;
+                                    &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                                    &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Official report of European Unie&lt;/a&gt;
+                                 &lt;/div&gt;
+                                 &lt;div class=&quot;a-links__link&quot;&gt;
+                                    &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                                    &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Official report of European Unie&lt;/a&gt;
+                                 &lt;/div&gt;
+                            &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
@@ -3127,6 +3117,22 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-main l-flow&quot;&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;a-html&quot;&gt;
+                   &lt;h2&gt;Primus ab oris Italiam&lt;/h2&gt;
+                   &lt;p&gt;
+                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                   &lt;/p&gt;
+                   &lt;p&gt;
+                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                   &lt;/p&gt;
+                   &lt;p&gt;
+                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                   &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
         &lt;div class=&quot;l-block&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
                &lt;div class=&quot;m-work-history a-html&quot; data-aos=&quot;fade-up&quot;&gt;
@@ -3244,57 +3250,14 @@ You can use the following color options.</p>
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;l-block&quot;&gt;
-            &lt;div class=&quot;l-block__inner&quot;&gt;
-            &lt;div class=&quot;m-gallery a-html&quot; data-aos=&quot;fade-up&quot;&gt;
-                &lt;h2&gt;Press photos&lt;/h2&gt;
-                &lt;div class=&quot;m-gallery__listing&quot;&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;div class=&quot;m-gallery__actions&quot;&gt;
-                    &lt;a class=&quot;a-button a-button--primary&quot;&gt;
-                        &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fal&quot; data-icon=&quot;file-image&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot; class=&quot;svg-inline--fa fa-file-image fa-w-12 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M159 336l-39.5-39.5c-4.7-4.7-12.3-4.7-17 0l-39 39L63 448h256V304l-55.5-55.5c-4.7-4.7-12.3-4.7-17 0L159 336zm96-50.7l32 32V416H95.1l.3-67.2 15.6-15.6 48 48c20.3-20.3 77.7-77.6 96-95.9zM127 256c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm0-96c17.6 0 32 14.4 32 32s-14.4 32-32 32-32-14.4-32-32 14.4-32 32-32zm242.9-62.1L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM256 32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5zM352 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                        &lt;span&gt;Download Press Photos&lt;/span&gt;
-                    &lt;/a&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
         &lt;div class=&quot;l-footer&quot;&gt;
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
@@ -3311,10 +3274,10 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-navigation&quot;&gt;
             &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
-                    &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
+                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Bio / Press&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Useful Links&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
@@ -3333,7 +3296,7 @@ You can use the following color options.</p>
                 &lt;div class=&quot;l-block&quot;&gt;
                 &lt;div class=&quot;l-block__inner&quot;&gt;
                     &lt;div class=&quot;m-bio&quot; data-aos=&quot;zoom-in&quot; data-aos-duration=&quot;500&quot;&gt;
-                        &lt;div class=&quot;m-bio__upper&quot;&gt;Bio&lt;/div&gt;
+                        &lt;div class=&quot;m-bio__upper&quot;&gt;Biography&lt;/div&gt;
                         &lt;h2 class=&quot;m-bio__title&quot;&gt;
                            Johan van Overtveldt
                         &lt;/h2&gt;
@@ -3341,15 +3304,18 @@ You can use the following color options.</p>
                            &lt;p&gt;
                             Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
                            &lt;/p&gt;
-                           &lt;p&gt;
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus, fato profugus qui primus ab oris Italiam, fato.
-                           &lt;/p&gt;
                         &lt;/div&gt;
-                        &lt;div class=&quot;m-bio__actions&quot;&gt;
-                            &lt;a class=&quot;a-button a-button--primary m-bio__action&quot;&gt;
-                                &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fal&quot; data-icon=&quot;file-pdf&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot; class=&quot;svg-inline--fa fa-file-pdf fa-w-12 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                                &lt;span&gt;Download CV&lt;/span&gt;
-                            &lt;/a&gt;
+                        &lt;div class=&quot;a-links&quot;&gt;
+                            &lt;div class=&quot;a-links__list&quot;&gt;
+                                 &lt;div class=&quot;a-links__link&quot;&gt;
+                                    &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                                    &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Official report of European Unie&lt;/a&gt;
+                                 &lt;/div&gt;
+                                 &lt;div class=&quot;a-links__link&quot;&gt;
+                                    &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                                    &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Official report of European Unie&lt;/a&gt;
+                                 &lt;/div&gt;
+                            &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
@@ -3360,6 +3326,22 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-main l-flow&quot;&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;a-html&quot;&gt;
+                   &lt;h2&gt;Primus ab oris Italiam&lt;/h2&gt;
+                   &lt;p&gt;
+                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                   &lt;/p&gt;
+                   &lt;p&gt;
+                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                   &lt;/p&gt;
+                   &lt;p&gt;
+                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                   &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
         &lt;div class=&quot;l-block&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
                &lt;div class=&quot;m-work-history a-html&quot; data-aos=&quot;fade-up&quot;&gt;
@@ -3477,57 +3459,14 @@ You can use the following color options.</p>
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;l-block&quot;&gt;
-            &lt;div class=&quot;l-block__inner&quot;&gt;
-            &lt;div class=&quot;m-gallery a-html&quot; data-aos=&quot;fade-up&quot;&gt;
-                &lt;h2&gt;Press photos&lt;/h2&gt;
-                &lt;div class=&quot;m-gallery__listing&quot;&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;div class=&quot;m-gallery__actions&quot;&gt;
-                    &lt;a class=&quot;a-button a-button--primary&quot;&gt;
-                        &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fal&quot; data-icon=&quot;file-image&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot; class=&quot;svg-inline--fa fa-file-image fa-w-12 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M159 336l-39.5-39.5c-4.7-4.7-12.3-4.7-17 0l-39 39L63 448h256V304l-55.5-55.5c-4.7-4.7-12.3-4.7-17 0L159 336zm96-50.7l32 32V416H95.1l.3-67.2 15.6-15.6 48 48c20.3-20.3 77.7-77.6 96-95.9zM127 256c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm0-96c17.6 0 32 14.4 32 32s-14.4 32-32 32-32-14.4-32-32 14.4-32 32-32zm242.9-62.1L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM256 32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5zM352 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                        &lt;span&gt;Download Press Photos&lt;/span&gt;
-                    &lt;/a&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
         &lt;div class=&quot;l-footer&quot;&gt;
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
@@ -3701,8 +3640,10 @@ You can use the following color options.</p>
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
@@ -3836,8 +3777,10 @@ You can use the following color options.</p>
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
@@ -4208,9 +4151,11 @@ You can use the following color options.</p>
         &lt;footer class=&quot;o-footer&quot;&gt;
             &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
             &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
         &lt;/footer&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -4540,9 +4485,11 @@ You can use the following color options.</p>
         &lt;footer class=&quot;o-footer&quot;&gt;
             &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
             &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
         &lt;/footer&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -4598,11 +4545,11 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-navigation&quot;&gt;
             &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
-                    &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
+                   &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Bio / Press&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Useful Links&lt;/a&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Contact&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
                     &lt;div class=&quot;a-hamburger&quot;&gt;
@@ -4626,13 +4573,12 @@ You can use the following color options.</p>
                         &lt;/h2&gt;
                         &lt;div class=&quot;a-html m-contact__html&quot;&gt;
                            &lt;p&gt;
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           Thank you for visiting this website. &lt;/br&gt;Should you have any remarks, ideas or questions about The Mystic Hand or the author, &lt;br/&gt;please contact us at:
                            &lt;/p&gt;
+                           Email : &lt;a class=&quot;m-contact__social-link&quot; href=&quot;mailto:johan@mail.be&quot;&gt;johan@mail.be&lt;/a&gt;&lt;/br&gt;
+                           Phone : &lt;a class=&quot;m-contact__social-link&quot; href=&quot;tel:03434234234&quot;&gt;+03434234234&lt;/a&gt;
                         &lt;/div&gt;
                         &lt;div class=&quot;m-contact__social&quot;&gt;
-                            &lt;a class=&quot;m-contact__social-link&quot; href=&quot;mailto:johan@mail.be&quot;&gt;
-                                &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fas&quot; data-icon=&quot;envelope&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; class=&quot;svg-inline--fa fa-envelope fa-w-16 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                            &lt;/a&gt;
                             &lt;a class=&quot;m-contact__social-link&quot; href=&quot;linkedin.be&quot;&gt;
                                 &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fab&quot; data-icon=&quot;linkedin-in&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; class=&quot;svg-inline--fa fa-linkedin-in fa-w-14 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
                             &lt;/a&gt;
@@ -4653,8 +4599,10 @@ You can use the following color options.</p>
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
@@ -4671,11 +4619,11 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-navigation&quot;&gt;
             &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
-                    &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
+                   &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Bio / Press&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Useful Links&lt;/a&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Contact&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
                     &lt;div class=&quot;a-hamburger&quot;&gt;
@@ -4699,13 +4647,12 @@ You can use the following color options.</p>
                         &lt;/h2&gt;
                         &lt;div class=&quot;a-html m-contact__html&quot;&gt;
                            &lt;p&gt;
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           Thank you for visiting this website. &lt;/br&gt;Should you have any remarks, ideas or questions about The Mystic Hand or the author, &lt;br/&gt;please contact us at:
                            &lt;/p&gt;
+                           Email : &lt;a class=&quot;m-contact__social-link&quot; href=&quot;mailto:johan@mail.be&quot;&gt;johan@mail.be&lt;/a&gt;&lt;/br&gt;
+                           Phone : &lt;a class=&quot;m-contact__social-link&quot; href=&quot;tel:03434234234&quot;&gt;+03434234234&lt;/a&gt;
                         &lt;/div&gt;
                         &lt;div class=&quot;m-contact__social&quot;&gt;
-                            &lt;a class=&quot;m-contact__social-link&quot; href=&quot;mailto:johan@mail.be&quot;&gt;
-                                &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fas&quot; data-icon=&quot;envelope&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; class=&quot;svg-inline--fa fa-envelope fa-w-16 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                            &lt;/a&gt;
                             &lt;a class=&quot;m-contact__social-link&quot; href=&quot;linkedin.be&quot;&gt;
                                 &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fab&quot; data-icon=&quot;linkedin-in&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; class=&quot;svg-inline--fa fa-linkedin-in fa-w-14 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
                             &lt;/a&gt;
@@ -4726,8 +4673,10 @@ You can use the following color options.</p>
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
@@ -4786,8 +4735,8 @@ You can use the following color options.</p>
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Bio / Press&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Useful Links&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
@@ -4822,7 +4771,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-main l-flow&quot;&gt;
-        &lt;div class=&quot;l-block&quot;&gt;
+        &lt;div class=&quot;l-block l-block-medium&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
                 &lt;div class=&quot;m-book&quot; data-aos=&quot;zoom-in-up&quot;&gt;
                     &lt;div class=&quot;m-book__preview&quot;&gt;
@@ -4856,9 +4805,6 @@ You can use the following color options.</p>
                             Other books &lt;/br&gt;
                             by author
                         &lt;/h3&gt;
-                        &lt;a href=&quot;#&quot; class=&quot;m-blog__more&quot;&gt;
-                                View all
-                        &lt;/a&gt;
                     &lt;/div&gt;
                     &lt;div class=&quot;m-other-books__previews&quot;&gt;
                       &lt;div class=&quot;js--carousel m-carousel&quot;&gt;
@@ -4895,7 +4841,7 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-block&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
                 &lt;h2 class=&quot;a-section-title&quot;&gt;
-                    What people are saying about the book.
+                    Advance praise for the book.
                 &lt;/h2&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -4903,30 +4849,31 @@ You can use the following color options.</p>
             &lt;div class=&quot;l-block__inner&quot;&gt;
                 &lt;div class=&quot;m-slider js--slider&quot;&gt;
                     &lt;div class=&quot;m-review has--avatar&quot;&gt;
-                        &lt;div class=&quot;m-review__top&quot;&gt;
-                             &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
-                             &lt;div class=&quot;m-review__author&quot;&gt;
-                                &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
-                                &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
-                             &lt;/div&gt;
-                        &lt;/div&gt;
                         &lt;div class=&quot;m-review__content&quot;&gt;
                             &lt;div class=&quot;m-review__quote&quot;&gt;
-                                &quot;Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui!&quot;
+                                &quot;A fascinating Brussels insider’s view on monetary policy.&quot;
                             &lt;/div&gt;
+                             &lt;div class=&quot;m-review__by&quot;&gt;
+                                 &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
+                                 &lt;div class=&quot;m-review__author&quot;&gt;
+                                    &lt;div class=&quot;m-review__author_name&quot;&gt;Anil Kashyap&lt;/div&gt;
+                                    &lt;div class=&quot;m-review__author_function&quot;&gt;Distinguished Service Professor of Economics and Finance at the University of Chicago Booth School of Business&lt;/div&gt;
+                                 &lt;/div&gt;
+                             &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                     &lt;div class=&quot;m-review&quot;&gt;
-                        &lt;div class=&quot;m-review__top&quot;&gt;
-                             &lt;div class=&quot;m-review__author&quot;&gt;
-                                &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
-                                &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
-                             &lt;/div&gt;
-                        &lt;/div&gt;
                         &lt;div class=&quot;m-review__content&quot;&gt;
                             &lt;div class=&quot;m-review__quote&quot;&gt;
-                                &quot;Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam&quot;
+                                &quot;The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.&quot;
                             &lt;/div&gt;
+                            &lt;div class=&quot;m-review__by&quot;&gt;
+                                 &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;PD&lt;/span&gt;
+                                 &lt;div class=&quot;m-review__author&quot;&gt;
+                                    &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
+                                    &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
+                                 &lt;/div&gt;
+                             &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
@@ -4986,8 +4933,10 @@ You can use the following color options.</p>
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
@@ -5006,8 +4955,8 @@ You can use the following color options.</p>
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Bio / Press&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Useful Links&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
@@ -5042,7 +4991,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-main l-flow&quot;&gt;
-        &lt;div class=&quot;l-block&quot;&gt;
+        &lt;div class=&quot;l-block l-block-medium&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
                 &lt;div class=&quot;m-book&quot; data-aos=&quot;zoom-in-up&quot;&gt;
                     &lt;div class=&quot;m-book__preview&quot;&gt;
@@ -5076,9 +5025,6 @@ You can use the following color options.</p>
                             Other books &lt;/br&gt;
                             by author
                         &lt;/h3&gt;
-                        &lt;a href=&quot;#&quot; class=&quot;m-blog__more&quot;&gt;
-                                View all
-                        &lt;/a&gt;
                     &lt;/div&gt;
                     &lt;div class=&quot;m-other-books__previews&quot;&gt;
                       &lt;div class=&quot;js--carousel m-carousel&quot;&gt;
@@ -5115,7 +5061,7 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-block&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
                 &lt;h2 class=&quot;a-section-title&quot;&gt;
-                    What people are saying about the book.
+                    Advance praise for the book.
                 &lt;/h2&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -5123,30 +5069,31 @@ You can use the following color options.</p>
             &lt;div class=&quot;l-block__inner&quot;&gt;
                 &lt;div class=&quot;m-slider js--slider&quot;&gt;
                     &lt;div class=&quot;m-review has--avatar&quot;&gt;
-                        &lt;div class=&quot;m-review__top&quot;&gt;
-                             &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
-                             &lt;div class=&quot;m-review__author&quot;&gt;
-                                &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
-                                &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
-                             &lt;/div&gt;
-                        &lt;/div&gt;
                         &lt;div class=&quot;m-review__content&quot;&gt;
                             &lt;div class=&quot;m-review__quote&quot;&gt;
-                                &quot;Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui!&quot;
+                                &quot;A fascinating Brussels insider’s view on monetary policy.&quot;
                             &lt;/div&gt;
+                             &lt;div class=&quot;m-review__by&quot;&gt;
+                                 &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
+                                 &lt;div class=&quot;m-review__author&quot;&gt;
+                                    &lt;div class=&quot;m-review__author_name&quot;&gt;Anil Kashyap&lt;/div&gt;
+                                    &lt;div class=&quot;m-review__author_function&quot;&gt;Distinguished Service Professor of Economics and Finance at the University of Chicago Booth School of Business&lt;/div&gt;
+                                 &lt;/div&gt;
+                             &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                     &lt;div class=&quot;m-review&quot;&gt;
-                        &lt;div class=&quot;m-review__top&quot;&gt;
-                             &lt;div class=&quot;m-review__author&quot;&gt;
-                                &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
-                                &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
-                             &lt;/div&gt;
-                        &lt;/div&gt;
                         &lt;div class=&quot;m-review__content&quot;&gt;
                             &lt;div class=&quot;m-review__quote&quot;&gt;
-                                &quot;Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam&quot;
+                                &quot;The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.&quot;
                             &lt;/div&gt;
+                            &lt;div class=&quot;m-review__by&quot;&gt;
+                                 &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;PD&lt;/span&gt;
+                                 &lt;div class=&quot;m-review__author&quot;&gt;
+                                    &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
+                                    &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
+                                 &lt;/div&gt;
+                             &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
@@ -5206,13 +5153,671 @@ You can use the following color options.</p>
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
+	</div>
+</div></div>
+</div>
+
+						<div id="home-cookies" class="i-library theme-content-element">
+	<h1 class="display-4 theme-content-element-title">Home (Cookies)</h1>
+	<span class="theme-content-element-source">
+		<span class="theme-content-element-source-label">Source:</span>
+		<span class="theme-content-element-source-path">pages/_home_cookies.css</span>
+	</span>
+	<div class="theme-content-element-description"><p>Layout for website.</p>
+<div class="i-example">
+                    <h5 class="i-example__heading">
+                        <a
+                            href="home-cookies-home-cookies.html"
+                            target="_blank"
+                            class="plain-link"
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="Open in a new window"
+                        >
+                            <i class="fa fa-external-link-square fa-fw"></i>
+                            Example
+                        </a>
+                    </h5>
+                    <div class="i-example__body">
+                        <div
+                            class="i-example__iframe"
+                            lazyframe
+                            data-src="home-cookies-home-cookies.html"
+                            data-initinview="true"
+                            data-title="Loading..." 
+                        ></div>
+                    </div>
+                </div>
+
+
+<div class="i-code-block">
+	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
+	<div class="i-code-block__content hidden">
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page overscroll&quot;&gt;
+    &lt;div class=&quot;l-header&quot;&gt;
+        &lt;div class=&quot;l-logo&quot;&gt;
+            &lt;div class=&quot;a-logo&quot;&gt;
+                &lt;span class=&quot;a-logo--big&quot;&gt;Johan&lt;/span&gt;
+                &lt;span class=&quot;a-logo--small&quot;&gt; van overtveldt&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-navigation&quot;&gt;
+           &lt;nav class=&quot;a-navigation&quot;&gt;
+                &lt;div class=&quot;a-navigation__links&quot;&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
+                    &lt;div class=&quot;a-hamburger&quot;&gt;
+                        &lt;div class=&quot;a-hamburger-box&quot;&gt;
+                          &lt;div class=&quot;a-hamburger-inner&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;l-hero&quot;&gt;
+        &lt;div class=&quot;o-hero&quot;&gt;
+            &lt;div class=&quot;o-hero__inner&quot;&gt;
+                &lt;div class=&quot;l-block&quot;&gt;
+                    &lt;div class=&quot;l-block__inner&quot;&gt;
+                        &lt;div class=&quot;a-headline&quot;&gt;
+                            &lt;div class=&quot;a-headline__inner&quot; data-aos=&quot;zoom-in&quot; data-aos-duration=&quot;500&quot;&gt;
+                                &lt;h1 class=&quot;a-headline--big&quot;&gt;The &lt;br/&gt;mystic hand&lt;/h1&gt;
+                                &lt;span class=&quot;a-headline--small&quot;&gt;How Central Banks Shaped the 21st Centrury Global Economy&lt;/span&gt;
+                                &lt;span class=&quot;a-scroll&quot;&gt;
+                                    &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fal&quot; data-icon=&quot;angle-double-down&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 256 512&quot; class=&quot;svg-inline--fa fa-angle-double-down fa-w-8 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M119.5 262.9L3.5 145.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 223.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 263c-4.7 4.6-12.3 4.6-17-.1zm17 128l116-117.8c4.7-4.7 4.7-12.3 0-17l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L128 351.3 27.6 249.1c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l116 117.8c4.7 4.6 12.3 4.6 17-.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                                &lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;o-hero__bg o-hero__mystichand&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;o-hero__overlay&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;l-main l-flow&quot;&gt;
+        &lt;div class=&quot;l-block l-block-medium&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-book&quot; data-aos=&quot;zoom-in-up&quot;&gt;
+                    &lt;div class=&quot;m-book__preview&quot;&gt;
+                        &lt;div class=&quot;m-book__decoration m-book__decoration__1&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;m-book__decoration m-book__decoration__2&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;m-book__cover&quot;&gt;
+                            &lt;img src=&quot;dist/images/dummy/TMH_Cover.jpg&quot;/&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-book__info&quot;&gt;
+                        &lt;div class=&quot;m-book__title&quot;&gt;The mystic hand&lt;/div&gt;
+                        &lt;div class=&quot;m-book__author&quot;&gt;Johan van Overtveldt&lt;/div&gt;
+                        &lt;div class=&quot;m-book__description&quot;&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
+                            fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-book__cta&quot;&gt;
+                            &lt;a class=&quot;a-button a-button--primary&quot;&gt;Buy book&lt;/a&gt;
+                            &lt;a class=&quot;a-button a-button--tertairy&quot;&gt;Read more&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block-medium&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-other-books&quot; data-aos=&quot;fade-up&quot;&gt;
+                    &lt;div class=&quot;m-other-books__heading&quot;&gt;
+                        &lt;h3 class=&quot;m-other-books__title&quot;&gt;
+                            Other books &lt;/br&gt;
+                            by author
+                        &lt;/h3&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-other-books__previews&quot;&gt;
+                      &lt;div class=&quot;js--carousel m-carousel&quot;&gt;
+                       &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789463104517_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789463100403_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789460421822_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789033496011_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789463103824_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                   &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;h2 class=&quot;a-section-title&quot;&gt;
+                    Advance praise for the book.
+                &lt;/h2&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block-medium&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-slider js--slider&quot;&gt;
+                    &lt;div class=&quot;m-review has--avatar&quot;&gt;
+                        &lt;div class=&quot;m-review__content&quot;&gt;
+                            &lt;div class=&quot;m-review__quote&quot;&gt;
+                                &quot;A fascinating Brussels insider’s view on monetary policy.&quot;
+                            &lt;/div&gt;
+                             &lt;div class=&quot;m-review__by&quot;&gt;
+                                 &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
+                                 &lt;div class=&quot;m-review__author&quot;&gt;
+                                    &lt;div class=&quot;m-review__author_name&quot;&gt;Anil Kashyap&lt;/div&gt;
+                                    &lt;div class=&quot;m-review__author_function&quot;&gt;Distinguished Service Professor of Economics and Finance at the University of Chicago Booth School of Business&lt;/div&gt;
+                                 &lt;/div&gt;
+                             &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-review&quot;&gt;
+                        &lt;div class=&quot;m-review__content&quot;&gt;
+                            &lt;div class=&quot;m-review__quote&quot;&gt;
+                                &quot;The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.&quot;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;m-review__by&quot;&gt;
+                                 &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;PD&lt;/span&gt;
+                                 &lt;div class=&quot;m-review__author&quot;&gt;
+                                    &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
+                                    &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
+                                 &lt;/div&gt;
+                             &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;h2 class=&quot;a-section-title&quot;&gt;
+                    Latest blog posts
+                &lt;/h2&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block-big&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;l-split padded&quot;&gt;
+                    &lt;div class=&quot;l-split__item&quot;&gt;
+                        &lt;div class=&quot;m-post&quot;&gt;
+                            &lt;div class=&quot;m-post__info&quot;&gt;
+                                &lt;h3 class=&quot;m-post__title&quot;&gt;
+                                   Troiae qui primus ab oris Italiam, fato profugus
+                                &lt;/h3&gt;
+                                &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                                   &lt;p&gt;
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                                   &lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                                    Read more
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;l-split__item&quot;&gt;
+                        &lt;div class=&quot;m-post&quot;&gt;
+                            &lt;div class=&quot;m-post__info&quot;&gt;
+                                &lt;h3 class=&quot;m-post__title&quot;&gt;
+                                   Troiae qui primus ab oris Italiam, fato profugus
+                                &lt;/h3&gt;
+                                &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                                   &lt;p&gt;
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                                   &lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                                    Read more
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;a-button-actions&quot;&gt;
+                &lt;a class=&quot;a-button a-button--primary&quot;&gt;View all&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-footer&quot;&gt;
+            &lt;footer class=&quot;o-footer&quot;&gt;
+                &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
+                &lt;ul class=&quot;o-footer__menu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;">Copy</button>
+		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page overscroll&quot;&gt;
+    &lt;div class=&quot;l-header&quot;&gt;
+        &lt;div class=&quot;l-logo&quot;&gt;
+            &lt;div class=&quot;a-logo&quot;&gt;
+                &lt;span class=&quot;a-logo--big&quot;&gt;Johan&lt;/span&gt;
+                &lt;span class=&quot;a-logo--small&quot;&gt; van overtveldt&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-navigation&quot;&gt;
+           &lt;nav class=&quot;a-navigation&quot;&gt;
+                &lt;div class=&quot;a-navigation__links&quot;&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
+                    &lt;div class=&quot;a-hamburger&quot;&gt;
+                        &lt;div class=&quot;a-hamburger-box&quot;&gt;
+                          &lt;div class=&quot;a-hamburger-inner&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;l-hero&quot;&gt;
+        &lt;div class=&quot;o-hero&quot;&gt;
+            &lt;div class=&quot;o-hero__inner&quot;&gt;
+                &lt;div class=&quot;l-block&quot;&gt;
+                    &lt;div class=&quot;l-block__inner&quot;&gt;
+                        &lt;div class=&quot;a-headline&quot;&gt;
+                            &lt;div class=&quot;a-headline__inner&quot; data-aos=&quot;zoom-in&quot; data-aos-duration=&quot;500&quot;&gt;
+                                &lt;h1 class=&quot;a-headline--big&quot;&gt;The &lt;br/&gt;mystic hand&lt;/h1&gt;
+                                &lt;span class=&quot;a-headline--small&quot;&gt;How Central Banks Shaped the 21st Centrury Global Economy&lt;/span&gt;
+                                &lt;span class=&quot;a-scroll&quot;&gt;
+                                    &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fal&quot; data-icon=&quot;angle-double-down&quot; role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 256 512&quot; class=&quot;svg-inline--fa fa-angle-double-down fa-w-8 fa-3x&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M119.5 262.9L3.5 145.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 223.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 263c-4.7 4.6-12.3 4.6-17-.1zm17 128l116-117.8c4.7-4.7 4.7-12.3 0-17l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L128 351.3 27.6 249.1c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l116 117.8c4.7 4.6 12.3 4.6 17-.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                                &lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;o-hero__bg o-hero__mystichand&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;o-hero__overlay&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;l-main l-flow&quot;&gt;
+        &lt;div class=&quot;l-block l-block-medium&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-book&quot; data-aos=&quot;zoom-in-up&quot;&gt;
+                    &lt;div class=&quot;m-book__preview&quot;&gt;
+                        &lt;div class=&quot;m-book__decoration m-book__decoration__1&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;m-book__decoration m-book__decoration__2&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;m-book__cover&quot;&gt;
+                            &lt;img src=&quot;dist/images/dummy/TMH_Cover.jpg&quot;/&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-book__info&quot;&gt;
+                        &lt;div class=&quot;m-book__title&quot;&gt;The mystic hand&lt;/div&gt;
+                        &lt;div class=&quot;m-book__author&quot;&gt;Johan van Overtveldt&lt;/div&gt;
+                        &lt;div class=&quot;m-book__description&quot;&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
+                            fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-book__cta&quot;&gt;
+                            &lt;a class=&quot;a-button a-button--primary&quot;&gt;Buy book&lt;/a&gt;
+                            &lt;a class=&quot;a-button a-button--tertairy&quot;&gt;Read more&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block-medium&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-other-books&quot; data-aos=&quot;fade-up&quot;&gt;
+                    &lt;div class=&quot;m-other-books__heading&quot;&gt;
+                        &lt;h3 class=&quot;m-other-books__title&quot;&gt;
+                            Other books &lt;/br&gt;
+                            by author
+                        &lt;/h3&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-other-books__previews&quot;&gt;
+                      &lt;div class=&quot;js--carousel m-carousel&quot;&gt;
+                       &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789463104517_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789463100403_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789460421822_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789033496011_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;m-other-books__slide&quot;&gt;
+                          &lt;a href=&quot;#&quot; class=&quot;m-other-books__cover&quot;&gt;
+                              &lt;img src=&quot;https://www.bookspot.be/images/active/carrousel/fullsize/9789463103824_front.jpg&quot;/&gt;
+                          &lt;/a&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                   &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;h2 class=&quot;a-section-title&quot;&gt;
+                    Advance praise for the book.
+                &lt;/h2&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block-medium&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-slider js--slider&quot;&gt;
+                    &lt;div class=&quot;m-review has--avatar&quot;&gt;
+                        &lt;div class=&quot;m-review__content&quot;&gt;
+                            &lt;div class=&quot;m-review__quote&quot;&gt;
+                                &quot;A fascinating Brussels insider’s view on monetary policy.&quot;
+                            &lt;/div&gt;
+                             &lt;div class=&quot;m-review__by&quot;&gt;
+                                 &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
+                                 &lt;div class=&quot;m-review__author&quot;&gt;
+                                    &lt;div class=&quot;m-review__author_name&quot;&gt;Anil Kashyap&lt;/div&gt;
+                                    &lt;div class=&quot;m-review__author_function&quot;&gt;Distinguished Service Professor of Economics and Finance at the University of Chicago Booth School of Business&lt;/div&gt;
+                                 &lt;/div&gt;
+                             &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-review&quot;&gt;
+                        &lt;div class=&quot;m-review__content&quot;&gt;
+                            &lt;div class=&quot;m-review__quote&quot;&gt;
+                                &quot;The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.&quot;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;m-review__by&quot;&gt;
+                                 &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;PD&lt;/span&gt;
+                                 &lt;div class=&quot;m-review__author&quot;&gt;
+                                    &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
+                                    &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
+                                 &lt;/div&gt;
+                             &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;h2 class=&quot;a-section-title&quot;&gt;
+                    Latest blog posts
+                &lt;/h2&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block-big&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;l-split padded&quot;&gt;
+                    &lt;div class=&quot;l-split__item&quot;&gt;
+                        &lt;div class=&quot;m-post&quot;&gt;
+                            &lt;div class=&quot;m-post__info&quot;&gt;
+                                &lt;h3 class=&quot;m-post__title&quot;&gt;
+                                   Troiae qui primus ab oris Italiam, fato profugus
+                                &lt;/h3&gt;
+                                &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                                   &lt;p&gt;
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                                   &lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                                    Read more
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;l-split__item&quot;&gt;
+                        &lt;div class=&quot;m-post&quot;&gt;
+                            &lt;div class=&quot;m-post__info&quot;&gt;
+                                &lt;h3 class=&quot;m-post__title&quot;&gt;
+                                   Troiae qui primus ab oris Italiam, fato profugus
+                                &lt;/h3&gt;
+                                &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                                   &lt;p&gt;
+                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                                   &lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                                    Read more
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;a-button-actions&quot;&gt;
+                &lt;a class=&quot;a-button a-button--primary&quot;&gt;View all&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-footer&quot;&gt;
+            &lt;footer class=&quot;o-footer&quot;&gt;
+                &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
+                &lt;ul class=&quot;o-footer__menu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+	</div>
+</div></div>
+</div>
+
+						<div id="press" class="i-library theme-content-element">
+	<h1 class="display-4 theme-content-element-title">Press</h1>
+	<span class="theme-content-element-source">
+		<span class="theme-content-element-source-label">Source:</span>
+		<span class="theme-content-element-source-path">pages/_press.css</span>
+	</span>
+	<div class="theme-content-element-description"><p>Layout for website.</p>
+<div class="i-example">
+                    <h5 class="i-example__heading">
+                        <a
+                            href="press-press.html"
+                            target="_blank"
+                            class="plain-link"
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="Open in a new window"
+                        >
+                            <i class="fa fa-external-link-square fa-fw"></i>
+                            Example
+                        </a>
+                    </h5>
+                    <div class="i-example__body">
+                        <div
+                            class="i-example__iframe"
+                            lazyframe
+                            data-src="press-press.html"
+                            data-initinview="true"
+                            data-title="Loading..." 
+                        ></div>
+                    </div>
+                </div>
+
+
+<div class="i-code-block">
+	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
+	<div class="i-code-block__content hidden">
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page&quot;&gt;
+    &lt;div class=&quot;l-header&quot;&gt;
+        &lt;div class=&quot;l-logo&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;a-logo&quot;&gt;
+                &lt;span class=&quot;a-logo--big&quot;&gt;Johan&lt;/span&gt;
+                &lt;span class=&quot;a-logo--small&quot;&gt; van overtveldt&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-navigation&quot;&gt;
+            &lt;nav class=&quot;a-navigation&quot;&gt;
+                &lt;div class=&quot;a-navigation__links&quot;&gt;
+                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
+                    &lt;div class=&quot;a-hamburger&quot;&gt;
+                        &lt;div class=&quot;a-hamburger-box&quot;&gt;
+                          &lt;div class=&quot;a-hamburger-inner&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;l-main l-flow&quot;&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+            &lt;div class=&quot;m-gallery a-html&quot; data-aos=&quot;fade-up&quot;&gt;
+                &lt;h4&gt;Press photos&lt;/h4&gt;
+                &lt;div class=&quot;m-gallery__listing&quot;&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-footer&quot;&gt;
+            &lt;footer class=&quot;o-footer&quot;&gt;
+                &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
+                &lt;ul class=&quot;o-footer__menu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;">Copy</button>
+		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page&quot;&gt;
+    &lt;div class=&quot;l-header&quot;&gt;
+        &lt;div class=&quot;l-logo&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;a-logo&quot;&gt;
+                &lt;span class=&quot;a-logo--big&quot;&gt;Johan&lt;/span&gt;
+                &lt;span class=&quot;a-logo--small&quot;&gt; van overtveldt&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-navigation&quot;&gt;
+            &lt;nav class=&quot;a-navigation&quot;&gt;
+                &lt;div class=&quot;a-navigation__links&quot;&gt;
+                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
+                    &lt;div class=&quot;a-hamburger&quot;&gt;
+                        &lt;div class=&quot;a-hamburger-box&quot;&gt;
+                          &lt;div class=&quot;a-hamburger-inner&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;l-main l-flow&quot;&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+            &lt;div class=&quot;m-gallery a-html&quot; data-aos=&quot;fade-up&quot;&gt;
+                &lt;h4&gt;Press photos&lt;/h4&gt;
+                &lt;div class=&quot;m-gallery__listing&quot;&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-footer&quot;&gt;
+            &lt;footer class=&quot;o-footer&quot;&gt;
+                &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
+                &lt;ul class=&quot;o-footer__menu&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;</code></pre>
 	</div>
 </div></div>
 </div>
@@ -5322,8 +5927,10 @@ You can use the following color options.</p>
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
@@ -5398,136 +6005,10 @@ You can use the following color options.</p>
             &lt;footer class=&quot;o-footer&quot;&gt;
                 &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
                 &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/footer&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
- &lt;/div&gt;</code></pre>
-	</div>
-</div></div>
-</div>
-
-						<div id="useful-links" class="i-library theme-content-element">
-	<h1 class="display-4 theme-content-element-title">Useful Links</h1>
-	<span class="theme-content-element-source">
-		<span class="theme-content-element-source-label">Source:</span>
-		<span class="theme-content-element-source-path">pages/_useful.css</span>
-	</span>
-	<div class="theme-content-element-description"><p>Layout for website.</p>
-<div class="i-example">
-                    <h5 class="i-example__heading">
-                        <a
-                            href="useful-links-useful.html"
-                            target="_blank"
-                            class="plain-link"
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="Open in a new window"
-                        >
-                            <i class="fa fa-external-link-square fa-fw"></i>
-                            Example
-                        </a>
-                    </h5>
-                    <div class="i-example__body">
-                        <div
-                            class="i-example__iframe"
-                            lazyframe
-                            data-src="useful-links-useful.html"
-                            data-initinview="true"
-                            data-title="Loading..." 
-                        ></div>
-                    </div>
-                </div>
-
-
-<div class="i-code-block">
-	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
-	<div class="i-code-block__content hidden">
-		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page without--hero&quot;&gt;
-    &lt;div class=&quot;l-header&quot;&gt;
-        &lt;div class=&quot;l-logo&quot;&gt;
-            &lt;div class=&quot;a-logo&quot;&gt;
-                &lt;span class=&quot;a-logo--big&quot;&gt;Johan&lt;/span&gt;
-                &lt;span class=&quot;a-logo--small&quot;&gt; van overtveldt&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;l-navigation&quot;&gt;
-            &lt;nav class=&quot;a-navigation&quot;&gt;
-                &lt;div class=&quot;a-navigation__links&quot;&gt;
-                    &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
-                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Bio / Press&lt;/a&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Useful Links&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
-                &lt;/div&gt;
-                &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
-                    &lt;div class=&quot;a-hamburger&quot;&gt;
-                        &lt;div class=&quot;a-hamburger-box&quot;&gt;
-                          &lt;div class=&quot;a-hamburger-inner&quot;&gt;&lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/nav&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;l-main l-flow&quot;&gt;
-        &lt;div class=&quot;l-block&quot;&gt;
-            &lt;div class=&quot;l-block__inner&quot;&gt;
-
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;l-footer&quot;&gt;
-            &lt;footer class=&quot;o-footer&quot;&gt;
-                &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
-                &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/footer&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
- &lt;/div&gt;">Copy</button>
-		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page without--hero&quot;&gt;
-    &lt;div class=&quot;l-header&quot;&gt;
-        &lt;div class=&quot;l-logo&quot;&gt;
-            &lt;div class=&quot;a-logo&quot;&gt;
-                &lt;span class=&quot;a-logo--big&quot;&gt;Johan&lt;/span&gt;
-                &lt;span class=&quot;a-logo--small&quot;&gt; van overtveldt&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;l-navigation&quot;&gt;
-            &lt;nav class=&quot;a-navigation&quot;&gt;
-                &lt;div class=&quot;a-navigation__links&quot;&gt;
-                    &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
-                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Bio / Press&lt;/a&gt;
-                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Useful Links&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
-                &lt;/div&gt;
-                &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
-                    &lt;div class=&quot;a-hamburger&quot;&gt;
-                        &lt;div class=&quot;a-hamburger-box&quot;&gt;
-                          &lt;div class=&quot;a-hamburger-inner&quot;&gt;&lt;/div&gt;
-                        &lt;/div&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/nav&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;l-main l-flow&quot;&gt;
-        &lt;div class=&quot;l-block&quot;&gt;
-            &lt;div class=&quot;l-block__inner&quot;&gt;
-
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;l-footer&quot;&gt;
-            &lt;footer class=&quot;o-footer&quot;&gt;
-                &lt;span class=&quot;o-footer__copyright&quot;&gt;All rights reserved 2021 @johanvanoveldt&lt;/span&gt;
-                &lt;ul class=&quot;o-footer__menu&quot;&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookie&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Disclamer&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/footer&gt;
         &lt;/div&gt;
@@ -5968,7 +6449,7 @@ You can use the following color options.</p>
 			
 						<h5
 							class="pt-4 mb-1 theme-sidebar-category-title"
-							data-filter-value=" Bio / Press  Blog  Blog Item  Contact  Home  The Book  Useful Links "
+							data-filter-value=" Biography  Blog  Blog Item  Contact  Home  Home (Cookies)  Press  The Book "
 						>
 							<a href="#category-pages" class="i-sidebar-list-item">
 								<b>Pages</b>
@@ -5977,11 +6458,11 @@ You can use the following color options.</p>
 			
 						<div>
 								<a
-									href="#bio-press"
+									href="#biography"
 									class="i-sidebar-list-item theme-sidebar-element"
-									data-filter-value="Bio / Press"
+									data-filter-value="Biography"
 								>
-									<span>Bio / Press</span>
+									<span>Biography</span>
 								</a>
 								<a
 									href="#blog"
@@ -6012,18 +6493,25 @@ You can use the following color options.</p>
 									<span>Home</span>
 								</a>
 								<a
+									href="#home-cookies"
+									class="i-sidebar-list-item theme-sidebar-element"
+									data-filter-value="Home (Cookies)"
+								>
+									<span>Home (Cookies)</span>
+								</a>
+								<a
+									href="#press"
+									class="i-sidebar-list-item theme-sidebar-element"
+									data-filter-value="Press"
+								>
+									<span>Press</span>
+								</a>
+								<a
 									href="#the-book"
 									class="i-sidebar-list-item theme-sidebar-element"
 									data-filter-value="The Book"
 								>
 									<span>The Book</span>
-								</a>
-								<a
-									href="#useful-links"
-									class="i-sidebar-list-item theme-sidebar-element"
-									data-filter-value="Useful Links"
-								>
-									<span>Useful Links</span>
 								</a>
 						</div>
 			

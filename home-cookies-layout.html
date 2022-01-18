@@ -3,6 +3,9 @@
 
 	<head>
 		<style>
+					.l-page {
+   min-height: 800px;
+}
 		</style>
 
 		<style>
@@ -58,20 +61,9 @@
 
 	</head>
 
-	<body>					<div class="m-review">
-    <div class="m-review__content">
-        <div class="m-review__quote">
-            "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
-        </div>
-    </div>
-</div>
-			<script type="text/x-stylemark" data-language="html"><div class="m-review">
-    <div class="m-review__content">
-        <div class="m-review__quote">
-            "Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, qui primus ab oris Italiam"
-        </div>
-    </div>
-</div></script>
+	<body>			<script type="text/x-stylemark" data-language="css">.l-page {
+   min-height: 800px;
+}</script>
 
 		<!--
 			Vanilla JS
@@ -104,10 +96,10 @@
 					}
 					else {
 						// Creates a new module
-						module = angular.module('stylemark-review-atom-review', []);
+						module = angular.module('stylemark-home-cookies-layout', []);
 					}
 
-					module.controller('stylemark-review-atom-review-' + index, function($scope) {
+					module.controller('stylemark-home-cookies-layout-' + index, function($scope) {
 						$scope.$eval(block);
 					});
 				});
