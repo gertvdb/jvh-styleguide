@@ -5,7 +5,7 @@ category: Pages
 ---
 Layout for website.
 ```bio.html
-<div class="l-page">
+<div id="l-page" class="l-page">
     <div class="l-header">
         <div class="l-logo">
             <a href="#" class="a-logo">
@@ -16,10 +16,10 @@ Layout for website.
         <div class="l-navigation">
             <nav class="a-navigation">
                 <div class="a-navigation__links">
-                     <a href="#" class="active">Blog</a>
+                     <a href="#">Blog</a>
                     <a href="#">The Book</a>
-                    <a href="#">Biography</a>
-                    <a href="#">Press</a>
+                    <a href="#" class="active">Biography</a>
+                    <a href="#">In the Press</a>
                     <a href="#">Contact</a>
                 </div>
                 <div class="a-navigation__toggle js--navigation-toggle">
@@ -33,7 +33,7 @@ Layout for website.
         </div>
     </div>
     <div class="l-hero">
-        <div class="o-hero">
+        <div class="o-hero o-hero--fluent">
             <div class="o-hero__inner">
                 <div class="l-block">
                 <div class="l-block__inner">
@@ -44,20 +44,12 @@ Layout for website.
                         </h2>
                         <div class="a-html m-bio__html">
                            <p>
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           Dr. Johan Van Overtveldt (born 1955, Belgium) has a Ph.D in Applied Economics.  He studied Economics at the University of Antwerp and Business Administration at the Catholic University of Leuven.
+
+He started his career as a journalist and a Chief Economist, and became Editor in Chief for leading Belgian financial- and economic magazines.
+
+In the early years of his career he was an economic- and financial advisor for several national and international companies.
                            </p>
-                        </div>
-                        <div class="a-links">
-                            <div class="a-links__list">
-                                 <div class="a-links__link">
-                                    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z" class=""></path></svg>
-                                    <a download href="dist/images/dummy/pdf.pdf">Official report of European Unie</a>
-                                 </div>
-                                 <div class="a-links__link">
-                                    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z" class=""></path></svg>
-                                    <a download href="dist/images/dummy/pdf.pdf">Official report of European Unie</a>
-                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,16 +63,23 @@ Layout for website.
         <div class="l-block">
             <div class="l-block__inner">
                 <div class="a-html">
-                   <h2>Primus ab oris Italiam</h2>
-                   <p>
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   </p>
-                   <p>
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   </p>
-                   <p>
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   </p>
+                   In November 2013 Van Overtveldt switched over to politics, becoming a member of the New Flemish Alliance (N-VA).  As main N-VA candidate for the 2014 European Parliament elections, he was elected as a member of the European Parliament.
+Following the formation of the Belgian Government in October 2014, Van Overtveldt became Minister of Finance.
+As Minister of Finance he had a seat in the Eurogroup, the meeting of the finance ministers of the euro zone which played an important role in addrerssing the Greek crisis.
+In his capacity as Minister he also was an Ex-Officio member of the Board of Governors for the European Investment Bank (EIB), the European Stability Mechanism (ESM), the African Development Bank (AfDB), the Asian Development Bank (ADB), the European Bank for Reconstruction and Development (EBRD), the Inter-American Investment Corporation (IIC), the International Monetary Fund (IMF), the Joint World Bank-IMF Development Committee, the Multilateral Investment Guarantee Agency (MIGA), and the World Bank.
+Since the 2019 elections, Van Overtveldt has been a member of the European Parliament, where he has been chairing the Parliament's Committee on Budgets and leading the parliament’s delegation in negotiations on the EU-budget. In addition, he is a member and Coördinator of the Committee on Economic and Monetary Affairs and a member of the Committee on Transport and Tourism.s
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="a-links">
+                    <div class="a-links__list">
+                         <div class="a-links__link">
+                            <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z" class=""></path></svg>
+                            <a download href="dist/images/dummy/pdf.pdf">Curriculum vitae of Johan vanovertveldt</a>
+                         </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -197,6 +196,45 @@ Layout for website.
                                 <li>De Euroscheppers. Macht en Manipulatie achter de Euro (2003), Uitgeverij Pelckmans</li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+            <div class="m-gallery a-html" data-aos="fade-up">
+                <h3>Press photos</h4>
+                <div class="m-gallery__listing">
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                    <div class="m-gallery__thumb">
+                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="a-links">
+                    <div class="a-links__list">
+                         <div class="a-links__link">
+                            <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z" class=""></path></svg>
+                            <a download href="dist/images/dummy/pdf.pdf">Download official press photo's</a>
+                         </div>
                     </div>
                 </div>
             </div>

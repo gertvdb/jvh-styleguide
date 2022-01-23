@@ -93,7 +93,7 @@ Our basic Book.
     }
 
     .m-book__author {
-        --font-size: 18px;
+        --font-size: 22px;
         color: var(--color-secondary);
         font-size: var(--font-size);
         margin: 0 0 var(--size-m);

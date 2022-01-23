@@ -3,6 +3,15 @@
 
     $(document).ready(function() {
 
+        $('.js--navigation-toggle').on('click', function (){
+            const root = $('#l-page');
+            if (root.hasClass('is--open--nav')) {
+                root.removeClass('is--open--nav');
+            } else {
+                root.addClass('is--open--nav');
+            }
+        });
+
         AOS.init();
 
         $('.js--slider').slick({

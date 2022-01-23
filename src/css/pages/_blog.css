@@ -5,7 +5,7 @@ category: Pages
 ---
 Layout for website.
 ```blog.html
-<div class="l-page without--hero">
+<div id="l-page" class="l-page without--hero">
     <div class="l-header">
         <div class="l-logo">
             <div class="a-logo">

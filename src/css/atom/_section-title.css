@@ -31,6 +31,10 @@ Our basic pge title.
     justify-content: center;
 }
 
+.a-section-title--compact {
+    margin-bottom: 0;
+}
+
 .a-section-title::after {
     content: '';
     position: absolute;

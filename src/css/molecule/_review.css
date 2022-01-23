@@ -23,12 +23,11 @@ Our basic Review.
     position: relative;
     margin: auto;
     border-radius: 8px;
-    padding: var(--size-l) var(--size-xs);
-    background-color: var(--color-ui-black);
+    padding: var(--size-m) var(--size-xs);
 
     .m-review__by {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
         max-width: 100%;
@@ -40,6 +39,7 @@ Our basic Review.
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-top: var(--size-s);
         padding: 0 var(--size-xs);
     }
 
@@ -50,6 +50,8 @@ Our basic Review.
 
     .m-review__author_function {
         color: var(--color-secondary);
+        font-weight: 300;
+        line-height: 1.6;
     }
 
     .m-review__content {
@@ -60,12 +62,13 @@ Our basic Review.
 
     .m-review__quote {
         padding: var(--size-xl);
-        font-size: 20px;
+        font-size: 18px;
         width: auto;
         margin: auto;
         font-weight: 300;
         line-height: 1.6;
         text-align: center;
+        border-top: 1px dashed rgba(255,255,255, 0.3);
     }
 
     .m-review__avatar {
@@ -76,22 +79,23 @@ Our basic Review.
 @media only screen and (min-width: 600px) {
 
     .m-review {
-        padding: var(--size-xxl) var(--size-l);
+        padding: var(--size-m) var(--size-m);
 
         .m-review__avatar {
             display: block;
+            margin: auto;
         }
 
         .m-review__by {
-            max-width: 40%;
+            max-width: 60%;
         }
 
         .m-review__quote {
-            width: 60%;
+            width: 80%;
         }
 
         .m-review__author {
-            text-align: left;
+            text-align: center;
             padding: 0 var(--size-l);
         }
     }

@@ -53,6 +53,8 @@ Our basic Book.
 
 .m-other-books {
   padding: var(--size-xxxl) 0;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 
   .m-other-books__heading {
     width: auto;

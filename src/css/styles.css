@@ -53,6 +53,7 @@
 @import 'molecule/_work_history.css';
 @import 'molecule/_studies.css';
 @import 'molecule/_publications.css';
+@import 'molecule/_praise.css';
 
 /* Organism */
 @import 'organism/_hero.css';

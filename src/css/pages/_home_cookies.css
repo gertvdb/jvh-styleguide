@@ -5,7 +5,7 @@ category: Pages
 ---
 Layout for website.
 ```home-cookies.html
-<div class="l-page overscroll">
+<div id="l-page" class="l-page overscroll">
     <div class="l-header">
         <div class="l-logo">
             <div class="a-logo">

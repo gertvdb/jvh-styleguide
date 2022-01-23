@@ -1,0 +1,57 @@
+/*
+---
+name: Praise
+category: Organism
+---
+
+Our basic Praise.
+
+```molecule-Praise.html
+<div class="m-praise">
+    <div class="m-praise__quote">
+        The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.
+    </div>
+    <div class="m-praise__author">By : Oris Italia</div>
+</div>
+ */
+
+.m-praises {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: var(--size-m);
+}
+
+
+@media only screen and (min-width: 600px) {
+    .m-praises {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .m-praises {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.m-praise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #2F2D2D;
+    padding: var(--size-m);
+
+    align-self: flex-start;
+    margin: auto;
+    height: 100%;
+
+    .m-praise__quote {
+        font-size: 20px;
+        margin-bottom: var(--size-m);
+    }
+
+    .m-praise__author {
+        font-size: 14px;
+        color: var(--color-secondary);
+    }
+}

@@ -5,7 +5,7 @@ category: Pages
 ---
 Layout for website.
 ```press.html
-<div class="l-page">
+<div id="l-page" class="l-page without--hero">
     <div class="l-header">
         <div class="l-logo">
             <a href="#" class="a-logo">
@@ -16,10 +16,10 @@ Layout for website.
         <div class="l-navigation">
             <nav class="a-navigation">
                 <div class="a-navigation__links">
-                     <a href="#" class="active">Blog</a>
+                     <a href="#">Blog</a>
                     <a href="#">The Book</a>
                     <a href="#">Biography</a>
-                    <a href="#">Press</a>
+                    <a href="#" class="active">Press</a>
                     <a href="#">Contact</a>
                 </div>
                 <div class="a-navigation__toggle js--navigation-toggle">
@@ -33,31 +33,97 @@ Layout for website.
         </div>
     </div>
     <div class="l-main l-flow">
-        <div class="l-block">
+        <div class="l-block-big">
             <div class="l-block__inner">
-            <div class="m-gallery a-html" data-aos="fade-up">
-                <h4>Press photos</h4>
-                <div class="m-gallery__listing">
-                    <div class="m-gallery__thumb">
-                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
-                    </div>
-                    <div class="m-gallery__thumb">
-                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
-                    </div>
-                    <div class="m-gallery__thumb">
-                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
-                    </div>
-                    <div class="m-gallery__thumb">
-                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
-                    </div>
-                    <div class="m-gallery__thumb">
-                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
-                    </div>
-                    <div class="m-gallery__thumb">
-                        <img src="https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg"/>
+               <div class="m-highlight">
+                    <div class="m-highlight__info">
+                        <div class="m-highlight__upper">Press</div>
+                        <h2 class="m-highlight__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h2>
+                        <div class="a-html m-highlight__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-highlight__more">
+                            Read more
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-post">
+                    <div class="m-post__info">
+                        <h3 class="m-post__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h3>
+                        <div class="a-html m-post__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-post__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-post">
+                    <div class="m-post__info">
+                        <h3 class="m-post__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h3>
+                        <div class="a-html m-post__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-post__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="m-post">
+                    <div class="m-post__info">
+                        <h3 class="m-post__title">
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        </h3>
+                        <div class="a-html m-post__html">
+                           <p>
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           </p>
+                        </div>
+                        <a href="#" class="m-post__more">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-block">
+            <div class="l-block__inner">
+                <div class="o-pager">
+                    <span class="o-pager__results">1 - 15 van 398 resultaten</span>
+                    <div class="o-pager__pages">
+                        <a href="#" class="o-pager__page o-pager__page--active">1</a>
+                        <a href="#" class="o-pager__page">2</a>
+                        <a href="#" class="o-pager__page">3</a>
+                        <a href="#" class="o-pager__page">4</a>
+                        <a href="#" class="o-pager__page">5</a>
+                        <a href="#" class="o-pager__page">Volgende</a>
+                        <a href="#" class="o-pager__page">Laatste</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="l-footer">

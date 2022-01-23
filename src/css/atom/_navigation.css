@@ -180,3 +180,11 @@ Our basic navigation.
         }
     }
 }
+
+.is--open--nav {
+    .a-navigation__links {
+        width: 100%;
+        display: flex;
+        padding-top: 110px;
+    }
+}

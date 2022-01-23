@@ -20,6 +20,11 @@ Our basic Hero.
 ```
 */
 
+.o-hero.o-hero--fluent {
+    min-height: auto;
+    padding-top: calc(110px + var(--size-xxxxl));
+}
+
 .o-hero {
     z-index: 1;
     position: relative;
@@ -28,6 +33,8 @@ Our basic Hero.
     height: auto;
     transform-style: preserve-3d;
     padding-top: 110px;
+
+
 
     .o-hero__inner {
         position: relative;
