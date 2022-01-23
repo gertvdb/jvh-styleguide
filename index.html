@@ -74,6 +74,7 @@
 									<option value="other-books">Other Books</option>
 									<option value="pager">Pager</option>
 									<option value="post">Post</option>
+									<option value="praise">Praise</option>
 									<option value="publications">Publications</option>
 									<option value="review">Review</option>
 									<option value="slider">Slider</option>
@@ -2601,6 +2602,23 @@ You can use the following color options.</p>
 </div>
 </div>
 
+						<div id="praise" class="i-library theme-content-element">
+	<h1 class="display-4 theme-content-element-title">Praise</h1>
+	<span class="theme-content-element-source">
+		<span class="theme-content-element-source-label">Source:</span>
+		<span class="theme-content-element-source-path">molecule/_praise.css</span>
+	</span>
+	<div class="theme-content-element-description"><p>Our basic Praise.</p>
+<p><code>`</code>molecule-Praise.html</p>
+<div class="m-praise">
+    <div class="m-praise__quote">
+        The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.
+    </div>
+    <div class="m-praise__author">By : Oris Italia</div>
+</div>
+</div>
+</div>
+
 						<div id="publications" class="i-library theme-content-element">
 	<h1 class="display-4 theme-content-element-title">Publications</h1>
 	<span class="theme-content-element-source">
@@ -3054,7 +3072,7 @@ You can use the following color options.</p>
 <div class="i-code-block">
 	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
 	<div class="i-code-block__content hidden">
-		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page&quot;&gt;
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div id=&quot;l-page&quot; class=&quot;l-page&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;a href=&quot;#&quot; class=&quot;a-logo&quot;&gt;
@@ -3065,10 +3083,10 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-navigation&quot;&gt;
             &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
-                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
+                     &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;In the Press&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
@@ -3082,7 +3100,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-hero&quot;&gt;
-        &lt;div class=&quot;o-hero&quot;&gt;
+        &lt;div class=&quot;o-hero o-hero--fluent&quot;&gt;
             &lt;div class=&quot;o-hero__inner&quot;&gt;
                 &lt;div class=&quot;l-block&quot;&gt;
                 &lt;div class=&quot;l-block__inner&quot;&gt;
@@ -3093,20 +3111,12 @@ You can use the following color options.</p>
                         &lt;/h2&gt;
                         &lt;div class=&quot;a-html m-bio__html&quot;&gt;
                            &lt;p&gt;
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           Dr. Johan Van Overtveldt (born 1955, Belgium) has a Ph.D in Applied Economics.  He studied Economics at the University of Antwerp and Business Administration at the Catholic University of Leuven.
+
+He started his career as a journalist and a Chief Economist, and became Editor in Chief for leading Belgian financial- and economic magazines.
+
+In the early years of his career he was an economic- and financial advisor for several national and international companies.
                            &lt;/p&gt;
-                        &lt;/div&gt;
-                        &lt;div class=&quot;a-links&quot;&gt;
-                            &lt;div class=&quot;a-links__list&quot;&gt;
-                                 &lt;div class=&quot;a-links__link&quot;&gt;
-                                    &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                                    &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Official report of European Unie&lt;/a&gt;
-                                 &lt;/div&gt;
-                                 &lt;div class=&quot;a-links__link&quot;&gt;
-                                    &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                                    &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Official report of European Unie&lt;/a&gt;
-                                 &lt;/div&gt;
-                            &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
@@ -3120,16 +3130,23 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-block&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
                 &lt;div class=&quot;a-html&quot;&gt;
-                   &lt;h2&gt;Primus ab oris Italiam&lt;/h2&gt;
-                   &lt;p&gt;
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   &lt;/p&gt;
-                   &lt;p&gt;
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   &lt;/p&gt;
-                   &lt;p&gt;
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   &lt;/p&gt;
+                   In November 2013 Van Overtveldt switched over to politics, becoming a member of the New Flemish Alliance (N-VA).  As main N-VA candidate for the 2014 European Parliament elections, he was elected as a member of the European Parliament.
+Following the formation of the Belgian Government in October 2014, Van Overtveldt became Minister of Finance.
+As Minister of Finance he had a seat in the Eurogroup, the meeting of the finance ministers of the euro zone which played an important role in addrerssing the Greek crisis.
+In his capacity as Minister he also was an Ex-Officio member of the Board of Governors for the European Investment Bank (EIB), the European Stability Mechanism (ESM), the African Development Bank (AfDB), the Asian Development Bank (ADB), the European Bank for Reconstruction and Development (EBRD), the Inter-American Investment Corporation (IIC), the International Monetary Fund (IMF), the Joint World Bank-IMF Development Committee, the Multilateral Investment Guarantee Agency (MIGA), and the World Bank.
+Since the 2019 elections, Van Overtveldt has been a member of the European Parliament, where he has been chairing the Parliament&#39;s Committee on Budgets and leading the parliament’s delegation in negotiations on the EU-budget. In addition, he is a member and Coördinator of the Committee on Economic and Monetary Affairs and a member of the Committee on Transport and Tourism.s
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;a-links&quot;&gt;
+                    &lt;div class=&quot;a-links__list&quot;&gt;
+                         &lt;div class=&quot;a-links__link&quot;&gt;
+                            &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                            &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Curriculum vitae of Johan vanovertveldt&lt;/a&gt;
+                         &lt;/div&gt;
+                    &lt;/div&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -3246,6 +3263,45 @@ You can use the following color options.</p>
                                 &lt;li&gt;De Euroscheppers. Macht en Manipulatie achter de Euro (2003), Uitgeverij Pelckmans&lt;/li&gt;
                             &lt;/ul&gt;
                         &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+            &lt;div class=&quot;m-gallery a-html&quot; data-aos=&quot;fade-up&quot;&gt;
+                &lt;h3&gt;Press photos&lt;/h4&gt;
+                &lt;div class=&quot;m-gallery__listing&quot;&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;a-links&quot;&gt;
+                    &lt;div class=&quot;a-links__list&quot;&gt;
+                         &lt;div class=&quot;a-links__link&quot;&gt;
+                            &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                            &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Download official press photo&#39;s&lt;/a&gt;
+                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
@@ -3263,7 +3319,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
  &lt;/div&gt;">Copy</button>
-		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page&quot;&gt;
+		<pre class="mb-0"><code class="lang-">&lt;div id=&quot;l-page&quot; class=&quot;l-page&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;a href=&quot;#&quot; class=&quot;a-logo&quot;&gt;
@@ -3274,10 +3330,10 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-navigation&quot;&gt;
             &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
-                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
+                     &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Biography&lt;/a&gt;
+                    &lt;a href=&quot;#&quot;&gt;In the Press&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
@@ -3291,7 +3347,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-hero&quot;&gt;
-        &lt;div class=&quot;o-hero&quot;&gt;
+        &lt;div class=&quot;o-hero o-hero--fluent&quot;&gt;
             &lt;div class=&quot;o-hero__inner&quot;&gt;
                 &lt;div class=&quot;l-block&quot;&gt;
                 &lt;div class=&quot;l-block__inner&quot;&gt;
@@ -3302,20 +3358,12 @@ You can use the following color options.</p>
                         &lt;/h2&gt;
                         &lt;div class=&quot;a-html m-bio__html&quot;&gt;
                            &lt;p&gt;
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           Dr. Johan Van Overtveldt (born 1955, Belgium) has a Ph.D in Applied Economics.  He studied Economics at the University of Antwerp and Business Administration at the Catholic University of Leuven.
+
+He started his career as a journalist and a Chief Economist, and became Editor in Chief for leading Belgian financial- and economic magazines.
+
+In the early years of his career he was an economic- and financial advisor for several national and international companies.
                            &lt;/p&gt;
-                        &lt;/div&gt;
-                        &lt;div class=&quot;a-links&quot;&gt;
-                            &lt;div class=&quot;a-links__list&quot;&gt;
-                                 &lt;div class=&quot;a-links__link&quot;&gt;
-                                    &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                                    &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Official report of European Unie&lt;/a&gt;
-                                 &lt;/div&gt;
-                                 &lt;div class=&quot;a-links__link&quot;&gt;
-                                    &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-                                    &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Official report of European Unie&lt;/a&gt;
-                                 &lt;/div&gt;
-                            &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
@@ -3329,16 +3377,23 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-block&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
                 &lt;div class=&quot;a-html&quot;&gt;
-                   &lt;h2&gt;Primus ab oris Italiam&lt;/h2&gt;
-                   &lt;p&gt;
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   &lt;/p&gt;
-                   &lt;p&gt;
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   &lt;/p&gt;
-                   &lt;p&gt;
-                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                   &lt;/p&gt;
+                   In November 2013 Van Overtveldt switched over to politics, becoming a member of the New Flemish Alliance (N-VA).  As main N-VA candidate for the 2014 European Parliament elections, he was elected as a member of the European Parliament.
+Following the formation of the Belgian Government in October 2014, Van Overtveldt became Minister of Finance.
+As Minister of Finance he had a seat in the Eurogroup, the meeting of the finance ministers of the euro zone which played an important role in addrerssing the Greek crisis.
+In his capacity as Minister he also was an Ex-Officio member of the Board of Governors for the European Investment Bank (EIB), the European Stability Mechanism (ESM), the African Development Bank (AfDB), the Asian Development Bank (ADB), the European Bank for Reconstruction and Development (EBRD), the Inter-American Investment Corporation (IIC), the International Monetary Fund (IMF), the Joint World Bank-IMF Development Committee, the Multilateral Investment Guarantee Agency (MIGA), and the World Bank.
+Since the 2019 elections, Van Overtveldt has been a member of the European Parliament, where he has been chairing the Parliament&#39;s Committee on Budgets and leading the parliament’s delegation in negotiations on the EU-budget. In addition, he is a member and Coördinator of the Committee on Economic and Monetary Affairs and a member of the Committee on Transport and Tourism.s
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;a-links&quot;&gt;
+                    &lt;div class=&quot;a-links__list&quot;&gt;
+                         &lt;div class=&quot;a-links__link&quot;&gt;
+                            &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                            &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Curriculum vitae of Johan vanovertveldt&lt;/a&gt;
+                         &lt;/div&gt;
+                    &lt;/div&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -3455,6 +3510,45 @@ You can use the following color options.</p>
                                 &lt;li&gt;De Euroscheppers. Macht en Manipulatie achter de Euro (2003), Uitgeverij Pelckmans&lt;/li&gt;
                             &lt;/ul&gt;
                         &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+            &lt;div class=&quot;m-gallery a-html&quot; data-aos=&quot;fade-up&quot;&gt;
+                &lt;h3&gt;Press photos&lt;/h4&gt;
+                &lt;div class=&quot;m-gallery__listing&quot;&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
+                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;a-links&quot;&gt;
+                    &lt;div class=&quot;a-links__list&quot;&gt;
+                         &lt;div class=&quot;a-links__link&quot;&gt;
+                            &lt;svg role=&quot;img&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zm-22.6 22.7c2.1 2.1 3.5 4.6 4.2 7.4H256V32.5c2.8.7 5.3 2.1 7.4 4.2l83.9 83.9zM336 480H48c-8.8 0-16-7.2-16-16V48c0-8.8 7.2-16 16-16h176v104c0 13.3 10.7 24 24 24h104v304c0 8.8-7.2 16-16 16zm-22-171.2c-13.5-13.3-55-9.2-73.7-6.7-21.2-12.8-35.2-30.4-45.1-56.6 4.3-18 12-47.2 6.4-64.9-4.4-28.1-39.7-24.7-44.6-6.8-5 18.3-.3 44.4 8.4 77.8-11.9 28.4-29.7 66.9-42.1 88.6-20.8 10.7-54.1 29.3-58.8 52.4-3.5 16.8 22.9 39.4 53.1 6.4 9.1-9.9 19.3-24.8 31.3-45.5 26.7-8.8 56.1-19.8 82-24 21.9 12 47.6 19.9 64.6 19.9 27.7.1 28.9-30.2 18.5-40.6zm-229.2 89c5.9-15.9 28.6-34.4 35.5-40.8-22.1 35.3-35.5 41.5-35.5 40.8zM180 175.5c8.7 0 7.8 37.5 2.1 47.6-5.2-16.3-5-47.6-2.1-47.6zm-28.4 159.3c11.3-19.8 21-43.2 28.8-63.7 9.7 17.7 22.1 31.7 35.1 41.5-24.3 4.7-45.4 15.1-63.9 22.2zm153.4-5.9s-5.8 7-43.5-9.1c41-3 47.7 6.4 43.5 9.1z&quot; class=&quot;&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+                            &lt;a download href=&quot;dist/images/dummy/pdf.pdf&quot;&gt;Download official press photo&#39;s&lt;/a&gt;
+                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
@@ -3512,7 +3606,7 @@ You can use the following color options.</p>
 <div class="i-code-block">
 	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
 	<div class="i-code-block__content hidden">
-		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page without--hero&quot;&gt;
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div id=&quot;l-page&quot; class=&quot;l-page without--hero&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -3649,7 +3743,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;">Copy</button>
-		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page without--hero&quot;&gt;
+		<pre class="mb-0"><code class="lang-">&lt;div id=&quot;l-page&quot; class=&quot;l-page without--hero&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -3827,7 +3921,7 @@ You can use the following color options.</p>
 	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
 	<div class="i-code-block__content hidden">
 		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div&gt;
-&lt;div class=&quot;l-page without--hero&quot;&gt;
+&lt;div id=&quot;l-page&quot; class=&quot;l-page without--hero&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -4161,7 +4255,7 @@ You can use the following color options.</p>
 &lt;/div&gt;
 &lt;/div&gt;">Copy</button>
 		<pre class="mb-0"><code class="lang-">&lt;div&gt;
-&lt;div class=&quot;l-page without--hero&quot;&gt;
+&lt;div id=&quot;l-page&quot; class=&quot;l-page without--hero&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -4534,7 +4628,7 @@ You can use the following color options.</p>
 <div class="i-code-block">
 	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
 	<div class="i-code-block__content hidden">
-		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page without--hero&quot;&gt;
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div id=&quot;l-page&quot; class=&quot;l-page without--hero&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -4608,7 +4702,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
  &lt;/div&gt;">Copy</button>
-		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page without--hero&quot;&gt;
+		<pre class="mb-0"><code class="lang-">&lt;div id=&quot;l-page&quot; class=&quot;l-page without--hero&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -4722,7 +4816,7 @@ You can use the following color options.</p>
 <div class="i-code-block">
 	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
 	<div class="i-code-block__content hidden">
-		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page overscroll&quot;&gt;
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div id=&quot;l-page&quot; class=&quot;l-page overscroll&quot;&gt;s
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -4730,7 +4824,7 @@ You can use the following color options.</p>
                 &lt;span class=&quot;a-logo--small&quot;&gt; van overtveldt&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;l-navigation&quot;&gt;
+        &lt;div class=&quot;l-navigation is--open--nav&quot;&gt;
            &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
@@ -4785,9 +4879,7 @@ You can use the following color options.</p>
                         &lt;div class=&quot;m-book__title&quot;&gt;The mystic hand&lt;/div&gt;
                         &lt;div class=&quot;m-book__author&quot;&gt;Johan van Overtveldt&lt;/div&gt;
                         &lt;div class=&quot;m-book__description&quot;&gt;
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
-                            fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
+                           Over the past decade and a half central banks have done things they never did before. The Mystic Hand considers these “things”. What exactly did central banks do? Why did they do those things? What are the consequences, intended or not, of these “things-never-done-before”? Where do the central banks go from here? Where should they go from here? The Mystic Hand tries to answer these and related questions.
                         &lt;/div&gt;
                         &lt;div class=&quot;m-book__cta&quot;&gt;
                             &lt;a class=&quot;a-button a-button--primary&quot;&gt;Buy book&lt;/a&gt;
@@ -4840,7 +4932,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
         &lt;div class=&quot;l-block&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
-                &lt;h2 class=&quot;a-section-title&quot;&gt;
+                &lt;h2 class=&quot;a-section-title a-section-title--compact&quot;&gt;
                     Advance praise for the book.
                 &lt;/h2&gt;
             &lt;/div&gt;
@@ -4850,9 +4942,6 @@ You can use the following color options.</p>
                 &lt;div class=&quot;m-slider js--slider&quot;&gt;
                     &lt;div class=&quot;m-review has--avatar&quot;&gt;
                         &lt;div class=&quot;m-review__content&quot;&gt;
-                            &lt;div class=&quot;m-review__quote&quot;&gt;
-                                &quot;A fascinating Brussels insider’s view on monetary policy.&quot;
-                            &lt;/div&gt;
                              &lt;div class=&quot;m-review__by&quot;&gt;
                                  &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
                                  &lt;div class=&quot;m-review__author&quot;&gt;
@@ -4860,19 +4949,22 @@ You can use the following color options.</p>
                                     &lt;div class=&quot;m-review__author_function&quot;&gt;Distinguished Service Professor of Economics and Finance at the University of Chicago Booth School of Business&lt;/div&gt;
                                  &lt;/div&gt;
                              &lt;/div&gt;
+                             &lt;div class=&quot;m-review__quote&quot;&gt;
+                                &quot;A fascinating Brussels insider’s view on monetary policy.&quot;
+                            &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                     &lt;div class=&quot;m-review&quot;&gt;
                         &lt;div class=&quot;m-review__content&quot;&gt;
-                            &lt;div class=&quot;m-review__quote&quot;&gt;
-                                &quot;The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.&quot;
-                            &lt;/div&gt;
                             &lt;div class=&quot;m-review__by&quot;&gt;
                                  &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;PD&lt;/span&gt;
                                  &lt;div class=&quot;m-review__author&quot;&gt;
                                     &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
                                     &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
                                  &lt;/div&gt;
+                             &lt;/div&gt;
+                             &lt;div class=&quot;m-review__quote&quot;&gt;
+                                &quot;The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.&quot;
                              &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
@@ -4942,7 +5034,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;">Copy</button>
-		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page overscroll&quot;&gt;
+		<pre class="mb-0"><code class="lang-">&lt;div id=&quot;l-page&quot; class=&quot;l-page overscroll&quot;&gt;s
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -4950,7 +5042,7 @@ You can use the following color options.</p>
                 &lt;span class=&quot;a-logo--small&quot;&gt; van overtveldt&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
-        &lt;div class=&quot;l-navigation&quot;&gt;
+        &lt;div class=&quot;l-navigation is--open--nav&quot;&gt;
            &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
@@ -5005,9 +5097,7 @@ You can use the following color options.</p>
                         &lt;div class=&quot;m-book__title&quot;&gt;The mystic hand&lt;/div&gt;
                         &lt;div class=&quot;m-book__author&quot;&gt;Johan van Overtveldt&lt;/div&gt;
                         &lt;div class=&quot;m-book__description&quot;&gt;
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
-                            fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
+                           Over the past decade and a half central banks have done things they never did before. The Mystic Hand considers these “things”. What exactly did central banks do? Why did they do those things? What are the consequences, intended or not, of these “things-never-done-before”? Where do the central banks go from here? Where should they go from here? The Mystic Hand tries to answer these and related questions.
                         &lt;/div&gt;
                         &lt;div class=&quot;m-book__cta&quot;&gt;
                             &lt;a class=&quot;a-button a-button--primary&quot;&gt;Buy book&lt;/a&gt;
@@ -5060,7 +5150,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
         &lt;div class=&quot;l-block&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
-                &lt;h2 class=&quot;a-section-title&quot;&gt;
+                &lt;h2 class=&quot;a-section-title a-section-title--compact&quot;&gt;
                     Advance praise for the book.
                 &lt;/h2&gt;
             &lt;/div&gt;
@@ -5070,9 +5160,6 @@ You can use the following color options.</p>
                 &lt;div class=&quot;m-slider js--slider&quot;&gt;
                     &lt;div class=&quot;m-review has--avatar&quot;&gt;
                         &lt;div class=&quot;m-review__content&quot;&gt;
-                            &lt;div class=&quot;m-review__quote&quot;&gt;
-                                &quot;A fascinating Brussels insider’s view on monetary policy.&quot;
-                            &lt;/div&gt;
                              &lt;div class=&quot;m-review__by&quot;&gt;
                                  &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;&lt;img src=&quot;https://randomuser.me/api/portraits/women/74.jpg&quot;/&gt;&lt;/span&gt;
                                  &lt;div class=&quot;m-review__author&quot;&gt;
@@ -5080,19 +5167,22 @@ You can use the following color options.</p>
                                     &lt;div class=&quot;m-review__author_function&quot;&gt;Distinguished Service Professor of Economics and Finance at the University of Chicago Booth School of Business&lt;/div&gt;
                                  &lt;/div&gt;
                              &lt;/div&gt;
+                             &lt;div class=&quot;m-review__quote&quot;&gt;
+                                &quot;A fascinating Brussels insider’s view on monetary policy.&quot;
+                            &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                     &lt;div class=&quot;m-review&quot;&gt;
                         &lt;div class=&quot;m-review__content&quot;&gt;
-                            &lt;div class=&quot;m-review__quote&quot;&gt;
-                                &quot;The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.&quot;
-                            &lt;/div&gt;
                             &lt;div class=&quot;m-review__by&quot;&gt;
                                  &lt;span class=&quot;a-avatar m-review__avatar&quot;&gt;PD&lt;/span&gt;
                                  &lt;div class=&quot;m-review__author&quot;&gt;
                                     &lt;div class=&quot;m-review__author_name&quot;&gt;Paschal Donohoe&lt;/div&gt;
                                     &lt;div class=&quot;m-review__author_function&quot;&gt;Chairman of the national bank&lt;/div&gt;
                                  &lt;/div&gt;
+                             &lt;/div&gt;
+                             &lt;div class=&quot;m-review__quote&quot;&gt;
+                                &quot;The hand is quicker than the eye, say the magicians. Van Overtveldt shows that the public and the press and the politicians have since 2008 stood gape-mouthed at the “mystic hand” of the central banker. One can doubt that central bankers are quite as clever as their reputation. But if you want to spot their tricks, which for example encourage loony investment worldwide, read the book , and weep.&quot;
                              &lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
@@ -5202,7 +5292,7 @@ You can use the following color options.</p>
 <div class="i-code-block">
 	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
 	<div class="i-code-block__content hidden">
-		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page overscroll&quot;&gt;
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div id=&quot;l-page&quot; class=&quot;l-page overscroll&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -5422,7 +5512,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;">Copy</button>
-		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page overscroll&quot;&gt;
+		<pre class="mb-0"><code class="lang-">&lt;div id=&quot;l-page&quot; class=&quot;l-page overscroll&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -5682,7 +5772,7 @@ You can use the following color options.</p>
 <div class="i-code-block">
 	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
 	<div class="i-code-block__content hidden">
-		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page&quot;&gt;
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div id=&quot;l-page&quot; class=&quot;l-page without--hero&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;a href=&quot;#&quot; class=&quot;a-logo&quot;&gt;
@@ -5693,10 +5783,10 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-navigation&quot;&gt;
             &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
-                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
+                     &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Press&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
@@ -5710,31 +5800,97 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-main l-flow&quot;&gt;
-        &lt;div class=&quot;l-block&quot;&gt;
+        &lt;div class=&quot;l-block-big&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
-            &lt;div class=&quot;m-gallery a-html&quot; data-aos=&quot;fade-up&quot;&gt;
-                &lt;h4&gt;Press photos&lt;/h4&gt;
-                &lt;div class=&quot;m-gallery__listing&quot;&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+               &lt;div class=&quot;m-highlight&quot;&gt;
+                    &lt;div class=&quot;m-highlight__info&quot;&gt;
+                        &lt;div class=&quot;m-highlight__upper&quot;&gt;Press&lt;/div&gt;
+                        &lt;h2 class=&quot;m-highlight__title&quot;&gt;
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        &lt;/h2&gt;
+                        &lt;div class=&quot;a-html m-highlight__html&quot;&gt;
+                           &lt;p&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;m-highlight__more&quot;&gt;
+                            Read more
+                        &lt;/a&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-post&quot;&gt;
+                    &lt;div class=&quot;m-post__info&quot;&gt;
+                        &lt;h3 class=&quot;m-post__title&quot;&gt;
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        &lt;/h3&gt;
+                        &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                           &lt;p&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                            Read more
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-post&quot;&gt;
+                    &lt;div class=&quot;m-post__info&quot;&gt;
+                        &lt;h3 class=&quot;m-post__title&quot;&gt;
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        &lt;/h3&gt;
+                        &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                           &lt;p&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                            Read more
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-post&quot;&gt;
+                    &lt;div class=&quot;m-post__info&quot;&gt;
+                        &lt;h3 class=&quot;m-post__title&quot;&gt;
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        &lt;/h3&gt;
+                        &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                           &lt;p&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                            Read more
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;o-pager&quot;&gt;
+                    &lt;span class=&quot;o-pager__results&quot;&gt;1 - 15 van 398 resultaten&lt;/span&gt;
+                    &lt;div class=&quot;o-pager__pages&quot;&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page o-pager__page--active&quot;&gt;1&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;2&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;3&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;4&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;5&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;Volgende&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;Laatste&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;l-footer&quot;&gt;
@@ -5750,7 +5906,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
  &lt;/div&gt;">Copy</button>
-		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page&quot;&gt;
+		<pre class="mb-0"><code class="lang-">&lt;div id=&quot;l-page&quot; class=&quot;l-page without--hero&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;a href=&quot;#&quot; class=&quot;a-logo&quot;&gt;
@@ -5761,10 +5917,10 @@ You can use the following color options.</p>
         &lt;div class=&quot;l-navigation&quot;&gt;
             &lt;nav class=&quot;a-navigation&quot;&gt;
                 &lt;div class=&quot;a-navigation__links&quot;&gt;
-                     &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Blog&lt;/a&gt;
+                     &lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;The Book&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Biography&lt;/a&gt;
-                    &lt;a href=&quot;#&quot;&gt;Press&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Press&lt;/a&gt;
                     &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
                 &lt;/div&gt;
                 &lt;div class=&quot;a-navigation__toggle js--navigation-toggle&quot;&gt;
@@ -5778,31 +5934,97 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-main l-flow&quot;&gt;
-        &lt;div class=&quot;l-block&quot;&gt;
+        &lt;div class=&quot;l-block-big&quot;&gt;
             &lt;div class=&quot;l-block__inner&quot;&gt;
-            &lt;div class=&quot;m-gallery a-html&quot; data-aos=&quot;fade-up&quot;&gt;
-                &lt;h4&gt;Press photos&lt;/h4&gt;
-                &lt;div class=&quot;m-gallery__listing&quot;&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;m-gallery__thumb&quot;&gt;
-                        &lt;img src=&quot;https://derijkstebelgen.be/wp-content/uploads/2015/09/Van-Overtveldt.jpg&quot;/&gt;
+               &lt;div class=&quot;m-highlight&quot;&gt;
+                    &lt;div class=&quot;m-highlight__info&quot;&gt;
+                        &lt;div class=&quot;m-highlight__upper&quot;&gt;Press&lt;/div&gt;
+                        &lt;h2 class=&quot;m-highlight__title&quot;&gt;
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        &lt;/h2&gt;
+                        &lt;div class=&quot;a-html m-highlight__html&quot;&gt;
+                           &lt;p&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;m-highlight__more&quot;&gt;
+                            Read more
+                        &lt;/a&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-post&quot;&gt;
+                    &lt;div class=&quot;m-post__info&quot;&gt;
+                        &lt;h3 class=&quot;m-post__title&quot;&gt;
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        &lt;/h3&gt;
+                        &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                           &lt;p&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                            Read more
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-post&quot;&gt;
+                    &lt;div class=&quot;m-post__info&quot;&gt;
+                        &lt;h3 class=&quot;m-post__title&quot;&gt;
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        &lt;/h3&gt;
+                        &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                           &lt;p&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                            Read more
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;m-post&quot;&gt;
+                    &lt;div class=&quot;m-post__info&quot;&gt;
+                        &lt;h3 class=&quot;m-post__title&quot;&gt;
+                           Troiae qui primus ab oris Italiam, fato profugus
+                        &lt;/h3&gt;
+                        &lt;div class=&quot;a-html m-post__html&quot;&gt;
+                           &lt;p&gt;
+                            Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus. Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
+                           &lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;m-post__more&quot;&gt;
+                            Read more
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;l-block&quot;&gt;
+            &lt;div class=&quot;l-block__inner&quot;&gt;
+                &lt;div class=&quot;o-pager&quot;&gt;
+                    &lt;span class=&quot;o-pager__results&quot;&gt;1 - 15 van 398 resultaten&lt;/span&gt;
+                    &lt;div class=&quot;o-pager__pages&quot;&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page o-pager__page--active&quot;&gt;1&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;2&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;3&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;4&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;5&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;Volgende&lt;/a&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;o-pager__page&quot;&gt;Laatste&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;l-footer&quot;&gt;
@@ -5858,7 +6080,7 @@ You can use the following color options.</p>
 <div class="i-code-block">
 	<button type="button" class="i-code-block__lang -collapsible"><i class="fa fa-caret-right fa-fw"></i> html</button>
 	<div class="i-code-block__content hidden">
-		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div class=&quot;l-page without--hero&quot;&gt;
+		<button type="button" class="btn btn-outline-primary btn-sm i-copy-button" data-clipboard-text="&lt;div id=&quot;l-page&quot; class=&quot;l-page&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -5886,32 +6108,23 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-hero&quot;&gt;
-        &lt;div class=&quot;o-hero&quot;&gt;
+        &lt;div class=&quot;o-hero o-hero--fluent&quot;&gt;
             &lt;div class=&quot;o-hero__inner&quot;&gt;
-                &lt;div class=&quot;l-block l-block-medium&quot;&gt;
-                    &lt;div class=&quot;l-block__inner&quot;&gt;
-                        &lt;div class=&quot;m-book&quot; data-aos=&quot;zoom-in-up&quot;&gt;
-                            &lt;div class=&quot;m-book__preview&quot;&gt;
-                                &lt;div class=&quot;m-book__cover&quot;&gt;
-                                    &lt;img src=&quot;dist/images/dummy/TMH_Cover.jpg&quot;/&gt;
-                                &lt;/div&gt;
-                            &lt;/div&gt;
-                            &lt;div class=&quot;m-book__info&quot;&gt;
-                                &lt;div class=&quot;m-book__title&quot;&gt;The mystic hand&lt;/div&gt;
-                                &lt;div class=&quot;m-book__author&quot;&gt;Johan van Overtveldt&lt;/div&gt;
-                                &lt;div class=&quot;m-book__description&quot;&gt;
-                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
-                                    fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
-                                    &lt;br/&gt;&lt;br/&gt;
-                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
-                                    fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
-                                &lt;/div&gt;
-                            &lt;/div&gt;
+                &lt;div class=&quot;l-block&quot;&gt;
+                &lt;div class=&quot;l-block__inner&quot;&gt;
+                    &lt;div class=&quot;m-bio&quot;&gt;
+                        &lt;div class=&quot;m-bio__upper&quot;&gt;The book&lt;/div&gt;
+                        &lt;h2 class=&quot;m-bio__title&quot;&gt;
+                           What The Mystic Hand is all about?!
+                        &lt;/h2&gt;
+                        &lt;div class=&quot;a-html m-bio__html&quot;&gt;
+                           &lt;p&gt;
+Over the past decade and a half central banks have done things they never did before. The Mystic Hand considers these “things”. What exactly did central banks do? Why did they do those things? What are the consequences, intended or not, of these “things-never-done-before”? Where do the central banks go from here? Where should they go from here? The Mystic Hand tries to answer these and related questions.
+                           &lt;/p&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
+              &lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;o-hero__bg o-hero__mystichand&quot;&gt;&lt;/div&gt;
             &lt;div class=&quot;o-hero__overlay&quot;&gt;&lt;/div&gt;
@@ -5919,9 +6132,36 @@ You can use the following color options.</p>
     &lt;/div&gt;
     &lt;div class=&quot;l-main l-flow&quot;&gt;
         &lt;div class=&quot;l-block&quot;&gt;
-            &lt;div class=&quot;l-block__inner&quot;&gt;
-
+          &lt;div class=&quot;l-block__inner&quot;&gt;
+            &lt;div class=&quot;a-html&quot;&gt;
+                          &lt;p&gt;Over the past decade and a half central banks have done things they never did before. &lt;em&gt;The Mystic Hand &lt;/em&gt;considers these “things”. What exactly did central banks do? Why did they do those things? What are the consequences, intended or not, of these “&lt;em&gt;things-never-done-before&lt;/em&gt;”? Where do the central banks go from here? Where &lt;em&gt;should&lt;/em&gt; they go from here? &lt;em&gt;The Mystic Hand&lt;/em&gt; tries to answer these and related questions.&lt;/p&gt;
+        &lt;p&gt;Rushed by the emergencies of the Great Financial Crisis and the Covid 19 pandemic, the major central banks pursued extremely accommodative policies. Very low, even negative, policy interest rates went hand in hand with massive asset buying programs, termed &lt;em&gt;quantitative easing.&lt;/em&gt; Further still, central banks issued explicit forward guidance on the long-term continuation of these policies.&lt;/p&gt;
+        &lt;p&gt;Radiating extreme self-assuredness, central banks increasingly imposed themselves on financial markets and the real economy. Their &lt;em&gt;Mystic Hand&lt;/em&gt; was felt in every nook and cranny of the economy, even society at large.&lt;/p&gt;
+        &lt;p&gt;The sophisticated nature of the processes of money creation and destruction adds substantially to the mystique surrounding the functioning of central banks. Complex if not sometimes hardly comprehensible communication reinforces the idea of central banking being a profession reserved for the mystically gifted. Breaking through the different layers of this mystic veil is also a major objective of this book.&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;&lt;em&gt;The Mystic Hand&lt;/em&gt; approaches the recent epoch of previously unseen activity of central banks from an historic perspective, focusing on what 18th and 19th century luminaries like Henry Thornton (1760-1815) and Walter Bagehot (1828-1871) taught us on central bank policies and financial crisis management. Their analysis and policy prescriptions were ignored during the 1920s and 1930s, leading directly to the Great Depression of the 1930s and indirectly to the rise of fascism, communism and the Second World War.&lt;/p&gt;
+        &lt;p&gt;When the Great Financial Crisis arrived in 2007-2008, the Thornton-Bagehot teachings and policy prescriptions figured prominently in the actions of the major central banks. After having un-learned important lessons during the first decades of the 20th century, central bankers re-learned them when the first major crisis of the 21st century came rolling in&lt;em&gt;. &lt;/em&gt;A 21st century repetition of the Great Depression was avoided. Uncertain about the path to follow, central banks maintained an unchanged course. They followed this course for a long time, most probably too long a time.. When the Covid 19 pandemic unexpectedly engulfed the world early in 2020, central banks felt obliged to double down on their accommodative efforts. &amp;nbsp;By doing so though they only further intensified the already very real unintended negative consequences of their policies to date.&lt;/p&gt;
+        &lt;p&gt;I summarize in &lt;em&gt;The Mystic Hand&lt;/em&gt; the unintended negative consequences in what I label as eight syndromes closely linked to the persistently expansionary monetary policies:&lt;/p&gt;
+        &lt;ul&gt;
+        &lt;li&gt;The Butch Cassidy Syndrome, referring to the theft of wealth, income, and jobs from the future and from neighboring nations;&lt;/li&gt;
+        &lt;li&gt;The Michael Jackson Syndrome, as metaphor for constant stimulation in the direction of excessive leverage and debt accumulation;&lt;/li&gt;
+        &lt;li&gt;The David Copperfield Syndrome, referring to the disappearing act on the purchasing power of the savings of ordinary people;&lt;/li&gt;
+        &lt;li&gt;The Semper Augustus Syndrome, as metaphor for the continuous and widespread bubble blowing and expansion of the shadow banking sector;&lt;/li&gt;
+        &lt;li&gt;The Savior-Turned-Bully Syndrome, referring to the heavy burden of persistently low interest rates on the traditional financial and insurance sectors;&lt;/li&gt;
+        &lt;li&gt;The 26 = 3.8 Billion Syndrome, as metaphor for the inequality-augmenting consequences of these persistently expansionary monetary policies;&lt;/li&gt;
+        &lt;li&gt;The Zombie Syndrome, referring to the structural weakening of productivity performance and real economy growth potential; and&lt;/li&gt;
+        &lt;li&gt;The Sloth Syndrome, as metaphor for the central bank policies incentivizing politicians to neglect much-needed structural reforms.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;Moreover, by pursuing these very accommodative policies in a persistent and prolonged way, central bankers have become the prisoners of their own policies. They are caught in several traps simultaneously.&lt;/p&gt;
+        &lt;p&gt;First there is the financial market trap. Financial markets conquered the commanding heights of monetary policy. Very low interest rates for a very long time and guidance that reinforced the low-rate perspective gave birth to highly leveraged positions and dangerously high debt levels. Avoiding financial market panics related to the consequences of rising interest rates have become a major determinant of monetary policies. This interdependence created a vicious circle from which it is increasingly delicate to escape. &amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;Second is the reality of fiscal dominance, meaning that monetary policy has become the prisoner of the (dire) fiscal situation in most countries. Budget deficits and debt ratios have increased substantially, not least because of the measures taken to counter the Covid 19 pandemic. Thanks to the policies pursued by central banks, the interest rate cost of these elevated deficits and debts is historically low. If central banks would be obliged to raise interest rates, the impact on the public finances of most advanced countries would be truly devastating, even for those countries that turned most of their outstanding debt into long-term debt.&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The perspective of higher policy interest rate has become much more realistic during 2021 given the rise in inflation. It is of the utmost importance that inflationary expectations remain anchored at sufficiently low levels of inflation. However, pricing behavior of companies and union wage demands in many countries seem to suggest that the “de-anchoring” of inflationary expectations is already in full swing.&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; So, where does all that leave us with respect to the future of monetary policy? &lt;em&gt;The Mystic Hand&lt;/em&gt; is clear on this question. A gradual stepping away of the very accommodative stance of monetary policy is urgently needed. Reducing and retiring asset buying programs and raising policy interest rates should no longer be pushed back in time.&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; At the strategic level the case is made in &lt;em&gt;The Mystic Hand&lt;/em&gt;&amp;nbsp; for abandonment of the frantic pursuit of the 2% inflation target, in line with the arguments of the late Paul Volcker. The number lacks theoretical justification and the complexities of a modern economy reduce its practical relevance. Central banks should instead strategically focus on price stability – the desired level of inflation can vary over time – and financial stability simultaneously. As a matter of fact, it is very hard to achieve price stability while ignoring serious financial stability considerations.&lt;/p&gt;
+        &lt;p&gt;While central banks take financial stability in consideration, in recent times policy action was only taken &lt;em&gt;ex post&lt;/em&gt; &amp;nbsp;in response to a crisis (the so-called cleaning-up strategy championed by former Fed chairmen Alan Greenspan and Ben Bernanke). &lt;em&gt;Ex ante&lt;/em&gt; attention toward financial stability leading to pro-active policy changes would require that central banks again start looking attentively at the evolution of monetary and credit aggregates. I concur with former Bundesbank and ECB official Otmar Issing who already a decade ago asked: “How long will we have to wait until the neglect of money and credit in monetary theory and policy will be understood as the major source of macro policy mistakes?”.&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;em&gt;The Mystic Hand&lt;/em&gt; concludes by arguing that there will always hang a veil of mystique over central banks’ strategy and policy actions. The process of money creation and money destruction is by nature a complicated, often counterintuitive process that is rather confusing for the non-initiated layman. And that will remain so. Monetary policy will always be part science, part art, part judgement. &lt;em&gt;The Mystic Hand&lt;/em&gt; of skillful central bankers will therefore remain an important steering hand for the course of the 21st century economy.&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
             &lt;/div&gt;
+          &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;l-footer&quot;&gt;
             &lt;footer class=&quot;o-footer&quot;&gt;
@@ -5936,7 +6176,7 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
  &lt;/div&gt;">Copy</button>
-		<pre class="mb-0"><code class="lang-">&lt;div class=&quot;l-page without--hero&quot;&gt;
+		<pre class="mb-0"><code class="lang-">&lt;div id=&quot;l-page&quot; class=&quot;l-page&quot;&gt;
     &lt;div class=&quot;l-header&quot;&gt;
         &lt;div class=&quot;l-logo&quot;&gt;
             &lt;div class=&quot;a-logo&quot;&gt;
@@ -5964,32 +6204,23 @@ You can use the following color options.</p>
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;l-hero&quot;&gt;
-        &lt;div class=&quot;o-hero&quot;&gt;
+        &lt;div class=&quot;o-hero o-hero--fluent&quot;&gt;
             &lt;div class=&quot;o-hero__inner&quot;&gt;
-                &lt;div class=&quot;l-block l-block-medium&quot;&gt;
-                    &lt;div class=&quot;l-block__inner&quot;&gt;
-                        &lt;div class=&quot;m-book&quot; data-aos=&quot;zoom-in-up&quot;&gt;
-                            &lt;div class=&quot;m-book__preview&quot;&gt;
-                                &lt;div class=&quot;m-book__cover&quot;&gt;
-                                    &lt;img src=&quot;dist/images/dummy/TMH_Cover.jpg&quot;/&gt;
-                                &lt;/div&gt;
-                            &lt;/div&gt;
-                            &lt;div class=&quot;m-book__info&quot;&gt;
-                                &lt;div class=&quot;m-book__title&quot;&gt;The mystic hand&lt;/div&gt;
-                                &lt;div class=&quot;m-book__author&quot;&gt;Johan van Overtveldt&lt;/div&gt;
-                                &lt;div class=&quot;m-book__description&quot;&gt;
-                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
-                                    fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
-                                    &lt;br/&gt;&lt;br/&gt;
-                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam,
-                                    fato profugus qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam.
-                                    Troiae qui primus ab oris Italiam, fato profugus troiae qui primus ab oris Italiam, fato profugus.
-                                &lt;/div&gt;
-                            &lt;/div&gt;
+                &lt;div class=&quot;l-block&quot;&gt;
+                &lt;div class=&quot;l-block__inner&quot;&gt;
+                    &lt;div class=&quot;m-bio&quot;&gt;
+                        &lt;div class=&quot;m-bio__upper&quot;&gt;The book&lt;/div&gt;
+                        &lt;h2 class=&quot;m-bio__title&quot;&gt;
+                           What The Mystic Hand is all about?!
+                        &lt;/h2&gt;
+                        &lt;div class=&quot;a-html m-bio__html&quot;&gt;
+                           &lt;p&gt;
+Over the past decade and a half central banks have done things they never did before. The Mystic Hand considers these “things”. What exactly did central banks do? Why did they do those things? What are the consequences, intended or not, of these “things-never-done-before”? Where do the central banks go from here? Where should they go from here? The Mystic Hand tries to answer these and related questions.
+                           &lt;/p&gt;
                         &lt;/div&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
+              &lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;o-hero__bg o-hero__mystichand&quot;&gt;&lt;/div&gt;
             &lt;div class=&quot;o-hero__overlay&quot;&gt;&lt;/div&gt;
@@ -5997,9 +6228,36 @@ You can use the following color options.</p>
     &lt;/div&gt;
     &lt;div class=&quot;l-main l-flow&quot;&gt;
         &lt;div class=&quot;l-block&quot;&gt;
-            &lt;div class=&quot;l-block__inner&quot;&gt;
-
+          &lt;div class=&quot;l-block__inner&quot;&gt;
+            &lt;div class=&quot;a-html&quot;&gt;
+                          &lt;p&gt;Over the past decade and a half central banks have done things they never did before. &lt;em&gt;The Mystic Hand &lt;/em&gt;considers these “things”. What exactly did central banks do? Why did they do those things? What are the consequences, intended or not, of these “&lt;em&gt;things-never-done-before&lt;/em&gt;”? Where do the central banks go from here? Where &lt;em&gt;should&lt;/em&gt; they go from here? &lt;em&gt;The Mystic Hand&lt;/em&gt; tries to answer these and related questions.&lt;/p&gt;
+        &lt;p&gt;Rushed by the emergencies of the Great Financial Crisis and the Covid 19 pandemic, the major central banks pursued extremely accommodative policies. Very low, even negative, policy interest rates went hand in hand with massive asset buying programs, termed &lt;em&gt;quantitative easing.&lt;/em&gt; Further still, central banks issued explicit forward guidance on the long-term continuation of these policies.&lt;/p&gt;
+        &lt;p&gt;Radiating extreme self-assuredness, central banks increasingly imposed themselves on financial markets and the real economy. Their &lt;em&gt;Mystic Hand&lt;/em&gt; was felt in every nook and cranny of the economy, even society at large.&lt;/p&gt;
+        &lt;p&gt;The sophisticated nature of the processes of money creation and destruction adds substantially to the mystique surrounding the functioning of central banks. Complex if not sometimes hardly comprehensible communication reinforces the idea of central banking being a profession reserved for the mystically gifted. Breaking through the different layers of this mystic veil is also a major objective of this book.&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;&lt;em&gt;The Mystic Hand&lt;/em&gt; approaches the recent epoch of previously unseen activity of central banks from an historic perspective, focusing on what 18th and 19th century luminaries like Henry Thornton (1760-1815) and Walter Bagehot (1828-1871) taught us on central bank policies and financial crisis management. Their analysis and policy prescriptions were ignored during the 1920s and 1930s, leading directly to the Great Depression of the 1930s and indirectly to the rise of fascism, communism and the Second World War.&lt;/p&gt;
+        &lt;p&gt;When the Great Financial Crisis arrived in 2007-2008, the Thornton-Bagehot teachings and policy prescriptions figured prominently in the actions of the major central banks. After having un-learned important lessons during the first decades of the 20th century, central bankers re-learned them when the first major crisis of the 21st century came rolling in&lt;em&gt;. &lt;/em&gt;A 21st century repetition of the Great Depression was avoided. Uncertain about the path to follow, central banks maintained an unchanged course. They followed this course for a long time, most probably too long a time.. When the Covid 19 pandemic unexpectedly engulfed the world early in 2020, central banks felt obliged to double down on their accommodative efforts. &amp;nbsp;By doing so though they only further intensified the already very real unintended negative consequences of their policies to date.&lt;/p&gt;
+        &lt;p&gt;I summarize in &lt;em&gt;The Mystic Hand&lt;/em&gt; the unintended negative consequences in what I label as eight syndromes closely linked to the persistently expansionary monetary policies:&lt;/p&gt;
+        &lt;ul&gt;
+        &lt;li&gt;The Butch Cassidy Syndrome, referring to the theft of wealth, income, and jobs from the future and from neighboring nations;&lt;/li&gt;
+        &lt;li&gt;The Michael Jackson Syndrome, as metaphor for constant stimulation in the direction of excessive leverage and debt accumulation;&lt;/li&gt;
+        &lt;li&gt;The David Copperfield Syndrome, referring to the disappearing act on the purchasing power of the savings of ordinary people;&lt;/li&gt;
+        &lt;li&gt;The Semper Augustus Syndrome, as metaphor for the continuous and widespread bubble blowing and expansion of the shadow banking sector;&lt;/li&gt;
+        &lt;li&gt;The Savior-Turned-Bully Syndrome, referring to the heavy burden of persistently low interest rates on the traditional financial and insurance sectors;&lt;/li&gt;
+        &lt;li&gt;The 26 = 3.8 Billion Syndrome, as metaphor for the inequality-augmenting consequences of these persistently expansionary monetary policies;&lt;/li&gt;
+        &lt;li&gt;The Zombie Syndrome, referring to the structural weakening of productivity performance and real economy growth potential; and&lt;/li&gt;
+        &lt;li&gt;The Sloth Syndrome, as metaphor for the central bank policies incentivizing politicians to neglect much-needed structural reforms.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;Moreover, by pursuing these very accommodative policies in a persistent and prolonged way, central bankers have become the prisoners of their own policies. They are caught in several traps simultaneously.&lt;/p&gt;
+        &lt;p&gt;First there is the financial market trap. Financial markets conquered the commanding heights of monetary policy. Very low interest rates for a very long time and guidance that reinforced the low-rate perspective gave birth to highly leveraged positions and dangerously high debt levels. Avoiding financial market panics related to the consequences of rising interest rates have become a major determinant of monetary policies. This interdependence created a vicious circle from which it is increasingly delicate to escape. &amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;Second is the reality of fiscal dominance, meaning that monetary policy has become the prisoner of the (dire) fiscal situation in most countries. Budget deficits and debt ratios have increased substantially, not least because of the measures taken to counter the Covid 19 pandemic. Thanks to the policies pursued by central banks, the interest rate cost of these elevated deficits and debts is historically low. If central banks would be obliged to raise interest rates, the impact on the public finances of most advanced countries would be truly devastating, even for those countries that turned most of their outstanding debt into long-term debt.&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The perspective of higher policy interest rate has become much more realistic during 2021 given the rise in inflation. It is of the utmost importance that inflationary expectations remain anchored at sufficiently low levels of inflation. However, pricing behavior of companies and union wage demands in many countries seem to suggest that the “de-anchoring” of inflationary expectations is already in full swing.&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; So, where does all that leave us with respect to the future of monetary policy? &lt;em&gt;The Mystic Hand&lt;/em&gt; is clear on this question. A gradual stepping away of the very accommodative stance of monetary policy is urgently needed. Reducing and retiring asset buying programs and raising policy interest rates should no longer be pushed back in time.&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; At the strategic level the case is made in &lt;em&gt;The Mystic Hand&lt;/em&gt;&amp;nbsp; for abandonment of the frantic pursuit of the 2% inflation target, in line with the arguments of the late Paul Volcker. The number lacks theoretical justification and the complexities of a modern economy reduce its practical relevance. Central banks should instead strategically focus on price stability – the desired level of inflation can vary over time – and financial stability simultaneously. As a matter of fact, it is very hard to achieve price stability while ignoring serious financial stability considerations.&lt;/p&gt;
+        &lt;p&gt;While central banks take financial stability in consideration, in recent times policy action was only taken &lt;em&gt;ex post&lt;/em&gt; &amp;nbsp;in response to a crisis (the so-called cleaning-up strategy championed by former Fed chairmen Alan Greenspan and Ben Bernanke). &lt;em&gt;Ex ante&lt;/em&gt; attention toward financial stability leading to pro-active policy changes would require that central banks again start looking attentively at the evolution of monetary and credit aggregates. I concur with former Bundesbank and ECB official Otmar Issing who already a decade ago asked: “How long will we have to wait until the neglect of money and credit in monetary theory and policy will be understood as the major source of macro policy mistakes?”.&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;em&gt;The Mystic Hand&lt;/em&gt; concludes by arguing that there will always hang a veil of mystique over central banks’ strategy and policy actions. The process of money creation and money destruction is by nature a complicated, often counterintuitive process that is rather confusing for the non-initiated layman. And that will remain so. Monetary policy will always be part science, part art, part judgement. &lt;em&gt;The Mystic Hand&lt;/em&gt; of skillful central bankers will therefore remain an important steering hand for the course of the 21st century economy.&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
             &lt;/div&gt;
+          &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;l-footer&quot;&gt;
             &lt;footer class=&quot;o-footer&quot;&gt;
@@ -6286,7 +6544,7 @@ You can use the following color options.</p>
 			
 						<h5
 							class="pt-4 mb-1 theme-sidebar-category-title"
-							data-filter-value=" Bio  Blog Teaser  Book  Carousel  Footer  Gallery  Hero  Highlight  Modal  Other Books  Pager  Post  Publications  Review  Slider  Studies  Work History  contact "
+							data-filter-value=" Bio  Blog Teaser  Book  Carousel  Footer  Gallery  Hero  Highlight  Modal  Other Books  Pager  Post  Praise  Publications  Review  Slider  Studies  Work History  contact "
 						>
 							<a href="#category-organism" class="i-sidebar-list-item">
 								<b>Organism</b>
@@ -6377,6 +6635,13 @@ You can use the following color options.</p>
 									data-filter-value="Post"
 								>
 									<span>Post</span>
+								</a>
+								<a
+									href="#praise"
+									class="i-sidebar-list-item theme-sidebar-element"
+									data-filter-value="Praise"
+								>
+									<span>Praise</span>
 								</a>
 								<a
 									href="#publications"
