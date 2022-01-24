@@ -55,3 +55,19 @@ Our basic Praise.
         color: var(--color-secondary);
     }
 }
+
+.m-review__teaser {
+    padding-top: var(--size-l);
+    padding-bottom: var(--size-l);
+    font-size: 16px;
+    line-height: 1.6;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+    margin-bottom: var(--size-l);
+    &:last-child {
+         border-bottom:none;
+    }
+
+     .m-review__teaser__author {
+         color: var(--color-primary);
+     }
+}
