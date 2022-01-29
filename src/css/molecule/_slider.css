@@ -75,11 +75,13 @@ Our basic Slider.
             height: 12px;
             max-width: 12px;
             max-height: 12px;
+            display: block;
         }
 
         .slick-active {
             button {
                 background-color: var(--color-primary);
+                display: block;
             }
         }
     }

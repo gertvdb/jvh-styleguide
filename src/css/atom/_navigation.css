@@ -37,6 +37,10 @@ Our basic navigation.
     text-transform: uppercase;
     font-family: var(--font-primary);
 
+    .mobile-only {
+        display: block !important;
+    }
+
     .a-navigation__links {
         flex-direction: column;
         background-color: var(--color-ui-black);
@@ -191,8 +195,15 @@ Our basic navigation.
 
 @media only screen and (min-width: 800px) {
     .is--open--nav {
-        .a-navigation__links {
-            padding-top: 0px;
+
+    .a-navigation__links {
+        padding-top: 0px;
+    }
+
+    .a-navigation {
+        .mobile-only {
+            display: none !important;
         }
     }
+
 }
