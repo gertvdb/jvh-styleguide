@@ -25,6 +25,13 @@ Our basic Carousel.
         display: none !important;
     }
 
+    .m-carousel__prev {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        display: none !important;
+    }
+
     .m-carousel__nav {
         cursor: pointer;
         opacity: .7;
@@ -164,6 +171,9 @@ Our basic Carousel.
 
 @media only screen and (min-width: 600px) {
     .m-carousel {
+        .m-carousel__prev {
+            display: block !important;
+        }
         .m-carousel__next {
             display: block !important;
         }
