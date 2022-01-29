@@ -28,6 +28,8 @@ Our basic Slider.
         margin-right: var(--size-xl);
         margin-left: var(--size-xl);
         font-size: 0;
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -44,17 +46,22 @@ Our basic Slider.
         margin-right: var(--size-xxxl);
         margin-left: var(--size-xxxl);
         font-size: 0;
+        display: flex;
+        justify-content: center;
     }
 }
 
 .m-slider {
     .slick-dots {
         padding-top: var(--size-xl);
-        display: block;
         list-style: none;
         padding-left: 0;
         text-align: center;
         font-size: 0;
+
+        display: flex;
+        margin: auto;
+        justify-content: center;
 
         li {
             margin-left: var(--size-s);
@@ -62,7 +69,7 @@ Our basic Slider.
             height: 12px;
             max-width: 12px;
             max-height: 12px;
-            display: inline-block;
+            display: block;
         }
 
         li:first-child {
