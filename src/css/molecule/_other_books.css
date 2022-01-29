@@ -80,7 +80,7 @@ Our basic Book.
   }
 
   .m-other-books__slide {
-    padding: var(--size-m);
+    padding: var(--size-m) var(--size-xl);
   }
 
   .m-other-books__title {

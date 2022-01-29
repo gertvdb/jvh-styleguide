@@ -22,6 +22,7 @@ Our basic Carousel.
         position: absolute;
         bottom: 10px;
         right: -45px;
+        display: none !important;
     }
 
     .m-carousel__nav {
@@ -158,5 +159,13 @@ Our basic Carousel.
 
     .slick-arrow.slick-hidden {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .m-carousel {
+        .m-carousel__next {
+            display: block !important;
+        }
     }
 }

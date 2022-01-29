@@ -18,8 +18,8 @@ Our basic Slider.
 .m-slider {
 
     .slick-track > div {
-        margin-right: var(--size-xl);
-        margin-left: var(--size-xl);
+        margin-right: var(--size-s);
+        margin-left: var(--size-s);
     }
 }
 
@@ -89,7 +89,7 @@ Our basic Slider.
     .m-slider__nav {
         cursor: pointer;
         opacity: .7;
-        display: block;
+        display: none !important;
         width: 30px;
         position: absolute;
         top: calc((50% - 15px) - var(--size-xl));
@@ -231,5 +231,13 @@ Our basic Slider.
 
     .slick-arrow.slick-hidden {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .m-slider {
+        .m-slider__nav {
+            display: block !important;
+        }
     }
 }

@@ -24,6 +24,7 @@ Our basic Review.
     margin: auto;
     border-radius: 8px;
     padding: var(--size-m) var(--size-xs);
+    background: rgba(0,0,0,0.2);
 
     .m-review__by {
         display: flex;
@@ -46,10 +47,12 @@ Our basic Review.
     .m-review__author_name {
         color: var(--color-ui-white);
         font-weight: 700;
+        font-size: 22px;
+        margin-bottom: var(--size-m);
     }
 
     .m-review__author_function {
-        color: var(--color-secondary);
+        color: var(--color-ui-white);
         font-weight: 300;
         line-height: 1.6;
     }
@@ -68,12 +71,14 @@ Our basic Review.
         font-weight: 300;
         line-height: 1.6;
         text-align: center;
-        border-top: 1px dashed rgba(255,255,255, 0.3);
+        font-style: italic;
     }
 
     .m-review__avatar {
-        display: none;
+        display: block;
+        margin: auto;
     }
+
 }
 
 @media only screen and (min-width: 600px) {

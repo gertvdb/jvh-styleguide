@@ -6,6 +6,12 @@
         width: 100%;
     }
 
+    &.single {
+        .l-split__item {
+            width: 100%;
+        }
+    }
+
     &.padded {
         .l-split__item {
             padding: 0;
@@ -19,6 +25,12 @@
 
         .l-split__item {
             width: 50%;
+        }
+
+        &.single {
+            .l-split__item {
+                width: 100%;
+            }
         }
 
         &.padded {

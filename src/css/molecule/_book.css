@@ -116,6 +116,11 @@ Our basic Book.
     .m-book__cta {
         margin-top: var(--size-l);
     }
+
+    .m-book__cta-bol {
+        margin-top: var(--size-l);
+        margin-bottom: var(--size-xxl);
+    }
 }
 
 @media only screen and (min-width: 800px) {

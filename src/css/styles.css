@@ -37,6 +37,7 @@
 @import 'atom/_image.css';
 @import 'atom/_links.css';
 @import 'atom/_avatar.css';
+@import 'atom/_bolcom.css';
 
 /* Molecule */
 @import 'molecule/_book.css';
