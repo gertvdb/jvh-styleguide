@@ -27,6 +27,7 @@ Our basic Slider.
     .slick-dots {
         margin-right: var(--size-xl);
         margin-left: var(--size-xl);
+        font-size: 0;
     }
 }
 
@@ -42,6 +43,7 @@ Our basic Slider.
     .slick-dots {
         margin-right: var(--size-xxxl);
         margin-left: var(--size-xxxl);
+        font-size: 0;
     }
 }
 
@@ -52,6 +54,7 @@ Our basic Slider.
         list-style: none;
         padding-left: 0;
         text-align: center;
+        font-size: 0;
 
         li {
             margin-left: var(--size-s);
