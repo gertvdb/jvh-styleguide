@@ -23,7 +23,7 @@
 
         $('.js--carousel').slick({
             infinite: false,
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             centerMode: true,
             variableWidth: true,

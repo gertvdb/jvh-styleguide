@@ -28,7 +28,7 @@ Our basic Carousel.
     .m-carousel__prev {
         position: absolute;
         bottom: 10px;
-        left: 0;
+        left: -30px;
         display: none !important;
     }
 
