@@ -100,7 +100,8 @@ Our basic Carousel.
 }
 
 .m-carousel.slick-initialized .slick-slide {
-    display: block;
+    justify-content: center;
+    display: flex;
 }
 
 .m-carousel {
