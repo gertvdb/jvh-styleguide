@@ -38,6 +38,7 @@
 @import 'atom/_links.css';
 @import 'atom/_avatar.css';
 @import 'atom/_bolcom.css';
+@import 'atom/_form-text-input.css';
 
 /* Molecule */
 @import 'molecule/_book.css';
@@ -55,6 +56,7 @@
 @import 'molecule/_studies.css';
 @import 'molecule/_publications.css';
 @import 'molecule/_praise.css';
+@import 'molecule/_newsletter.css';
 
 /* Organism */
 @import 'organism/_hero.css';

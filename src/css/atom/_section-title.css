@@ -44,3 +44,8 @@ Our basic pge title.
     height: 3px;
     background: var(--color-primary);
 }
+
+.a-section-title-subline {
+    text-align: center;
+    padding: 30px;
+}

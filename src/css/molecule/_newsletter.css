@@ -1,0 +1,42 @@
+/*
+---
+name: News Letter
+category: Organism
+---
+
+Our basic newsletter.
+
+```atom-book.html
+<div class="m-newsletter">
+    <form class="m-newsletter-form">
+        <div class="m-form-text-input">
+            <input type="text" placeholder="example@email.com" class="m-form-text-input__field" />
+        </div>
+       <div class="a-button-actions">
+            <input type="submit" class="a-button a-button--primary" value="Submit">
+        </div>
+    </form>
+</div>
+```
+*/
+.m-newsletter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+
+    .m-newsletter-form {
+        max-width: 500px;
+        display: flex;
+
+        .a-button-actions {
+            padding: 0 !important;
+        }
+
+        .m-form-text-input__field {
+            border-radius: var(--size-xxs) 0 0 var(--size-xxs)  !important;
+            margin-right: -2px  !important;
+        }
+    }
+}
