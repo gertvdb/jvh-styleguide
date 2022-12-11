@@ -24,8 +24,8 @@ gulp.task('reload-styleguide', async function () {
 
 // Copies the fonts folder
 gulp.task('copy-fonts', function() {
-  return gulp.src(['./src/fonts/**/*'], {
-    base: 'src/fonts'
+  return gulp.src(['./src/css/fonts/**/*'], {
+    base: 'src/css/fonts'
   }).pipe(gulp.dest('./dist/fonts/'));
 });
 
