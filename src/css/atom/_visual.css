@@ -16,6 +16,11 @@ Our basic visual.
 .a-visual {
     position: relative;
 
+    .a-visual_heading {
+        justify-content: flex-end;
+        display: flex;
+    }
+
     &:before {
         display: block;
         content: '';

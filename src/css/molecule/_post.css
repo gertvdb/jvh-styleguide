@@ -64,7 +64,7 @@ Our basic Highlight.
     }
 
     .m-post__visual {
-        margin-right: 0;
+        margin-right: var(--size-xxxl);
         margin-bottom: var(--size-xxxl);
 
         img {
