@@ -8,6 +8,9 @@ Our basic Highlight.
 
 ```atom-post.html
 <div class="m-post">
+    <div class="m-post__visual">
+        <img src="https://english.n-va.be/sites/international.n-va.be/files/styles/style_cv_detail/public/generated/images/cv-picture/jvo.png?itok=_TJZvFHc&timestamp=1562055630"/>
+    </div>
     <div class="m-post__info">
         <h3 class="m-post__title">
            Troiae qui primus ab oris Italiam, fato profugus
@@ -22,6 +25,7 @@ Our basic Highlight.
         </a>
     </div>
 </div>
+```
  */
 
 .m-post {
@@ -58,6 +62,17 @@ Our basic Highlight.
         flex-direction: column;
         min-width: calc(min(90vw, 400px));
     }
+
+    .m-post__visual {
+        margin-right: 0;
+        margin-bottom: var(--size-xxxl);
+
+        img {
+            width: 100%;
+            max-width: 250px;
+            min-width: calc(min(90vw, 150px));
+        }
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -66,4 +81,13 @@ Our basic Highlight.
         flex-direction: row;
         justify-content: space-between;
     }
+    .m-post__visual {
+        margin-right: var(--size-xxxl);
+        margin-bottom: var(--size-xxxl);
+
+        img {
+            width: 100%;
+        }
+    }
 }
+
